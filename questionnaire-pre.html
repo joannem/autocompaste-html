@@ -35,60 +35,185 @@
                 <div class="col-md-8 col-md-offset-2">
                     <h1>Pre-Experiment Questionnaire</h1>
                     <hr>
-                    <p>This part of the interface collects whatever pre-experiment information. Please come up with a basic questionnaire to help you to gather participant information. The purpose of this questionnaire is to report the participant data and convince readers that you have picked an appropriate target user group and the result has certain generalizability.</p>
 
-                    <p>Please put all information needed for participant: <span class="js-pid pid"></span></p>
+                    <br>
+                    
+                    <p>Before we begin, please provide us with some basic information about yourself by answering the following questions.</p>
+
+                    <br>
+
+                    <p>Information about <span class="js-pid pid"></span>: </p>
 
                     <form id="pre-expt-form">
+                        <!-- Questions on participant's profile -->
                         <div class="form-group">
-                            <label for="q1">Question 1 - Text</label>
-                            <input type="text" class="form-control" id="q1" name="q1" placeholder="Enter answer">
-                        </div>
-                        <div class="form-group">
-                            <label for="q2">Question 2 - Radio</label>
+                            <label for="gender">1. Gender</label>
                             <div class="radio">
                               <label>
-                                <input type="radio" name="q2" id="optionsRadios1" value="radio1">
-                                Radio response 1
+                                <input type="radio" name="gender" id="q1OptionMale" value="male">
+                                Male
                               </label>
                             </div>
                             <div class="radio">
                               <label>
-                                <input type="radio" name="q2" id="optionsRadios2" value="radio2">
-                                Radio response 2
+                                <input type="radio" name="gender" id="q1OptionFemale" value="female">
+                                Female
+                              </label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <div class="form-group">
+                                    <label for="age">2. Age (in years)</label>
+                                    <input type="text" class="form-control" id="age" name="age" placeholder="E.g. 21">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="educationBackground">3. Education background</label>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="educationBackground" id="q3OptionPrimary" value="primary">
+                                Primary
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="educationBackground" id="q3OptionSecondary" value="secondary">
+                                Secondary (O-levels, A-levels)
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="educationBackground" id="q3OptionTertiary" value="tertiary">
+                                Tertiary (Diploma, Degree)
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="educationBackground" id="q3OptionPostGraduate" value="postGraduate">
+                                Post-graduate (Masters, Post-doc)
+                              </label>
+                            </div>
+                        </div>
+                         <div class="row">
+                            <div class="col-xs-5">
+                                <div class="form-group">
+                                    <label for="q4">4. Occupation</label>
+                                    <input type="text" class="form-control" id="q4" name="q4">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="dominantHand">5. Which is your dominant hand?</label>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="dominantHand" id="q5OptionLeft" value="left">
+                                Left
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="dominantHand" id="q5OptionRight" value="right">
+                                Right
+                              </label>
+                            </div>
+                        </div>
+                        <!-- Questions on computer habits -->
+                        <div class="form-group">
+                            <label for="computerWeeklyUsage">6. On average, how many times a week do you use the computer?</label>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="computerWeeklyUsage" id="q6Option2orless" value="2orless">
+                                &le; 2 times a week
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="computerWeeklyUsage" id="q6Option3or4" value="3or4">
+                                3 - 4 times a week
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="computerWeeklyUsage" id="q6Option5" value="5">
+                                5 times a week
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="computerWeeklyUsage" id="q3Option6ormore" value="6ormore">
+                                &ge; 6 times a week
                               </label>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="q3">Question 3 - Checkbox</label>
+                            <label for="q7">7. What do you normally use the computer for?</label>
                             <div class="checkbox">
                               <label>
-                                <input type="checkbox" name="q3" value="checkbox1">
-                                Checkbox response 1
+                                <input type="checkbox" name="computerActivities" value="sendingAndReceivingEmails">
+                                Sending and receiving E-mails.
                               </label>
                             </div>
                             <div class="checkbox">
                               <label>
-                                <input type="checkbox" name="q3" value="checkbox2">
-                                Checkbox response 2
+                                <input type="checkbox" name="computerActivities" value="creatingDocumentsAndPresentationSlides">
+                                Creating word documents, presentation slides, spread sheets...
+                              </label>
+                            </div>
+                            <div class="checkbox">
+                              <label>
+                                <input type="checkbox" name="computerActivities" value="readingDocumentsOrArticles">
+                                Reading documents or articles realated to school/work.
+                              </label>
+                            </div>
+                            <div class="checkbox">
+                              <label>
+                                <input type="checkbox" name="computerActivities" value="browsingOnlineArticles">
+                                Browsing articles on the web.
+                              </label>
+                            </div>
+                            <div class="checkbox">
+                              <label>
+                                <input type="checkbox" name="computerActivities" value="entertainment">
+                                Entertainment (listening to music, watching videos, video gaming...).
+                              </label>
+                            </div>
+                            <div class="checkbox">
+                              <label>
+                                <input type="checkbox" name="computerActivities" value="others">
+                                Others
                               </label>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="q4">Question 4 - Select Options</label>
-                            <select class="form-control" name="q4">
-                                <option value="option1">Option response 1</option>
-                                <option value="option2">Option response 2</option>
-                                <option value="option3">Option response 3</option>
-                                <option value="option4">Option response 4</option>
-                                <option value="option1">Option response 5</option>
-                            </select>
+                            <label for="computerFamiliarity">8. If you own more than one computers, is the machine you're currently on the one that you use most often?</label>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="computerFamiliarity" id="q8OptionYes" value="yes">
+                                Yes
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="computerFamiliarity" id="q8OptionNo" value="no">
+                                No
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="computerFamiliarity" id="q8OptionOnly" value="yes">
+                                This is the only computer I have
+                              </label>
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <label for="q5">Question 5 - Textarea</label>
-                            <textarea class="form-control" id="q5" name="q5" placeholder="Enter response"></textarea>
-                        </div>
+
+                        <br>
+                        
                         <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+
+                        <br>
+
                     </form>
                 </div>
             </div>
@@ -107,7 +232,7 @@
                     var formResponses = $(this).serializeArray();
                     // Do your own form validation here.
                     ACPToolKit.downloadFormData(formResponses, 'pre');
-                    window.location = 'experiment.html';
+                    window.location = 'instructions.html';
                 });
             });
         </script>
