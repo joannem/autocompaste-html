@@ -46,8 +46,8 @@
                                 <td><span class="js-expt-granularity">Phrase</span></td>
                             </tr>
                             <tr>
-                                <td>Independent Variable 3</td>
-                                <td>???</td>
+                                <td>Width of Window</td>
+                                <td><span class="js-expt-window-width">600px</span></td>
                             </tr>
                             <tr>
                                 <td>Trial</td>
@@ -55,7 +55,7 @@
                             </tr>
                         </tbody>
                     </table>
-                    <p>Please copy-paste the following <span class="js-expt-granularity">phrase</span> using the <span class="js-expt-technique">AUTOCOMPASTE</span> technique from one of the open windows.</p>
+                    <p>Please copy-paste the following <span class="js-expt-granularity">phrase</span> using the <span class="js-expt-technique">AUTOCOMPASTE</span> technique into the Text Input Box.</p>
                     <div id="stimuli" class="alert alert-danger js-expt-stimuli">This is a long stimuli!</div>
                     <button class="btn btn-primary btn-lg" onclick="next()">Next Task</button>
                 </div>
@@ -81,8 +81,9 @@
             var trialsData;
             var currentTrial;
             var totalNumberOfTrials;
-            var headers = ['Participant id', 'Technique', 'Granularity',
-                            'Trial no', 'Stimuli', 'User Response', 'Trial Start Time',
+            var headers = ['Participant id', 'Trial no', 
+                            'Technique', 'Granularity', 'Window size (px)', 
+                            'Stimuli', 'User Response', 'Trial Start Time',
                             'Trial End Time', 'Trial Time', 'Accuracy'];
             var trialData = [];
             var pid;
@@ -91,19 +92,22 @@
                 if (currentTrial !== 0) {
                     var trialResult = ACPToolKit.getCurrentTrialState();
 
+                    var trialNum = currentTrial;
                     var technique = trialResult.technique;
                     var granularity = trialResult.granularity;
-                    var trialNum = currentTrial;
+                    var windowWidth = trialResult.window_width;
                     var stimuli = trialResult.stimuli;
                     var userResponse = trialResult.user_response;
                     var trialStartTime = trialResult.start_time;
                     var trialEndTime = trialResult.end_time;
                     var trialDuration = trialResult.duration;
+                    
                     var accuracy = stimuli === userResponse ? 1 : 0;
 
-                    var row = [pid, technique, granularity, trialNum,
-                                stimuli, userResponse, trialStartTime,
-                                trialEndTime, trialDuration, accuracy];
+                    var row = [pid, trialNum, technique, granularity, 
+                                windowWidth, stimuli, userResponse, 
+                                trialStartTime, trialEndTime, trialDuration, 
+                                accuracy];
                     trialData.push(row);
                 }
 

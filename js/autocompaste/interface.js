@@ -33,7 +33,7 @@ AutoComPaste.Interface = (function () {
   /**
    * The class constructor.
    */
-  function Interface (wm, engine, texts_json) {
+  function Interface (wm, engine, texts_json, window_width) {
     /** Internal functions */
     this._showError = function _showerror() {
       document.getElementById('error-overlay').style.display = 'block';
@@ -122,7 +122,7 @@ AutoComPaste.Interface = (function () {
                             .addClass('autocompaste-textarea')
                             .attr({
                               rows: 10,
-                              cols: 40
+                              cols: 52
                             });
 
         //  For ACP mode, engine is passed into the interface. 
@@ -138,7 +138,7 @@ AutoComPaste.Interface = (function () {
         }
 
         privates.wm.createWindow("text_editor");
-        privates.wm.setWindowTitle("text_editor", "Text Editor");
+        privates.wm.setWindowTitle("text_editor", "Text Input Box");
         privates.wm.setWindowContent('text_editor', acp_textarea);
         acp_textarea.focus();
 
@@ -158,8 +158,7 @@ AutoComPaste.Interface = (function () {
     };
 
     this._createWindowForText = function _createWindowForText (text_title) {
-      
-      privates.wm.createWindow(text_title, 500, 400);
+      privates.wm.createWindow(text_title, privates.window_width);
       privates.wm.setWindowTitle(text_title, text_title);
       privates.wm.setWindowContent(text_title,
         $(document.createElement('pre'))
@@ -167,15 +166,8 @@ AutoComPaste.Interface = (function () {
           .css('white-space', 'pre-word')
       );
 
-      // Position the window randomly.
-      //
-      // safety_bounds ensures that the window is at least some pixels within 
-      // the boundaries of the display.
-      var safety_bounds = 50;
-      privates.wm.moveWindowTo(text_title,
-        Math.random() * (privates.wm.getDisplayWidth() - safety_bounds) + (safety_bounds / 2),
-        Math.random() * (privates.wm.getDisplayHeight() - safety_bounds) + (safety_bounds / 2)
-      );
+      // Position the window beside the text input box
+      privates.wm.moveWindowTo(text_title, 460, 0);
     };
 
     this.addEventListener = function addEventListener (name, handler) {
@@ -235,6 +227,7 @@ AutoComPaste.Interface = (function () {
     var iface = this;
 
     privates.texts = { };
+    privates.window_width = window_width;
     privates.texts_json = texts_json;
     privates.texts_available = 0;
     privates.texts_returned = 0;
