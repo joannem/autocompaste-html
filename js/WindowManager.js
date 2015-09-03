@@ -231,7 +231,7 @@ var WindowManager = (function () {
         console.error("WindowManager.setWindowTitle: Window does not exist");
         return false;
       }
-
+      
       // Fetch the window structure and set the title.
       var win_struct = privates.windows[name].struct;
       $(win_struct)
