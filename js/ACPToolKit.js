@@ -92,7 +92,8 @@ var ACPToolKit = (function () {
             $('#autocompaste-measure-num-wrapped-lines').remove();
             $('#autocompaste-measure-get-single-line-height').remove();
             $('#autocompaste-measure-text-length-in-pixels').remove();
-            $('#autocompaste-completion').remove();
+
+            $('.next-task-btn').prop('disabled', true);
 
             switch (options.technique) {
                 case 'TRADITIONAL':
@@ -153,7 +154,8 @@ var ACPToolKit = (function () {
             $('#autocompaste-measure-num-wrapped-lines').remove();
             $('#autocompaste-measure-get-single-line-height').remove();
             $('#autocompaste-measure-text-length-in-pixels').remove();
-            $('#autocompaste-completion').remove();
+            
+            $('.next-task-btn').prop('disabled', true);
 
             switch (options.technique) {
                 case 'TRADITIONAL':
