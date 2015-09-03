@@ -34,7 +34,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-3">
-                    <h1>Copy-Paste Experiment</h1>
+                    <h1>Copy-Paste Practice</h1>
                     <hr>
                     <table class="table table-bordered">
                         <tbody>
@@ -51,7 +51,7 @@
                                 <td><span class="js-expt-window-width">600px</span></td>
                             </tr>
                             <tr>
-                                <td>Trial</td>
+                                <td>Practice</td>
                                 <td><span class="js-expt-current-trial"></span> / <span class="js-expt-num-trials"></span></td>
                             </tr>
                         </tbody>
@@ -79,39 +79,11 @@
 
         <script>
 
-            // var trialsData;
             var currentTrial;
             var totalNumberOfTrials;
-            // var headers = ['Participant id', 'Trial no', 
-            //                 'Technique', 'Granularity', 'Window size (px)', 
-            //                 'Stimuli', 'User Response', 'Trial Start Time',
-            //                 'Trial End Time', 'Trial Time', 'Accuracy'];
             var trialData = [];
-            // var pid;
 
             function next() {
-                if (currentTrial !== 0) {
-                    // var trialResult = ACPToolKit.getCurrentTrialState();
-
-                    // var trialNum = currentTrial;
-                    // var technique = trialResult.technique;
-                    // var granularity = trialResult.granularity;
-                    // var windowWidth = trialResult.window_width;
-                    // var stimuli = trialResult.stimuli;
-                    // var userResponse = trialResult.user_response;
-                    // var trialStartTime = trialResult.start_time;
-                    // var trialEndTime = trialResult.end_time;
-                    // var trialDuration = trialResult.duration;
-                    
-                    // var accuracy = stimuli === userResponse ? 1 : 0;
-
-                    // var row = [pid, trialNum, technique, granularity, 
-                    //             windowWidth, stimuli, userResponse, 
-                    //             trialStartTime, trialEndTime, trialDuration, 
-                    //             accuracy];
-                    // trialData.push(row);
-                }
-
                 if (currentTrial < totalNumberOfTrials) {
                     ACPToolKit.presentPractice(trialsData[currentTrial]);
                     currentTrial += 1;
@@ -125,13 +97,12 @@
 
             $(document).ready(function () {
                 $.get('data/practice.json', function (data) {
-                    trialsData = data.experiments;
+                    trialsData = data.practices;
                     currentTrial = 0;
                     totalNumberOfTrials = trialsData.length;
                     $('.js-expt-num-trials').text(totalNumberOfTrials);
-                    // trialData.push(headers);
                     next();
-                    pid = ACPToolKit.getCurrentParticipantId();
+                    // pid = ACPToolKit.getCurrentParticipantId();
                 })
             });
         </script>

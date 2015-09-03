@@ -73,10 +73,8 @@ var ACPToolKit = (function () {
     if (window.location.pathname.indexOf('practice') > -1) {
         var wm = new WindowManager('autocompaste-display');
         var currentTrialOptions = null;
-        var startTime = null;
 
         module.presentPractice = function (options) {
-            startTime = new Date().getTime();
             currentTrialOptions = options;
 
             var data_file = options.data_file;
@@ -107,6 +105,7 @@ var ACPToolKit = (function () {
             }
 
             var iface = new AutoComPaste.Interface(wm, engine, data_file, window_width);
+            
             // Highlight the relevant text.
             iface.addEventListener('loaded', function () {
                 var lines_to_highlight = stimuli.split("\n\n");
@@ -127,19 +126,6 @@ var ACPToolKit = (function () {
                   $(win).find('pre').empty().append(content);
                 }
             });
-        }
-
-        module.getCurrentTrialState = function () {
-            if (!currentTrialOptions) {
-                console.error('There is no trial running right now!');
-                return {};
-            }
-            var endTime = new Date().getTime();
-            currentTrialOptions.start_time = startTime;
-            currentTrialOptions.end_time = endTime;
-            currentTrialOptions.duration = endTime - startTime;
-            currentTrialOptions.user_response = $.trim($('.autocompaste-textarea').val());
-            return currentTrialOptions;
         }
     }
 
