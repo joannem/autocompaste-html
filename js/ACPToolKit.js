@@ -70,6 +70,79 @@ var ACPToolKit = (function () {
         }
     });
 
+    if (window.location.pathname.indexOf('practice') > -1) {
+        var wm = new WindowManager('autocompaste-display');
+        var currentTrialOptions = null;
+        var startTime = null;
+
+        module.presentPractice = function (options) {
+            startTime = new Date().getTime();
+            currentTrialOptions = options;
+
+            var data_file = options.data_file;
+            var window_width = options.window_width;
+            var stimuli = options.stimuli;
+
+            $('.js-expt-technique').text(options.technique);
+            $('.js-expt-granularity').text(options.granularity);
+            $('.js-expt-window-width').text(options.window_width + "px");
+            $('.js-expt-stimuli').text(options.stimuli);
+
+            // Clean up DOM
+            wm.destroyAllWindows();
+            $('#autocompaste-completion').remove();
+            $('#autocompaste-measure-num-wrapped-lines').remove();
+            $('#autocompaste-measure-get-single-line-height').remove();
+            $('#autocompaste-measure-text-length-in-pixels').remove();
+            $('#autocompaste-completion').remove();
+
+            switch (options.technique) {
+                case 'TRADITIONAL':
+                    var engine = null;
+                    break;
+                case 'ACP':
+                default:
+                    var engine = new AutoComPaste.Engine();
+                    break;
+            }
+
+            var iface = new AutoComPaste.Interface(wm, engine, data_file, window_width);
+            // Highlight the relevant text.
+            iface.addEventListener('loaded', function () {
+                var lines_to_highlight = stimuli.split("\n\n");
+
+                var windows = wm.getWindowList();
+                for (var i = 0; i < windows.length; i++) {
+                    if (windows[i] == 'text_editor') {
+                        continue;
+                    }
+
+                    var win = wm.getWindowContent(windows[i]);
+                    var content = $(win).find('pre').html();
+                    lines_to_highlight.map (function (value, index, array) {
+                        content = content.replace (value,
+                        "<span class=\"highlighted\">" + value + "</span>");
+                    });
+
+                  $(win).find('pre').empty().append(content);
+                }
+            });
+        }
+
+        module.getCurrentTrialState = function () {
+            if (!currentTrialOptions) {
+                console.error('There is no trial running right now!');
+                return {};
+            }
+            var endTime = new Date().getTime();
+            currentTrialOptions.start_time = startTime;
+            currentTrialOptions.end_time = endTime;
+            currentTrialOptions.duration = endTime - startTime;
+            currentTrialOptions.user_response = $.trim($('.autocompaste-textarea').val());
+            return currentTrialOptions;
+        }
+    }
+
     if (window.location.pathname.indexOf('experiment') > -1) {
         var wm = new WindowManager('autocompaste-display');
         var currentTrialOptions = null;

@@ -188,6 +188,8 @@ var WindowManager = (function () {
         name: name
       });
 
+      console.log("creating window: " + name);
+
       // Set the new window to be focused.
       wm.setFocus(name);
       return true;
@@ -231,7 +233,7 @@ var WindowManager = (function () {
         console.error("WindowManager.setWindowTitle: Window does not exist");
         return false;
       }
-
+      
       // Fetch the window structure and set the title.
       var win_struct = privates.windows[name].struct;
       $(win_struct)
@@ -558,6 +560,7 @@ var WindowManager = (function () {
      * @return {Boolean} Returns true on success
      */
     this.destroyAllWindows = function destroyAllWindows () {
+      console.log(privates.windows);
       for (var name in privates.windows) {
         this.destroyWindow(name);
       }

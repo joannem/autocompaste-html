@@ -23,8 +23,8 @@
                         <li><a href="index.html">Welcome</a></li>
                         <li><a href="questionnaire-pre.html">Pre Questionnaire</a></li>
                         <li><a href="instructions.html">Instructions</a></li>
-                        <li><a href="practice.html">Practice</a></li>
-                        <li class="active"><a href="experiment.html">Experiment</a></li>
+                        <li class="active"><a href="practice.html">Practice</a></li>
+                        <li><a href="experiment.html">Experiment</a></li>
                         <li><a href="questionnaire-post.html">Post Questionnaire</a></li>
                     </ul>
                 </div>
@@ -79,57 +79,57 @@
 
         <script>
 
-            var trialsData;
+            // var trialsData;
             var currentTrial;
             var totalNumberOfTrials;
-            var headers = ['Participant id', 'Trial no', 
-                            'Technique', 'Granularity', 'Window size (px)', 
-                            'Stimuli', 'User Response', 'Trial Start Time',
-                            'Trial End Time', 'Trial Time', 'Accuracy'];
+            // var headers = ['Participant id', 'Trial no', 
+            //                 'Technique', 'Granularity', 'Window size (px)', 
+            //                 'Stimuli', 'User Response', 'Trial Start Time',
+            //                 'Trial End Time', 'Trial Time', 'Accuracy'];
             var trialData = [];
-            var pid;
+            // var pid;
 
             function next() {
                 if (currentTrial !== 0) {
-                    var trialResult = ACPToolKit.getCurrentTrialState();
+                    // var trialResult = ACPToolKit.getCurrentTrialState();
 
-                    var trialNum = currentTrial;
-                    var technique = trialResult.technique;
-                    var granularity = trialResult.granularity;
-                    var windowWidth = trialResult.window_width;
-                    var stimuli = trialResult.stimuli;
-                    var userResponse = trialResult.user_response;
-                    var trialStartTime = trialResult.start_time;
-                    var trialEndTime = trialResult.end_time;
-                    var trialDuration = trialResult.duration;
+                    // var trialNum = currentTrial;
+                    // var technique = trialResult.technique;
+                    // var granularity = trialResult.granularity;
+                    // var windowWidth = trialResult.window_width;
+                    // var stimuli = trialResult.stimuli;
+                    // var userResponse = trialResult.user_response;
+                    // var trialStartTime = trialResult.start_time;
+                    // var trialEndTime = trialResult.end_time;
+                    // var trialDuration = trialResult.duration;
                     
-                    var accuracy = stimuli === userResponse ? 1 : 0;
+                    // var accuracy = stimuli === userResponse ? 1 : 0;
 
-                    var row = [pid, trialNum, technique, granularity, 
-                                windowWidth, stimuli, userResponse, 
-                                trialStartTime, trialEndTime, trialDuration, 
-                                accuracy];
-                    trialData.push(row);
+                    // var row = [pid, trialNum, technique, granularity, 
+                    //             windowWidth, stimuli, userResponse, 
+                    //             trialStartTime, trialEndTime, trialDuration, 
+                    //             accuracy];
+                    // trialData.push(row);
                 }
 
                 if (currentTrial < totalNumberOfTrials) {
-                    ACPToolKit.presentTrial(trialsData[currentTrial]);
+                    ACPToolKit.presentPractice(trialsData[currentTrial]);
                     currentTrial += 1;
                     $('.js-expt-current-trial').text(currentTrial);
                 } else {
                     // Last trial completed
-                    ACPToolKit.downloadTrialResults(trialData);
-                    window.location = 'questionnaire-post.html';
+                    // ACPToolKit.downloadTrialResults(trialData);
+                    window.location = 'experiment.html';
                 }
             }
 
             $(document).ready(function () {
-                $.get('data/experiments.json', function (data) {
+                $.get('data/practice.json', function (data) {
                     trialsData = data.experiments;
                     currentTrial = 0;
                     totalNumberOfTrials = trialsData.length;
                     $('.js-expt-num-trials').text(totalNumberOfTrials);
-                    trialData.push(headers);
+                    // trialData.push(headers);
                     next();
                     pid = ACPToolKit.getCurrentParticipantId();
                 })
