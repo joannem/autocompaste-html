@@ -140,7 +140,7 @@ AutoComPaste.Interface = (function () {
         privates.wm.createWindow("text_editor");
         privates.wm.setWindowTitle("text_editor", "Text Input Box");
         privates.wm.setWindowContent("text_editor", acp_textarea);
-        privates.wm.setWindowFooter("text_editor", "Press <b>Enter</b> once you are done.");
+        privates.wm.setWindowFooter("text_editor", "Hit <b>Enter</b> once you are done.");
         acp_textarea.focus();
 
         // Dispatch an event.
