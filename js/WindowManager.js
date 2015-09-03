@@ -242,6 +242,44 @@ var WindowManager = (function () {
       return true;
     };
 
+    this.setWindowFooter = function setWindowFooter (name, footer) {
+      // Check for name.
+      if (name == undefined) {
+        console.error("WindowManager.setWindowFooter: name must be given");
+        return false;
+      }
+
+      if (typeof name != 'string' && !(name instanceof String)) {
+        console.error("WindowManager.setWindowFooter: name must be a string");
+        return false;
+      }
+
+      // Check for footer.
+      if (footer == undefined) {
+        console.error("WindowManager.setWindowFooter: footer must be given");
+        return false;
+      }
+
+      if (typeof footer != 'string' && !(footer instanceof String)) {
+        console.error("WindowManager.setWindowFooter: footer must be a string");
+        return false;
+      }
+
+      if (!privates.windows[name]) {
+        console.error("WindowManager.setWindowFooter: Window does not exist");
+        return false;
+      }
+
+      // Fetch the window structure and set the footer.
+      var win_struct = privates.windows[name].struct;
+      $(win_struct)
+        .find('.modal-footer')
+        .empty()
+        .append(footer);
+
+      return true;
+    };
+
     /**
      * Moves a window specified by name to the specified position.
      *
@@ -667,7 +705,9 @@ var WindowManager = (function () {
               .append($(document.createElement('h4'))
                   .addClass('modal-title')))
           .append($(document.createElement('div'))
-              .addClass('modal-body')));
+              .addClass('modal-body'))
+          .append($(document.createElement('div'))
+              .addClass('modal-footer')));
 
       $(privates.display_element).append(win);
       return win[0];

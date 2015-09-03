@@ -134,7 +134,9 @@ var ACPToolKit = (function () {
                 console.error('There is no trial running right now!');
                 return {};
             }
-            var endTime = new Date().getTime();
+            // var endTime = new Date().getTime();
+            var endTime = enteredDoneTime;
+            console.log("new end time: " + enteredDoneTime);
             currentTrialOptions.start_time = startTime;
             currentTrialOptions.end_time = endTime;
             currentTrialOptions.duration = endTime - startTime;

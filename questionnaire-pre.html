@@ -236,11 +236,16 @@
                 $('#pre-expt-form').submit(function (event) {
                     event.preventDefault();
                     var formResponses = $(this).serializeArray();
-                    // Do your own form validation here.
-                    ACPToolKit.downloadFormData(formResponses, 'pre');
-                    window.location = 'instructions.html';
+                    console.log("submit");
+                    validateForm(formResponses);
+                    // ACPToolKit.downloadFormData(formResponses, 'pre');
+                    // window.location = 'instructions.html';
                 });
             });
+
+            function validateForm(formResponses) {
+                console.log(formResponses);
+            }
         </script>
     </body>
 </html>

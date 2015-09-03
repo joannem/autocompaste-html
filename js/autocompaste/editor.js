@@ -16,9 +16,9 @@
  * limitations under the License.
  * ======================================================================== */
 
-"use strict";
+ "use strict";
 
-var AutoComPaste = AutoComPaste || { };
+ var AutoComPaste = AutoComPaste || { };
 
 /**
  * Editor module.
@@ -26,7 +26,7 @@ var AutoComPaste = AutoComPaste || { };
  *
  * @class Editor
  */
-AutoComPaste.Editor = (function () {
+ AutoComPaste.Editor = (function () {
 
   /** Private variables */
   var privates = { };
@@ -36,13 +36,13 @@ AutoComPaste.Editor = (function () {
    *
    * @param {Object} textarea  The textarea to transform.
    */
-  function Editor (textarea, engine) {
+   function Editor (textarea, engine) {
     /**
      * Sets the maximum width of the autocompletion list.
      *
      * @param {Number} width The maximum width of the autocompletion list
      */
-    this.setCompletionListMaxWidth = function setCompletionListMaxWidth (width) {
+     this.setCompletionListMaxWidth = function setCompletionListMaxWidth (width) {
       if (!isNaN(width)) {
         console.error("Editor.setCompletionListMaxWidth: width must be a number");
         return;
@@ -61,7 +61,7 @@ AutoComPaste.Editor = (function () {
      *
      * @return {Number}
      */
-    this.getCompletionListMaxWidth = function getCompletionListMaxWidth () {
+     this.getCompletionListMaxWidth = function getCompletionListMaxWidth () {
       return privates.clist_max_width;
     };
 
@@ -70,30 +70,30 @@ AutoComPaste.Editor = (function () {
      *
      * @param {Number} height The maximum height of the autocompletion list
      */
-    this.setCompletionListMaxHeight = function setCompletionListMaxHeight (height) {
-     if (!isNaN(height)) {
-       console.error("Editor.setCompletionListMaxHeight: height must be a number");
-       return;
-     }
+     this.setCompletionListMaxHeight = function setCompletionListMaxHeight (height) {
+       if (!isNaN(height)) {
+         console.error("Editor.setCompletionListMaxHeight: height must be a number");
+         return;
+       }
 
-     if (height <= 0) {
-       console.error("Editor.setCompletionListMaxHeight: height cannot be <= 0");
-       return;
-     }
+       if (height <= 0) {
+         console.error("Editor.setCompletionListMaxHeight: height cannot be <= 0");
+         return;
+       }
 
-     privates.clist_max_height = height;
-    };
+       privates.clist_max_height = height;
+     };
 
     /**
      * Gets the maximum height of the autocompletion list.
      * 
      * @return {Number}
      */
-    this.getCompletionListMaxHeight = function getCompletionListMaxHeight () {
-     return privates.clist_max_height;
-    };
+     this.getCompletionListMaxHeight = function getCompletionListMaxHeight () {
+       return privates.clist_max_height;
+     };
 
-    /** Internal functions */
+     /** Internal functions */
 
     /**
      * Measures the length of the text in the textbox in pixels.
@@ -112,7 +112,7 @@ AutoComPaste.Editor = (function () {
      * @param {String} text Text to be measured.
      * @return {Number} The width of the text measured.
      */
-    this._measureTextLengthInPixels = function _measureTextLengthInPixels (text) {
+     this._measureTextLengthInPixels = function _measureTextLengthInPixels (text) {
       // Create a div to measure the element in the DOM.
       var div = this._createMeasurementDiv('text-length-in-pixels');
       $(div).css({
@@ -145,7 +145,7 @@ AutoComPaste.Editor = (function () {
      * @param {String} text Text to be measured.
      * @return {Number} The number of lines occupied by the text.
      */
-    this._measureNumWrappedLines = function _measureNumWrappedLines (text, with_scrollbars) {
+     this._measureNumWrappedLines = function _measureNumWrappedLines (text, with_scrollbars) {
       if (with_scrollbars === undefined) {
         with_scrollbars = false;
       }
@@ -199,15 +199,15 @@ AutoComPaste.Editor = (function () {
      *
      * @param {String} name The name of the measurement div to be created
      */
-    this._createMeasurementDiv = function _createMeasurementDiv (name) {
+     this._createMeasurementDiv = function _createMeasurementDiv (name) {
       // If name is specified, and it exists in the DOM already, return that.
       var div_name = 'autocompaste-measure-' + name;
       if (name != undefined &&
-          (typeof name == 'string' || name instanceof String) &&
-          document.getElementById (div_name) != null) {
+        (typeof name == 'string' || name instanceof String) &&
+        document.getElementById (div_name) != null) {
         $('#' + div_name).empty ();
-        return document.getElementById (div_name);
-      }
+      return document.getElementById (div_name);
+    }
 
       // Create a div to measure the element in the DOM.
       var div = document.createElement('div');
@@ -245,7 +245,7 @@ AutoComPaste.Editor = (function () {
      *
      * @return {Object} An object containing the current caret position.
      */
-    this._getCaretXPosition = function _getCaretXPosition () {
+     this._getCaretXPosition = function _getCaretXPosition () {
       // Locate the stuff before the caret.
       var textarea = privates.textarea;
       var text_before_caret = textarea.value.substring(0, textarea.selectionStart);
@@ -254,7 +254,7 @@ AutoComPaste.Editor = (function () {
       // Obtain the index of the current line.
       var curr_line_idx = textarea.value.lastIndexOf('\n', textarea.selectionStart - 1);
       var curr_line = textarea.value.substring(curr_line_idx + 1, textarea.selectionStart);
-     
+
       // Check if we have scrollbars, the measurements are different. 
       var with_scrollbars = false;
       if (textarea.clientHeight < textarea.scrollHeight) {
@@ -295,7 +295,7 @@ AutoComPaste.Editor = (function () {
      *
      * @return {Object} An object containing the current caret position.
      */
-    this._getCaretYPosition = function _getCaretYPosition () {
+     this._getCaretYPosition = function _getCaretYPosition () {
       // TODO: Improve performance of this.
       // Locate the stuff before the caret.
       var text_before_caret = privates.textarea.value.substring(0, privates.textarea.selectionStart);
@@ -335,7 +335,7 @@ AutoComPaste.Editor = (function () {
      *
      * @return {Object} An object containing the current caret position.
      */
-    this._getCaretPosition = function _getCaretPosition () {
+     this._getCaretPosition = function _getCaretPosition () {
       // Initialize to invalid values.
       var caret_position = { x: -1, y: -1 };
 
@@ -351,14 +351,14 @@ AutoComPaste.Editor = (function () {
      *
      * @return {HTMLUListElement}
      */
-    this._createCompletionList = function _createCompletionList () {
+     this._createCompletionList = function _createCompletionList () {
       var completion_list = $(document.createElement('div'))
-          .attr('id', 'autocompaste-completion')
-          .addClass('dropdown')
-          .append($(document.createElement ('ul'))
-            .attr('id', 'autocompaste-completion-list')
-            .addClass('dropdown-menu')
-            .css('max-height', privates.clist_max_height + 'px'));
+      .attr('id', 'autocompaste-completion')
+      .addClass('dropdown')
+      .append($(document.createElement ('ul'))
+        .attr('id', 'autocompaste-completion-list')
+        .addClass('dropdown-menu')
+        .css('max-height', privates.clist_max_height + 'px'));
 
       return completion_list[0];
     };
@@ -368,7 +368,7 @@ AutoComPaste.Editor = (function () {
      *
      * @return {String}
      */
-    this._getCurrentSentence = function _getCurrentSentence () {
+     this._getCurrentSentence = function _getCurrentSentence () {
       var bounds = this._getCurrentSentenceBounds ();
       if (bounds == undefined) {
         return bounds;
@@ -386,7 +386,7 @@ AutoComPaste.Editor = (function () {
      *
      * @return {Object} An object containing the bounds
      */
-    this._getCurrentSentenceBounds = function _getCurrentSentenceBounds () {
+     this._getCurrentSentenceBounds = function _getCurrentSentenceBounds () {
       var textarea = privates.textarea;
       var caret_position = textarea.selectionStart;
       var line_begin = textarea.value.lastIndexOf('\n', caret_position - 1);
@@ -397,16 +397,16 @@ AutoComPaste.Editor = (function () {
       var prev_question = text_before_caret.lastIndexOf('?');
       var prev_exclaim = text_before_caret.lastIndexOf('!');
       var prev_position = Math.max(
-          prev_fullstop + 1,
-          prev_question + 1,
-          prev_exclaim + 1
-      );
+        prev_fullstop + 1,
+        prev_question + 1,
+        prev_exclaim + 1
+        );
 
       // Extract the sentence.
       var sentence = textarea.value.substring(
-          prev_position + line_begin + 1,
-          caret_position
-      );
+        prev_position + line_begin + 1,
+        caret_position
+        );
 
       // Find the bounds after trimming away spaces.
       var delta = sentence.length - sentence.replace(/^\s+/, "").length;
@@ -433,7 +433,7 @@ AutoComPaste.Editor = (function () {
      *
      * @param {Array} suggestions The list of suggestions
      */
-    this._fillCompletionList = function _fillCompletionList (suggestions) {
+     this._fillCompletionList = function _fillCompletionList (suggestions) {
       if (suggestions == undefined) {
         console.error("Editor._fillCompletionList: The suggestions list is undefined");
         return;
@@ -462,33 +462,33 @@ AutoComPaste.Editor = (function () {
 
         // Sentence highlighter.        
         sentence = sentence.substring(0, suggestions[i].start) + 
-            $(document.createElement('strong')).append(
-                sentence.substring(suggestions[i].start, suggestions[i].end)
-            )[0].outerHTML +
-            sentence.substring(suggestions[i].end);
+        $(document.createElement('strong')).append(
+          sentence.substring(suggestions[i].start, suggestions[i].end)
+          )[0].outerHTML +
+        sentence.substring(suggestions[i].end);
 
         // Adds the item into the completion list.
         $(clist_ul)
-          .append($(document.createElement ('li'))
-              .append($(document.createElement ('a'))
-                  .css('max-width', privates.clist_max_width + 'px')
-                  .append(sentence)
-                  .on('mousemove', function (mousemove_event) {
-                    var items = $(privates.clist).find('a');
+        .append($(document.createElement ('li'))
+          .append($(document.createElement ('a'))
+            .css('max-width', privates.clist_max_width + 'px')
+            .append(sentence)
+            .on('mousemove', function (mousemove_event) {
+              var items = $(privates.clist).find('a');
 
-                    for (var i = 0; i < items.length; i++) {
-                      if (items[i] == mousemove_event.target) {
-                        break;
-                      }
-                    }
+              for (var i = 0; i < items.length; i++) {
+                if (items[i] == mousemove_event.target) {
+                  break;
+                }
+              }
 
-                    editor._focusOnCompletionListItem(i);
-                    mousemove_event.preventDefault();
-                  })
-                  .on('click', function (click_event) {
-                    editor._completeWithFocusedItem();
-                    $(privates.textarea).focus();
-                  })));
+              editor._focusOnCompletionListItem(i);
+              mousemove_event.preventDefault();
+            })
+            .on('click', function (click_event) {
+              editor._completeWithFocusedItem();
+              $(privates.textarea).focus();
+            })));
 
         // Focus the appropriate item.
         var items = $(privates.clist).find('a');
@@ -503,7 +503,7 @@ AutoComPaste.Editor = (function () {
     /**
      * Hides the completion list.
      */
-    this._hideCompletionList = function _hideCompletionList () {
+     this._hideCompletionList = function _hideCompletionList () {
       $(privates.clist).hide();
       privates.clist_shown = false;
     };
@@ -511,7 +511,7 @@ AutoComPaste.Editor = (function () {
     /**
      * Shows the completion list.
      */
-    this._showCompletionList = function _showCompletionList () {
+     this._showCompletionList = function _showCompletionList () {
       $(privates.clist).show();
       privates.clist_shown = true;
     };
@@ -563,7 +563,7 @@ AutoComPaste.Editor = (function () {
 
     if (!(textarea instanceof HTMLTextAreaElement)) {
       console.error("Editor: textarea must be a HTML textarea or a " +
-          "corresponding wrapped jQuery object.");
+        "corresponding wrapped jQuery object.");
     }
 
     if (engine == undefined) {
@@ -586,8 +586,8 @@ AutoComPaste.Editor = (function () {
       var textarea_value = privates.textarea.value;
       var suggestion = privates.clist_suggestions[privates.clist_focused_item];
       var new_value = textarea_value.substring(0, bounds.start) +
-                        suggestion.sentence + ' ' +
-                        textarea_value.substring(bounds.end);
+      suggestion.sentence + ' ' +
+      textarea_value.substring(bounds.end);
       privates.textarea.value = new_value;
       this._hideCompletionList();
 
@@ -661,20 +661,20 @@ AutoComPaste.Editor = (function () {
         // Going down!
         // Down, right and tab.
         if (/^(40|37)$/.test (keydown_event.keyCode) ||
-            (keydown_event.keyCode == 9 && !keydown_event.shiftKey)) {
+          (keydown_event.keyCode == 9 && !keydown_event.shiftKey)) {
           editor._focusOnCompletionListItem (++privates.clist_focused_item);
 
-          var clist_ul = $(privates.clist).find('ul')[0];
-          var items = $(privates.clist).find('a');
-          var item = items[privates.clist_focused_item];
-          clist_ul.scrollTop = item.offsetTop - ($(clist_ul).height() / 2);
-        }
+        var clist_ul = $(privates.clist).find('ul')[0];
+        var items = $(privates.clist).find('a');
+        var item = items[privates.clist_focused_item];
+        clist_ul.scrollTop = item.offsetTop - ($(clist_ul).height() / 2);
+      }
 
         // Going up (or left)!
         if (/^(38|39)$/.test (keydown_event.keyCode) ||
-            (keydown_event.keyCode == 9 && keydown_event.shiftKey)) {
+          (keydown_event.keyCode == 9 && keydown_event.shiftKey)) {
           editor._focusOnCompletionListItem (--privates.clist_focused_item);
-          
+
           var clist_ul = $(privates.clist).find('ul')[0];
           var items = $(privates.clist).find('a');
           var item = items[privates.clist_focused_item];
@@ -685,7 +685,9 @@ AutoComPaste.Editor = (function () {
         keydown_event.preventDefault();
 
       } else {
-        if (!/^(37|39)$/.test(keydown_event.keyCode)) {
+        if (!/^(37|39|13)$/.test(keydown_event.keyCode)) {
+          $('.next-task-btn').prop('disabled', true);
+          enteredDoneTime = 0;
           return;
         }
 
@@ -704,8 +706,8 @@ AutoComPaste.Editor = (function () {
 
           // Append next sentence.
           var new_value = textarea.value.substring (0, caret_position) +
-                            privates.clist_next.sentence + ' ' +
-                            textarea.value.substring(caret_position);
+          privates.clist_next.sentence + ' ' +
+          textarea.value.substring(caret_position);
 
           textarea.value = new_value;
           caret_position += privates.clist_next.sentence.length + 1; // +1 for the space
@@ -715,7 +717,7 @@ AutoComPaste.Editor = (function () {
           privates.clist_next = privates.engine.getSentenceFromIndex(
             privates.clist_next.id,
             ++privates.clist_next.index
-          );
+            );
           
           keydown_event.preventDefault();
         }
@@ -733,7 +735,7 @@ AutoComPaste.Editor = (function () {
             privates.clist_next = privates.engine.getSentenceFromIndex(
               privates.clist_next.id,
               --privates.clist_next.index
-            );
+              );
 
             keydown_event.preventDefault();
 
@@ -741,6 +743,16 @@ AutoComPaste.Editor = (function () {
             privates.clist_next = undefined;
             privates.clist_append_start = -1;
           }
+        }
+
+        // Pressing Enter when list is not shown enables the Next Task
+        // button and stops the timer
+        if (keydown_event.keyCode == 13) {
+          $('.next-task-btn').prop('disabled', false);
+          if (enteredDoneTime == 0) {
+            enteredDoneTime = new Date().getTime();
+          }
+          console.log("enter triggered!\n" + enteredDoneTime);
         }
       }
     });
