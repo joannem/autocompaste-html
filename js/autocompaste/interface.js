@@ -16,16 +16,16 @@
  * limitations under the License.
  * ======================================================================== */
 
-"use strict";
+ "use strict";
 
-var AutoComPaste = AutoComPaste || { };
+ var AutoComPaste = AutoComPaste || { };
 
 /**
  * Interface module.
  *
  * @class Interface
  */
-AutoComPaste.Interface = (function () {
+ AutoComPaste.Interface = (function () {
 
   /** Private variables */
   var privates = { };
@@ -33,7 +33,7 @@ AutoComPaste.Interface = (function () {
   /**
    * The class constructor.
    */
-  function Interface (wm, engine, texts_json, window_width, font_size) {
+   function Interface (wm, engine, texts_json, window_width, font_size) {
     /** Internal functions */
     this._showError = function _showerror() {
       document.getElementById('error-overlay').style.display = 'block';
@@ -119,11 +119,11 @@ AutoComPaste.Interface = (function () {
 
         // Create a text editor window.
         var acp_textarea = $(document.createElement('textarea'))
-                            .addClass('autocompaste-textarea')
-                            .attr({
-                              rows: 10,
-                              cols: 52
-                            });
+        .addClass('autocompaste-textarea')
+        .attr({
+          rows: 10,
+          cols: 52
+        });
 
         //  For ACP mode, engine is passed into the interface. 
         //  Initialize the interface with the engine.
@@ -135,13 +135,30 @@ AutoComPaste.Interface = (function () {
             }
           }
           acp_textarea.autocompaste(privates.engine);
-        }
+        } else {
+          console.log("no autocompaste created");
+          addEventListener('keydown', function (keydown_event) {
+            if (!/^(37|39|13)$/.test(keydown_event.keyCode)) {
+              $('.next-task-btn').prop('disabled', true);
+              enteredDoneTime = 0;
+            }
+            // Pressing Enter when list is not shown enables the Next Task
+            // button and stops the timer
+            if (keydown_event.keyCode == 13) {
+              $('.next-task-btn').prop('disabled', false);
+              if (enteredDoneTime == 0) {
+                enteredDoneTime = new Date().getTime();
+              }
+              console.log("enter triggered!\n" + enteredDoneTime);
+            }
+          });
+      }
 
-        privates.wm.createWindow("text_editor");
-        privates.wm.setWindowTitle("text_editor", "Text Input Box");
-        privates.wm.setWindowContent("text_editor", acp_textarea);
-        privates.wm.setWindowFooter("text_editor", "Hit <b>Enter</b> once you are done.");
-        acp_textarea.focus();
+      privates.wm.createWindow("text_editor");
+      privates.wm.setWindowTitle("text_editor", "Text Input Box");
+      privates.wm.setWindowContent("text_editor", acp_textarea);
+      privates.wm.setWindowFooter("text_editor", "Hit <b>Esc</b> followed by <b>Enter</b> once you are done.");
+      acp_textarea.focus();
 
         // Dispatch an event.
         iface.dispatchEvent('loaded');
@@ -163,10 +180,10 @@ AutoComPaste.Interface = (function () {
       privates.wm.setWindowTitle(text_title, text_title);
       privates.wm.setWindowContent(text_title,
         $(document.createElement('pre'))
-          .append(privates.texts[text_title])
-          .css('white-space', 'pre-word')
-          .css('font-size', privates.font_size + 'pt')
-      );
+        .append(privates.texts[text_title])
+        .css('white-space', 'pre-word')
+        .css('font-size', privates.font_size + 'pt')
+        );
 
       // Position the window beside the text input box
       privates.wm.moveWindowTo(text_title, 460, 0);
@@ -201,7 +218,7 @@ AutoComPaste.Interface = (function () {
         evs[i].apply(null, [event_data]);
       }
     };
-   
+
     /** Constructor */
     if (wm == undefined) {
       console.error("Interface: wm must be given");
