@@ -79,11 +79,13 @@ var ACPToolKit = (function () {
 
             var data_file = options.data_file;
             var window_width = options.window_width;
+            var font_size = options.font_size;
             var stimuli = options.stimuli;
 
             $('.js-expt-technique').text(options.technique);
             $('.js-expt-granularity').text(options.granularity);
             $('.js-expt-window-width').text(options.window_width + "px");
+            $('.js-expt-font-size').text(options.font_size + "pt");
             $('.js-expt-stimuli').text(options.stimuli);
 
             // Clean up DOM
@@ -105,7 +107,7 @@ var ACPToolKit = (function () {
                     break;
             }
 
-            var iface = new AutoComPaste.Interface(wm, engine, data_file, window_width);
+            var iface = new AutoComPaste.Interface(wm, engine, data_file, window_width, font_size);
             
             // Highlight the relevant text.
             iface.addEventListener('loaded', function () {
@@ -141,11 +143,13 @@ var ACPToolKit = (function () {
 
             var data_file = options.data_file;
             var window_width = options.window_width;
+            var font_size = options.font_size;
             var stimuli = options.stimuli;
 
             $('.js-expt-technique').text(options.technique);
             $('.js-expt-granularity').text(options.granularity);
             $('.js-expt-window-width').text(options.window_width + "px");
+            $('.js-expt-font-size').text(options.font_size + "pt");
             $('.js-expt-stimuli').text(options.stimuli);
 
             // Clean up DOM
@@ -167,7 +171,7 @@ var ACPToolKit = (function () {
                     break;
             }
 
-            var iface = new AutoComPaste.Interface(wm, engine, data_file, window_width);
+            var iface = new AutoComPaste.Interface(wm, engine, data_file, window_width, font_size);
             // Highlight the relevant text.
             iface.addEventListener('loaded', function () {
                 var lines_to_highlight = stimuli.split("\n\n");

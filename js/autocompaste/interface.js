@@ -33,7 +33,7 @@ AutoComPaste.Interface = (function () {
   /**
    * The class constructor.
    */
-  function Interface (wm, engine, texts_json, window_width) {
+  function Interface (wm, engine, texts_json, window_width, font_size) {
     /** Internal functions */
     this._showError = function _showerror() {
       document.getElementById('error-overlay').style.display = 'block';
@@ -165,6 +165,7 @@ AutoComPaste.Interface = (function () {
         $(document.createElement('pre'))
           .append(privates.texts[text_title])
           .css('white-space', 'pre-word')
+          .css('font-size', privates.font_size + 'pt')
       );
 
       // Position the window beside the text input box
@@ -229,6 +230,7 @@ AutoComPaste.Interface = (function () {
 
     privates.texts = { };
     privates.window_width = window_width;
+    privates.font_size = font_size;
     privates.texts_json = texts_json;
     privates.texts_available = 0;
     privates.texts_returned = 0;

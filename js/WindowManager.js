@@ -242,6 +242,17 @@ var WindowManager = (function () {
       return true;
     };
 
+    /**
+     * Sets the footer of a window identified by name.
+     *
+     * All parameters are required. If the window does not exist, or if any of
+     * the parameters are not valid, then this function returns false.
+     *
+     * @param {String} name   The name of the window
+     * @param {String} footer The footer to be set
+     *
+     * @return {Boolean} Returns true on success.
+     */
     this.setWindowFooter = function setWindowFooter (name, footer) {
       // Check for name.
       if (name == undefined) {
