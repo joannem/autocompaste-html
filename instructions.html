@@ -41,43 +41,50 @@
 
                     <br>
 
-                    <p><b>Using <i>AutoComPaste</i></b></p>
+                    <div class="instructions-using-acp">
+                        <p><b>Using <i>AutoComPaste</i></b></p>
 
-                    <p>Whenever <i>AutoComPaste</i> is active, typing three characters or more in the Text Input Box will bring up a dropdown list of possible sentences that are extracted from the contents of the open windows.</p>
-                    
-                    <!-- Insert img here -->
+                        <p>Whenever <i>AutoComPaste</i> is active, typing three characters or more in the Text Input Box will bring up a dropdown list of possible sentences that are extracted from the contents of the open windows.</p>
+                        
+                        <!-- Insert img here -->
 
-                    <p>When this happens, pressing the <b>&#8679;/&#8681;</b> buttons will scroll through the list of suggestions. Press <b>Enter</b> to select a suggestion to be pasted into the Text Input Box.</p>
+                        <p>When this happens, pressing the <b>&#8679;/&#8681;</b> buttons will scroll through the list of suggestions. Press <b>Enter</b> to select a suggestion to be pasted into the Text Input Box.</p>
 
-                    <!-- Insert img here -->
+                        <!-- Insert img here -->
 
-                    <p>After selecting a sentence, pressing the <b>&#8678;/&#8680;</b> buttons will allow you to delete or append the sentences before or after the selected sentence.</p>
+                        <p>After selecting a sentence, pressing the <b>&#8678;/&#8680;</b> buttons will allow you to delete or append the sentences before or after the selected sentence.</p>
 
-                    <!-- Insert img here -->
+                        <!-- Insert img here -->
 
-                    <br>
+                        <p>If you wish to use the arrow keys to navigate your cursor through your text, press the <b>Esc</b> button to exit the <i>AutoComPaste</i> mode.</p>
 
-                    <p><b>Task required</b></p>
+                        <br>
+                    </div>
 
-                    <p>You will be given a series of tasks requiring you to try out one of the 2 different techniques of copying and pasting highlighted text onto a given text box at one time.</p>
+                    <div class="instructions-tasks-req">
+                        <p><b>Task required</b></p>
 
-                    <p><u>Step 1</u>: Verify from the left panel which <b>method</b> (<i>AutoComPaste</i> or <i>Ctrl-C + Ctrl-V</i>) you are expected to use for that current task. </p> 
+                        <p>You will be given a series of tasks requiring you to try out one of the 2 different techniques of copying and pasting highlighted text onto a given text box at one time.</p>
 
-                    <p><u>Step 2</u>: Locate the <b>highlighted section(s)</b> of text from the right panel.</p>
-                    
-                    <p><u>Step 3</u>: Copy-and-paste the highlighted text into the Text Input Box provided. (Do not type them in manually.)</p>
+                        <p><u>Step 1</u>: Verify from the left panel which <b>method</b> (<i>AutoComPaste</i> or <i>Ctrl-C + Ctrl-V</i>) you are expected to use for that current task. </p> 
 
-                    <p><u>Step 4</u>: Once you’re satisfied with the text entered in the Text Input Box, hitting the <b>Enter</b> key will disable the <b>Next Task</b> button.</p>
+                        <p><u>Step 2</u>: Locate the <b>highlighted section(s)</b> of text from the right panel.</p>
+                        
+                        <p><u>Step 3</u>: Copy-and-paste the highlighted text into the Text Input Box provided. (Do not type them in manually.)</p>
 
-                    <p><u>Step 5</u>: Click on the <b>Next Task</b> button whenever you're ready to proceed. You may take breaks at any time during the experiment.</p>
-                    
-                    <p>Once you've completed all the tasks, you'll be re-directed to answer a post-experiment questionnaire.</p>
+                        <p><u>Step 4</u>: Once you’re satisfied with the text entered in the Text Input Box, hitting the <b>Enter</b> key will disable the <b>Next Task</b> button.</p>
 
-                    <br>
+                        <p><u>Step 5</u>: Click on the <b>Next Task</b> button whenever you're ready to proceed. You may take breaks at any time during the experiment.</p>
+                        
+                        <p>Once you've completed all the tasks, you'll be re-directed to answer a post-experiment questionnaire.</p>
 
-                    <form class="form-inline">
-                        <button type="submit" class="btn btn-primary btn-lg">Next</button>
-                    </form>
+                        <br>
+                    </div>
+
+                    <!-- <form class="form-inline">-->
+                        <button onclick="prev()" class="btn btn-primary btn-lg prev-instructions-btn" disabled="disabled">Prev</button>
+                        <button onclick="next()" class="btn btn-primary btn-lg next-instructions-btn">Next</button>
+                    <!--</form>-->
                 </div>
             </div>
         </div>
@@ -89,12 +96,35 @@
         <script src="js/main.js"></script>
 
         <script>
-            $(function () {
-                $('form').submit(function (event) {
-                    event.preventDefault();
-                    window.location = 'experiment.html';
-                });
-            });
+            var counter = 0;
+
+            function next() {
+                counter = counter + 1;
+                if (counter == 1) {
+                    $('.prev-instructions-btn').prop('disabled', false);
+                    $('.next-instructions-btn').text('Begin practice');
+                    $('.instructions-using-acp').hide();
+                    $('.instructions-tasks-req').show();
+                } else {
+                    // event.preventDefault();
+                    window.location = 'practice.html';
+                }
+            }
+
+            function prev() {
+                counter = counter - 1;
+                $('.prev-instructions-btn').prop('disabled', true);
+                $('.next-instructions-btn').text('Next');
+                $('.instructions-tasks-req').hide();
+                $('.instructions-using-acp').show();
+            }
+
+            // $(function () {
+            //     $('form').submit(function (event) {
+            //         event.preventDefault();
+            //         window.location = 'practice.html';
+            //     });
+            // });
         </script>
     </body>
 </html>

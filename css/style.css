@@ -139,3 +139,8 @@ body.experiment-page {
   -ms-user-select: none;
   user-select: none;
 }
+
+/* Extra by Joanne */
+.instructions-tasks-req {
+  display: none;
+}
