@@ -1,13 +1,9 @@
-What is bandwidth? Width of the band of frequencies between the half power points.
+Singapore will build a fourth water desalination plant to meet future water needs in the city area and strengthen its drought resilience.
 
-What is barrier potential? The natural difference of potential that exists across a forward biased pn junction.
+Yesterday, national water agency PUB announced that it will call for a tender for the provision of consultancy services for the new plant in Marina East. It will be able to treat freshwater from the nearby Marina Reservoir and produce 30 million gallons of water per day.
 
-What is base biasing? A method of biasing a BJT in which the bias voltage is supplied to the base by means of a resistor.
+PUB deputy chief executive (policy and development), Mr Chua Soon Guan, said the agency has been making investments to build up and diversify Singapore's water sources to strengthen water security. He said: "During the dry weather in recent years, we were able to ensure supply by increasing the production of Newater and desalinated water. Building up weather-resilient water sources will help us be better prepared for possible prolonged periods of dry spells in future."
 
-What is battery? A DC voltage source containing two or more cells that convert chemical energy to electrical energy.
+With the new plant, Singapore will be able to produce a total of 160 million gallons of water a day through treated seawater.
 
-What is binary? A number system having only two symbols, 0 and 1. A base 2 number system.
-
-What is bipolar junction transistor? (BJT), A three terminal device in which emitter to collector current is controlled by base current.
-
-What is bistable multivibrator? A multi vibrator with two stable states. An external signal is required to change the output from one state to the other. Also called a latch.
+source: http://www.straitstimes.com/singapore/fourth-desalination-plant-to-be-built
