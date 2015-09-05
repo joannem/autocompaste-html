@@ -209,7 +209,7 @@ var ACPToolKit = (function () {
             }
             var endTime = new Date().getTime();
             // var endTime = enteredDoneTime;
-            console.log("new end time: " + enteredDoneTime);
+            // console.log("new end time: " + enteredDoneTime);
             currentTrialOptions.start_time = startTime;
             currentTrialOptions.end_time = endTime;
             currentTrialOptions.duration = endTime - startTime;

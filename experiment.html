@@ -37,7 +37,7 @@
                     <h1>Copy-Paste Experiment</h1>
                     <hr>
                     <p><b>Practice: </b><span class="js-expt-current-trial"></span> / <span class="js-expt-num-trials"></span></p>
-                    <p><b>Block: </b><span class="js-expt-current-block"></span> / 3</p>
+                    <p><b>Block: </b><span class="js-expt-current-block"></span> / </b><span class="js-expt-num-blocks"></span></p>
                     <table class="table table-bordered">
                         <tbody>
                             <tr>
@@ -82,6 +82,8 @@
 
         <script>
             // var enteredDoneTime = 0;
+            var currentBlock;
+            var totalNumberOfBlocks = 3;
             var trialsData;
             var currentTrial;
             var totalNumberOfTrials;
@@ -120,20 +122,30 @@
                     currentTrial += 1;
                     $('.js-expt-current-trial').text(currentTrial);
                 } else {
-                    // Last trial completed
-                    ACPToolKit.downloadTrialResults(trialData);
-                    window.location = 'questionnaire-post.html';
+                    if (currentBlock >= totalNumberOfBlocks) {
+                        // Last trial completed
+                        ACPToolKit.downloadTrialResults(trialData);
+                        window.location = 'questionnaire-post.html';
+                    } else {
+                        currentTrial = 1;
+                        currentBlock += 1;
+                        $('.js-expt-current-block').text(currentBlock);
+                        $('.js-expt-current-trial').text(currentTrial);
+                    }
                 }
             }
 
             $(document).ready(function () {
                 var pid_int = ACPToolKit.getCurrentParticipantId().substring(1, 3);
+                currentBlock = 1;
 
                 $.get('data/experiments-' + pid_int + '.json', function (data) {
                     trialsData = data.experiments;
                     currentTrial = 0;
                     totalNumberOfTrials = trialsData.length;
                     $('.js-expt-num-trials').text(totalNumberOfTrials);
+                    $('.js-expt-num-blocks').text(totalNumberOfBlocks);
+                    $('.js-expt-current-block').text(currentBlock);
                     trialData.push(headers);
                     next();
                     pid = ACPToolKit.getCurrentParticipantId();
