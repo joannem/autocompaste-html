@@ -72,9 +72,8 @@
                 $('#pid-form').submit(function (event) {
                     event.preventDefault();
                     var pid = $('#pid').val();
-                    if (pid) {
-                        ACPToolKit.setCurrentParticipantId(pid);
-                        window.location = 'questionnaire-pre.html';
+                    if (pid && ACPToolKit.setCurrentParticipantId(pid)) {
+                            window.location = 'questionnaire-pre.html';
                     } else {
                         alert('Please enter a valid Participant ID (pid)!');
                     }

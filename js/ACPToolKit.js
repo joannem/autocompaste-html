@@ -3,15 +3,23 @@ var ACPToolKit = (function () {
     var module = {};
 
     module.setCurrentParticipantId = function (pid) {
-        DataStorage.setItem('pid', pid);
+        if (pid.length == 3 && /P[0|1][0-9]/.test(pid)) {
+            DataStorage.setItem('pid', pid);    
+            return true;
+        } else {
+            return false;
+        }
     }
 
     module.getCurrentParticipantId = function () {
         var pid = DataStorage.getItem('pid');
-        if (!pid) {
+        while (!pid) {
             alert('Current participant not set!');
             pid = prompt('Enter current participant ID:').toString();
-            this.setCurrentParticipantId(pid);
+            if(!this.setCurrentParticipantId(pid)) {
+                pid = null;
+                alert('Please enter a valid Participant ID (pid)!');
+            }
         }
         return pid;
     }

@@ -126,6 +126,8 @@
             }
 
             $(document).ready(function () {
+                console.log(ACPToolKit.getCurrentParticipantId());
+
                 $.get('data/experiments.json', function (data) {
                     trialsData = data.experiments;
                     currentTrial = 0;
