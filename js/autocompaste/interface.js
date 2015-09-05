@@ -135,7 +135,9 @@
             }
           }
           acp_textarea.autocompaste(privates.engine);
+          $('.article-window').addClass('no-select');
         } else {
+          $('.article-window').removeClass('no-select');
           // addEventListener('keydown', function (keydown_event) {
           //   if (!/^(37|39|13)$/.test(keydown_event.keyCode)) {
           //     $('.next-task-btn').prop('disabled', true);
@@ -179,6 +181,7 @@
       privates.wm.setWindowTitle(text_title, text_title);
       privates.wm.setWindowContent(text_title,
         $(document.createElement('pre'))
+        .addClass('article-window')
         .append(privates.texts[text_title])
         .css('white-space', 'pre-word')
         .css('font-size', privates.font_size + 'pt')

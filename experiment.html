@@ -60,6 +60,8 @@
                     </table>
                     <p>Please copy-paste the following <span class="js-expt-granularity">phrase</span> from the <b>right panel</b> using the <span class="js-expt-technique">AUTOCOMPASTE</span> technique into the Text Input Box.</p>
                     <div id="stimuli" class="alert alert-danger js-expt-stimuli">This is a long stimuli!</div>
+
+                    <button class="btn btn-default btn-lg pause-btn" onclick="pause()">Pause</button>
                     <!-- <button class="btn btn-primary btn-lg next-task-btn" onclick="next()" disabled="disabled">Next Task</button> -->
                     <button class="btn btn-primary btn-lg next-task-btn" onclick="next()">Next Task</button>
                 </div>
@@ -90,13 +92,17 @@
             var headers = ['Participant id', 'Trial no', 
                             'Technique', 'Granularity', 'Window size (px)', 
                             'Stimuli', 'User Response', 'Trial Start Time',
-                            'Trial End Time', 'Trial Time', 'Accuracy'];
+                            'Trial End Time', 'Trial Break Time', 'Trial Time', 'Accuracy'];
             var trialData = [];
             var pid;
 
+            var paused = false;
+            var breakStart = [];
+            var breakStop = [];
+
             function next() {
                 if (currentTrial !== 0) {
-                    var trialResult = ACPToolKit.getCurrentTrialState();
+                    var trialResult = ACPToolKit.getCurrentTrialState(breakStart, breakStop);
 
                     var trialNum = currentTrial;
                     var technique = trialResult.technique;
@@ -106,14 +112,15 @@
                     var userResponse = trialResult.user_response;
                     var trialStartTime = trialResult.start_time;
                     var trialEndTime = trialResult.end_time;
+                    var trialBreakTime = trialResult.break_time;
                     var trialDuration = trialResult.duration;
                     
                     var accuracy = stimuli === userResponse ? 1 : 0;
 
                     var row = [pid, trialNum, technique, granularity, 
                                 windowWidth, stimuli, userResponse, 
-                                trialStartTime, trialEndTime, trialDuration, 
-                                accuracy];
+                                trialStartTime, trialEndTime, trialBreakTime, 
+                                trialDuration, accuracy];
                     trialData.push(row);
                 }
 
@@ -123,18 +130,40 @@
                     $('.js-expt-current-trial').text(currentTrial);
 
                 } else {
-                    if (currentBlock >= totalNumberOfBlocks) {
-                        // Last trial completed
-                        ACPToolKit.downloadTrialResults(trialData);
-                        window.location = 'questionnaire-post.html';
-
-                    } else {
+                    if (currentBlock < totalNumberOfBlocks) {
                         // Completed one block, moving on to next block
                         currentTrial = 1;  
                         currentBlock += 1;
                         $('.js-expt-current-block').text(currentBlock);
                         $('.js-expt-current-trial').text(currentTrial);
+
+                    } else {
+                        // Last trial completed
+                        ACPToolKit.downloadTrialResults(trialData);
+                        window.location = 'questionnaire-post.html';
+
                     }
+                }
+
+                breakStart = [];
+                breakStop = [];
+            }
+
+            function pause() {
+                if (!paused) {
+                    breakStart.push(new Date().getTime());
+
+                    $('.autocompaste-textarea').prop('disabled', true);
+                    $('.next-task-btn').prop('disabled', true);
+                    paused = true;
+
+                } else {
+                    breakStop.push(new Date().getTime());
+
+                    $('.autocompaste-textarea').prop('disabled', false);
+                    $('.next-task-btn').prop('disabled', false);
+                    paused = false;
+
                 }
             }
 

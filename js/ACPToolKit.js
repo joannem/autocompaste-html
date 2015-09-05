@@ -202,19 +202,32 @@ var ACPToolKit = (function () {
             });
         }
 
-        module.getCurrentTrialState = function () {
+        module.getCurrentTrialState = function (breakStart, breakStop) {
             if (!currentTrialOptions) {
                 console.error('There is no trial running right now!');
                 return {};
             }
             var endTime = new Date().getTime();
+            var breakTime = sumBreaks(breakStart, breakStop);
+
             // var endTime = enteredDoneTime;
             // console.log("new end time: " + enteredDoneTime);
             currentTrialOptions.start_time = startTime;
             currentTrialOptions.end_time = endTime;
-            currentTrialOptions.duration = endTime - startTime;         // TODO: factor in breaks!!
+            currentTrialOptions.break_time = breakTime;
+            currentTrialOptions.duration = endTime - startTime - breakTime;
             currentTrialOptions.user_response = $.trim($('.autocompaste-textarea').val());
+            
             return currentTrialOptions;
+        }
+
+        function sumBreaks (breakStart, breakStop) {
+            var len = breakStart.length;
+            var sum = 0;
+            for (var i = 0; i < len; ++i) {
+                sum += (breakStop[i] - breakStart[i]);
+            }
+            return sum;
         }
     }
 
