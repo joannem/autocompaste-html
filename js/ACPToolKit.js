@@ -212,7 +212,7 @@ var ACPToolKit = (function () {
             // console.log("new end time: " + enteredDoneTime);
             currentTrialOptions.start_time = startTime;
             currentTrialOptions.end_time = endTime;
-            currentTrialOptions.duration = endTime - startTime;
+            currentTrialOptions.duration = endTime - startTime;         // TODO: factor in breaks!!
             currentTrialOptions.user_response = $.trim($('.autocompaste-textarea').val());
             return currentTrialOptions;
         }

@@ -121,13 +121,16 @@
                     ACPToolKit.presentTrial(trialsData[currentTrial]);
                     currentTrial += 1;
                     $('.js-expt-current-trial').text(currentTrial);
+
                 } else {
                     if (currentBlock >= totalNumberOfBlocks) {
                         // Last trial completed
                         ACPToolKit.downloadTrialResults(trialData);
                         window.location = 'questionnaire-post.html';
+
                     } else {
-                        currentTrial = 1;
+                        // Completed one block, moving on to next block
+                        currentTrial = 1;  
                         currentBlock += 1;
                         $('.js-expt-current-block').text(currentBlock);
                         $('.js-expt-current-trial').text(currentTrial);
