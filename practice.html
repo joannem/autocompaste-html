@@ -90,8 +90,6 @@
                     currentTrial += 1;
                     $('.js-expt-current-trial').text(currentTrial);
                 } else {
-                    // Last trial completed
-                    // ACPToolKit.downloadTrialResults(trialData);
                     window.location = 'experiment.html';
                 }
             }
@@ -103,7 +101,6 @@
                     totalNumberOfTrials = trialsData.length;
                     $('.js-expt-num-trials').text(totalNumberOfTrials);
                     next();
-                    // pid = ACPToolKit.getCurrentParticipantId();
                 })
             });
         </script>

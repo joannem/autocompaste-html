@@ -126,9 +126,9 @@
             }
 
             $(document).ready(function () {
-                console.log(ACPToolKit.getCurrentParticipantId());
+                var pid_int = ACPToolKit.getCurrentParticipantId().substring(1, 3);
 
-                $.get('data/experiments.json', function (data) {
+                $.get('data/experiments-' + pid_int + '.json', function (data) {
                     trialsData = data.experiments;
                     currentTrial = 0;
                     totalNumberOfTrials = trialsData.length;

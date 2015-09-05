@@ -139,7 +139,7 @@ var WindowManager = (function () {
         var title_height = $(win_struct).find('.modal-header').height ();
         $(win_struct)
           .find('.modal-body')
-          .css('height', (height - title_height) + 'px');
+          .css('max-height', (height - title_height) + 'px');
       }
 
       // Set window to focus on mouse down.

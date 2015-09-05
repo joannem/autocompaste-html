@@ -2,35 +2,51 @@
     "practices": [
         { 
             "technique": "AUTOCOMPASTE", 
-            "granularity": "paragraph",
+            "granularity": "sentence",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage." 
+            "data_file": "data/text-article-4.json",
+            "stimuli": "Jeff currently works for Poppin, a company designing pleasingly modern office and work supplies." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage." 
+            "data_file": "data/text-article-5.json",
+            "stimuli": "The actress came to Russia after writing to President Vladimir Putin asking him to support her environmental causes, particularly her fight against whale hunting." 
         },
         { 
-            "technique": "TRADITIONAL", 
+            "technique": "AUTOCOMPASTE", 
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/texts.json",
-            "stimuli": "number of positive charges" 
+            "data_file": "data/text-article-1.json",
+            "stimuli": "operate on either an AC or DC" 
+        }, 
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "window_width": "600",
+            "font_size": "12",
+            "data_file": "data/text-article-2.json",
+            "stimuli": "It will be able to treat freshwater from the nearby Marina Reservoir and produce 30 million gallons of water per day." 
+        }, 
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "window_width": "900",
+            "font_size": "12",
+            "data_file": "data/text-article-6.json",
+            "stimuli": "It will be able to treat freshwater from the nearby Marina Reservoir and produce 30 million gallons of water per day." 
         }, 
         { 
             "technique": "TRADITIONAL", 
-            "granularity": "phrase",
+            "granularity": "sentence",
             "window_width": "900",
             "font_size": "12",
-            "data_file": "data/texts.json",
-            "stimuli": "number of positive charges" 
+            "data_file": "data/text-article-3.json",
+            "stimuli": "It will be able to treat freshwater from the nearby Marina Reservoir and produce 30 million gallons of water per day." 
         }        
     ]
 }

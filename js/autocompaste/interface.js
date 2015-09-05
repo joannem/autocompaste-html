@@ -176,7 +176,8 @@
     };
 
     this._createWindowForText = function _createWindowForText (text_title) {
-      privates.wm.createWindow(text_title, privates.window_width);
+      console.log(text_title);
+      privates.wm.createWindow(text_title, privates.window_width, 700);
       privates.wm.setWindowTitle(text_title, text_title);
       privates.wm.setWindowContent(text_title,
         $(document.createElement('pre'))

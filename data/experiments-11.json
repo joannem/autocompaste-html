@@ -5,7 +5,7 @@
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/texts-article-6.json",
+            "data_file": "data/text-article-6.json",
             "stimuli": "What is bandwidth? Width of the band of frequencies between the half power points." 
         },
         { 
@@ -13,7 +13,7 @@
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/texts-article-6.json",
+            "data_file": "data/text-article-6.json",
             "stimuli": "What is binary? A number system having only two symbols, 0 and 1. A base 2 number system." 
         },
         { 
@@ -21,7 +21,7 @@
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/texts-article-6.json",
+            "data_file": "data/text-article-6.json",
             "stimuli": "What is bistable multivibrator? A multi vibrator with two stable states. An external signal is required to change the output from one state to the other. Also called a latch." 
         }, 
         { 
@@ -29,7 +29,7 @@
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/texts-article-6.json",
+            "data_file": "data/text-article-6.json",
             "stimuli": "What is bipolar junction transistor? (BJT), A three terminal device in which emitter to collector current is controlled by base current." 
         },
         { 
@@ -37,7 +37,7 @@
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/texts-article-4.json",
+            "data_file": "data/text-article-4.json",
             "stimuli": "reconfiguring bicycle components" 
         },
         { 
@@ -45,7 +45,7 @@
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/texts-article-4.json",
+            "data_file": "data/text-article-4.json",
             "stimuli": "well-designed products" 
         },
         { 
@@ -53,7 +53,7 @@
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/texts-article-4.json",
+            "data_file": "data/text-article-4.json",
             "stimuli": "I was more interested" 
         },
         { 
@@ -61,7 +61,7 @@
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/texts-article-4.json",
+            "data_file": "data/text-article-4.json",
             "stimuli": "I was involved in product development for global brands" 
         },
         { 
@@ -69,7 +69,7 @@
             "granularity": "sentence",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/texts-article-5.json",
+            "data_file": "data/text-article-5.json",
             "stimuli": "Climate change is an urgent issue and I want to come here and speak to people that are brave enough to make big changes." 
         }, 
         { 
@@ -77,7 +77,7 @@
             "granularity": "sentence",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/texts-article-5.json",
+            "data_file": "data/text-article-5.json",
             "stimuli": "The 48-year-old Canadian-born actress flew to the Pacific port of Vladivostok to attend an international economic forum at the invitation of environment minister Sergei Donskoi." 
         },
         { 
@@ -85,7 +85,7 @@
             "granularity": "sentence",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/texts-article-5.json",
+            "data_file": "data/text-article-5.json",
             "stimuli": "The actress came to Russia after writing to President Vladimir Putin asking him to support her environmental causes, particularly her fight against whale hunting." 
         },
         { 
@@ -93,7 +93,7 @@
             "granularity": "sentence",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/texts-article-5.json",
+            "data_file": "data/text-article-5.json",
             "stimuli": "Anderson attended a charity auction to raise money to protect endangered species and sold off a bright red float used in Baywatch filming for 3 million rubles (S$63,000) to a businessman, Interfax news agency reported." 
         },
         { 
@@ -101,7 +101,7 @@
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/texts-article-3.json",
+            "data_file": "data/text-article-3.json",
             "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." 
         },
         { 
@@ -109,7 +109,7 @@
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/texts-article-3.json",
+            "data_file": "data/text-article-3.json",
             "stimuli": "Articles are usually characterized as either definite or indefinite. A few languages with well-developed systems of articles may distinguish additional subtypes. Within each type, languages may have various forms of each article, according to grammatical attributes such as gender, number, or case, or according to adjacent sounds."
         },
         { 
@@ -117,7 +117,7 @@
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/texts-article-3.json",
+            "data_file": "data/text-article-3.json",
             "stimuli": "A definite article indicates that its noun is a particular one which is identifiable to the listener. It may be something that the speaker has already mentioned, or it may be something uniquely specified. The definite article in English, for both singular and plural nouns, is the." 
         },
         { 
@@ -125,7 +125,7 @@
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/texts-article-3.json",
+            "data_file": "data/text-article-3.json",
             "stimuli": "However, recent developments show that definite articles are morphological elements linked to certain noun types due to lexicalization. Under this point of view, definiteness does not play a role in the selection of a definite article more than the lexical entry attached to the article." 
         },
         { 
@@ -133,7 +133,7 @@
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/texts-article-1.json",
+            "data_file": "data/text-article-1.json",
             "stimuli": "transform mechanical energy into AC electrical power"
         },
         { 
@@ -141,7 +141,7 @@
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/texts-article-1.json",
+            "data_file": "data/text-article-1.json",
             "stimuli": "passes an AC signal" 
         },
         { 
@@ -149,7 +149,7 @@
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/texts-article-1.json",
+            "data_file": "data/text-article-1.json",
             "stimuli": "A filter that uses an amplifier" 
         },
         { 
@@ -157,7 +157,7 @@
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/texts-article-1.json",
+            "data_file": "data/text-article-1.json",
             "stimuli": "saturation and cut off"
         },
         { 
@@ -165,7 +165,7 @@
             "granularity": "sentence",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/texts-article-2.json",
+            "data_file": "data/text-article-2.json",
             "stimuli": "Building up weather-resilient water sources will help us be better prepared for possible prolonged periods of dry spells in future." 
         },
         { 
@@ -173,7 +173,7 @@
             "granularity": "sentence",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/texts-article-2.json",
+            "data_file": "data/text-article-2.json",
             "stimuli": "Singapore will build a fourth water desalination plant to meet future water needs in the city area and strengthen its drought resilience." 
         },
         { 
@@ -181,7 +181,7 @@
             "granularity": "sentence",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/texts-article-2.json",
+            "data_file": "data/text-article-2.json",
             "stimuli": "It will be able to treat freshwater from the nearby Marina Reservoir and produce 30 million gallons of water per day."
         },
         { 
@@ -189,7 +189,7 @@
             "granularity": "sentence",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/texts-article-2.json",
+            "data_file": "data/text-article-2.json",
             "stimuli": "With the new plant, Singapore will be able to produce a total of 160 million gallons of water a day through treated seawater." 
         },
         { 
@@ -197,7 +197,7 @@
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/texts-article-6.json",
+            "data_file": "data/text-article-6.json",
             "stimuli": "What is base biasing? A method of biasing a BJT in which the bias voltage is supplied to the base by means of a resistor." 
         },
         { 
@@ -205,7 +205,7 @@
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/texts-article-6.json",
+            "data_file": "data/text-article-6.json",
             "stimuli": "What is bipolar junction transistor? (BJT), A three terminal device in which emitter to collector current is controlled by base current." 
         },
         { 
@@ -213,7 +213,7 @@
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/texts-article-6.json",
+            "data_file": "data/text-article-6.json",
             "stimuli": "What is bandwidth? Width of the band of frequencies between the half power points." 
         }, 
         { 
@@ -221,7 +221,7 @@
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/texts-article-6.json",
+            "data_file": "data/text-article-6.json",
             "stimuli": "What is battery? A DC voltage source containing two or more cells that convert chemical energy to electrical energy." 
         },
         { 
@@ -229,7 +229,7 @@
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/texts-article-4.json",
+            "data_file": "data/text-article-4.json",
             "stimuli": "a more personal elemental approach" 
         },
         { 
@@ -237,7 +237,7 @@
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/texts-article-4.json",
+            "data_file": "data/text-article-4.json",
             "stimuli": "modern office and work supplies" 
         },
         { 
@@ -245,7 +245,7 @@
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/texts-article-4.json",
+            "data_file": "data/text-article-4.json",
             "stimuli": "designing everyday products" 
         },
         { 
@@ -253,7 +253,7 @@
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/texts-article-4.json",
+            "data_file": "data/text-article-4.json",
             "stimuli": "range of clients" 
         },
         { 
@@ -261,7 +261,7 @@
             "granularity": "sentence",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/texts-article-5.json",
+            "data_file": "data/text-article-5.json",
             "stimuli": "Actress Pamela Anderson urged Russia Thursday to join her fight to save whales and seals as she auctioned off a red float used in filming the hit 1990s show Baywatch." 
         }, 
         { 
@@ -269,7 +269,7 @@
             "granularity": "sentence",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/texts-article-5.json",
+            "data_file": "data/text-article-5.json",
             "stimuli": "Climate change is an urgent issue and I want to come here and speak to people that are brave enough to make big changes." 
         },
         { 
@@ -277,7 +277,7 @@
             "granularity": "sentence",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/texts-article-5.json",
+            "data_file": "data/text-article-5.json",
             "stimuli": "The 48-year-old Canadian-born actress flew to the Pacific port of Vladivostok to attend an international economic forum at the invitation of environment minister Sergei Donskoi." 
         },
         { 
@@ -285,7 +285,7 @@
             "granularity": "sentence",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/texts-article-5.json",
+            "data_file": "data/text-article-5.json",
             "stimuli": "The actress came to Russia after writing to President Vladimir Putin asking him to support her environmental causes, particularly her fight against whale hunting." 
         },
         { 
@@ -293,7 +293,7 @@
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/texts-article-3.json",
+            "data_file": "data/text-article-3.json",
             "stimuli": "A definite article indicates that its noun is a particular one which is identifiable to the listener. It may be something that the speaker has already mentioned, or it may be something uniquely specified. The definite article in English, for both singular and plural nouns, is the." 
         },
         { 
@@ -301,7 +301,7 @@
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/texts-article-3.json",
+            "data_file": "data/text-article-3.json",
             "stimuli": "Articles are usually characterized as either definite or indefinite. A few languages with well-developed systems of articles may distinguish additional subtypes. Within each type, languages may have various forms of each article, according to grammatical attributes such as gender, number, or case, or according to adjacent sounds."
         },
         { 
@@ -309,7 +309,7 @@
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/texts-article-3.json",
+            "data_file": "data/text-article-3.json",
             "stimuli": "However, recent developments show that definite articles are morphological elements linked to certain noun types due to lexicalization. Under this point of view, definiteness does not play a role in the selection of a definite article more than the lexical entry attached to the article." 
         },
         { 
@@ -317,7 +317,7 @@
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/texts-article-3.json",
+            "data_file": "data/text-article-3.json",
             "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." 
         },
         { 
@@ -325,7 +325,7 @@
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/texts-article-1.json",
+            "data_file": "data/text-article-1.json",
             "stimuli": "saturation and cut off"
         },
         { 
@@ -333,7 +333,7 @@
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/texts-article-1.json",
+            "data_file": "data/text-article-1.json",
             "stimuli": "atoms that accept free electrons" 
         },
         { 
@@ -341,7 +341,7 @@
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/texts-article-1.json",
+            "data_file": "data/text-article-1.json",
             "stimuli": "dissipation of energy" 
         },
         { 
@@ -349,7 +349,7 @@
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/texts-article-1.json",
+            "data_file": "data/text-article-1.json",
             "stimuli": "region of BJT operation"
         },
         { 
@@ -357,7 +357,7 @@
             "granularity": "sentence",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/texts-article-2.json",
+            "data_file": "data/text-article-2.json",
             "stimuli": "With the new plant, Singapore will be able to produce a total of 160 million gallons of water a day through treated seawater." 
         },
         { 
@@ -365,7 +365,7 @@
             "granularity": "sentence",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/texts-article-2.json",
+            "data_file": "data/text-article-2.json",
             "stimuli": "Singapore will build a fourth water desalination plant to meet future water needs in the city area and strengthen its drought resilience." 
         },
         { 
@@ -373,7 +373,7 @@
             "granularity": "sentence",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/texts-article-2.json",
+            "data_file": "data/text-article-2.json",
             "stimuli": "PUB deputy chief executive (policy and development), Mr Chua Soon Guan, said the agency has been making investments to build up and diversify Singapore's water sources to strengthen water security."
         },
         { 
@@ -381,7 +381,7 @@
             "granularity": "sentence",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/texts-article-2.json",
+            "data_file": "data/text-article-2.json",
             "stimuli": "It will be able to treat freshwater from the nearby Marina Reservoir and produce 30 million gallons of water per day." 
         },
         { 
@@ -389,7 +389,7 @@
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/texts-article-6.json",
+            "data_file": "data/text-article-6.json",
             "stimuli": "What is bandwidth? Width of the band of frequencies between the half power points." 
         },
         { 
@@ -397,7 +397,7 @@
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/texts-article-6.json",
+            "data_file": "data/text-article-6.json",
             "stimuli": "What is bistable multivibrator? A multi vibrator with two stable states. An external signal is required to change the output from one state to the other. Also called a latch." 
         },
         { 
@@ -405,7 +405,7 @@
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/texts-article-6.json",
+            "data_file": "data/text-article-6.json",
             "stimuli": "What is barrier potential? The natural difference of potential that exists across a forward biased pn junction." 
         }, 
         { 
@@ -413,7 +413,7 @@
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/texts-article-6.json",
+            "data_file": "data/text-article-6.json",
             "stimuli": "What is base biasing? A method of biasing a BJT in which the bias voltage is supplied to the base by means of a resistor." 
         },
         { 
@@ -421,7 +421,7 @@
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/texts-article-4.json",
+            "data_file": "data/text-article-4.json",
             "stimuli": "your current position" 
         },
         { 
@@ -429,7 +429,7 @@
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/texts-article-4.json",
+            "data_file": "data/text-article-4.json",
             "stimuli": "create art for its own sake" 
         },
         { 
@@ -437,7 +437,7 @@
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/texts-article-4.json",
+            "data_file": "data/text-article-4.json",
             "stimuli": "A beautifully crafted object" 
         },
         { 
@@ -445,7 +445,7 @@
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/texts-article-4.json",
+            "data_file": "data/text-article-4.json",
             "stimuli": "I was involved in product development" 
         },
         { 
@@ -453,7 +453,7 @@
             "granularity": "sentence",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/texts-article-5.json",
+            "data_file": "data/text-article-5.json",
             "stimuli": "The 48-year-old Canadian-born actress flew to the Pacific port of Vladivostok to attend an international economic forum at the invitation of environment minister Sergei Donskoi." 
         }, 
         { 
@@ -461,7 +461,7 @@
             "granularity": "sentence",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/texts-article-5.json",
+            "data_file": "data/text-article-5.json",
             "stimuli": "Actress Pamela Anderson urged Russia Thursday to join her fight to save whales and seals as she auctioned off a red float used in filming the hit 1990s show Baywatch." 
         },
         { 
@@ -469,7 +469,7 @@
             "granularity": "sentence",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/texts-article-5.json",
+            "data_file": "data/text-article-5.json",
             "stimuli": "Anderson attended a charity auction to raise money to protect endangered species and sold off a bright red float used in Baywatch filming for 3 million rubles (S$63,000) to a businessman, Interfax news agency reported." 
         },
         { 
@@ -477,7 +477,7 @@
             "granularity": "sentence",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/texts-article-5.json",
+            "data_file": "data/text-article-5.json",
             "stimuli": "Climate change is an urgent issue and I want to come here and speak to people that are brave enough to make big changes." 
         },
         { 
@@ -485,7 +485,7 @@
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/texts-article-3.json",
+            "data_file": "data/text-article-3.json",
             "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." 
         },
         { 
@@ -493,7 +493,7 @@
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/texts-article-3.json",
+            "data_file": "data/text-article-3.json",
             "stimuli": "Articles are usually characterized as either definite or indefinite. A few languages with well-developed systems of articles may distinguish additional subtypes. Within each type, languages may have various forms of each article, according to grammatical attributes such as gender, number, or case, or according to adjacent sounds."
         },
         { 
@@ -501,15 +501,15 @@
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/texts-article-3.json",
-            "stimuli": "An article (abbreviated ART) is a word (or prefix or suffix) that is used with a noun to indicate the type of reference being made by the noun. Articles specify grammatical definiteness of the noun, in some languages extending to volume or numerical scope. The articles in the English language are the and a/an, and (in certain contexts) some. 'An' and 'a' are modern forms of the Old English 'an', which in Anglian dialects was the number 'one' (compare 'on', in Saxon dialects) and survived into Modern Scots as the number 'ane'. Both 'on' (respelled 'one' by the Normans) and 'an' survived into Modern English, with 'one' used as the number and 'an' ('a', before nouns that begin with a consonant sound) as an indefinite article." 
+            "data_file": "data/text-article-3.json",
+            "stimuli": "An article (abbreviated ART) is a word (or prefix or suffix) that is used with a noun to indicate the type of reference being made by the noun. Articles specify grammatical definiteness of the noun, in some languages extending to volume or numerical scope. The articles in the English language are the and a/an, and (in certain context) some. 'An' and 'a' are modern forms of the Old English 'an', which in Anglian dialects was the number 'one' (compare 'on', in Saxon dialects) and survived into Modern Scots as the number 'ane'. Both 'on' (respelled 'one' by the Normans) and 'an' survived into Modern English, with 'one' used as the number and 'an' ('a', before nouns that begin with a consonant sound) as an indefinite article." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/texts-article-3.json",
+            "data_file": "data/text-article-3.json",
             "stimuli": "A definite article indicates that its noun is a particular one which is identifiable to the listener. It may be something that the speaker has already mentioned, or it may be something uniquely specified. The definite article in English, for both singular and plural nouns, is the." 
         },
         { 
@@ -517,7 +517,7 @@
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/texts-article-1.json",
+            "data_file": "data/text-article-1.json",
             "stimuli": "transform mechanical energy into AC electrical power"
         },
         { 
@@ -525,7 +525,7 @@
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/texts-article-1.json",
+            "data_file": "data/text-article-1.json",
             "stimuli": "dissipation of energy" 
         },
         { 
@@ -533,7 +533,7 @@
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/texts-article-1.json",
+            "data_file": "data/text-article-1.json",
             "stimuli": "AC generator" 
         },
         { 
@@ -541,7 +541,7 @@
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/texts-article-1.json",
+            "data_file": "data/text-article-1.json",
             "stimuli": "reactive components"
         },
         { 
@@ -549,7 +549,7 @@
             "granularity": "sentence",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/texts-article-2.json",
+            "data_file": "data/text-article-2.json",
             "stimuli": "Building up weather-resilient water sources will help us be better prepared for possible prolonged periods of dry spells in future." 
         },
         { 
@@ -557,7 +557,7 @@
             "granularity": "sentence",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/texts-article-2.json",
+            "data_file": "data/text-article-2.json",
             "stimuli": "It will be able to treat freshwater from the nearby Marina Reservoir and produce 30 million gallons of water per day." 
         },
         { 
@@ -565,7 +565,7 @@
             "granularity": "sentence",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/texts-article-2.json",
+            "data_file": "data/text-article-2.json",
             "stimuli": "It will be able to treat freshwater from the nearby Marina Reservoir and produce 30 million gallons of water per day."
         },
         { 
@@ -573,7 +573,7 @@
             "granularity": "sentence",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/texts-article-2.json",
+            "data_file": "data/text-article-2.json",
             "stimuli": "During the dry weather in recent years, we were able to ensure supply by increasing the production of Newater and desalinated water." 
         }        
     ]
