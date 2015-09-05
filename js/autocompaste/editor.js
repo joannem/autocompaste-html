@@ -685,9 +685,10 @@
         keydown_event.preventDefault();
 
       } else {
-        if (!/^(37|39|13)$/.test(keydown_event.keyCode)) {
-          $('.next-task-btn').prop('disabled', true);
-          enteredDoneTime = 0;
+        // if (!/^(37|39|13)$/.test(keydown_event.keyCode)) {
+        if (!/^(37|39)$/.test(keydown_event.keyCode)) {
+          // $('.next-task-btn').prop('disabled', true);
+          // enteredDoneTime = 0;
           return;
         }
 
@@ -747,13 +748,13 @@
 
         // Pressing Enter when list is not shown enables the Next Task
         // button and stops the timer
-        if (keydown_event.keyCode == 13) {
-          $('.next-task-btn').prop('disabled', false);
-          if (enteredDoneTime == 0) {
-            enteredDoneTime = new Date().getTime();
-          }
-          console.log("enter triggered!\n" + enteredDoneTime);
-        }
+        // if (keydown_event.keyCode == 13) {
+        //   $('.next-task-btn').prop('disabled', false);
+        //   if (enteredDoneTime == 0) {
+        //     enteredDoneTime = new Date().getTime();
+        //   }
+        //   console.log("enter triggered!\n" + enteredDoneTime);
+        // }
       }
     });
 

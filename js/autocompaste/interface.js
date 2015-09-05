@@ -136,28 +136,27 @@
           }
           acp_textarea.autocompaste(privates.engine);
         } else {
-          console.log("no autocompaste created");
-          addEventListener('keydown', function (keydown_event) {
-            if (!/^(37|39|13)$/.test(keydown_event.keyCode)) {
-              $('.next-task-btn').prop('disabled', true);
-              enteredDoneTime = 0;
-            }
-            // Pressing Enter when list is not shown enables the Next Task
-            // button and stops the timer
-            if (keydown_event.keyCode == 13) {
-              $('.next-task-btn').prop('disabled', false);
-              if (enteredDoneTime == 0) {
-                enteredDoneTime = new Date().getTime();
-              }
-              console.log("enter triggered!\n" + enteredDoneTime);
-            }
-          });
+          // addEventListener('keydown', function (keydown_event) {
+          //   if (!/^(37|39|13)$/.test(keydown_event.keyCode)) {
+          //     $('.next-task-btn').prop('disabled', true);
+          //     enteredDoneTime = 0;
+          //   }
+          //   // Pressing Enter when list is not shown enables the Next Task
+          //   // button and stops the timer
+          //   if (keydown_event.keyCode == 13) {
+          //     $('.next-task-btn').prop('disabled', false);
+          //     if (enteredDoneTime == 0) {
+          //       enteredDoneTime = new Date().getTime();
+          //     }
+          //     console.log("enter triggered!\n" + enteredDoneTime);
+          //   }
+          // });
       }
 
       privates.wm.createWindow("text_editor");
       privates.wm.setWindowTitle("text_editor", "Text Input Box");
       privates.wm.setWindowContent("text_editor", acp_textarea);
-      privates.wm.setWindowFooter("text_editor", "Hit <b>Esc</b> followed by <b>Enter</b> once you are done.");
+      privates.wm.setWindowFooter("text_editor", "Hit <b>Esc</b> to exit <i>AutoComPaste mode</i>.");
       acp_textarea.focus();
 
         // Dispatch an event.
@@ -176,7 +175,6 @@
     };
 
     this._createWindowForText = function _createWindowForText (text_title) {
-      console.log(text_title);
       privates.wm.createWindow(text_title, privates.window_width, 700);
       privates.wm.setWindowTitle(text_title, text_title);
       privates.wm.setWindowContent(text_title,

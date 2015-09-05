@@ -103,7 +103,7 @@ var ACPToolKit = (function () {
             $('#autocompaste-measure-get-single-line-height').remove();
             $('#autocompaste-measure-text-length-in-pixels').remove();
 
-            $('.next-task-btn').prop('disabled', true);
+            // $('.next-task-btn').prop('disabled', true);
 
             switch (options.technique) {
                 case 'TRADITIONAL':
@@ -167,7 +167,7 @@ var ACPToolKit = (function () {
             $('#autocompaste-measure-get-single-line-height').remove();
             $('#autocompaste-measure-text-length-in-pixels').remove();
             
-            $('.next-task-btn').prop('disabled', true);
+            // $('.next-task-btn').prop('disabled', true);
 
             switch (options.technique) {
                 case 'TRADITIONAL':
@@ -207,8 +207,8 @@ var ACPToolKit = (function () {
                 console.error('There is no trial running right now!');
                 return {};
             }
-            // var endTime = new Date().getTime();
-            var endTime = enteredDoneTime;
+            var endTime = new Date().getTime();
+            // var endTime = enteredDoneTime;
             console.log("new end time: " + enteredDoneTime);
             currentTrialOptions.start_time = startTime;
             currentTrialOptions.end_time = endTime;

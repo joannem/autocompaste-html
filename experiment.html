@@ -60,7 +60,8 @@
                     </table>
                     <p>Please copy-paste the following <span class="js-expt-granularity">phrase</span> from the <b>right panel</b> using the <span class="js-expt-technique">AUTOCOMPASTE</span> technique into the Text Input Box.</p>
                     <div id="stimuli" class="alert alert-danger js-expt-stimuli">This is a long stimuli!</div>
-                    <button class="btn btn-primary btn-lg next-task-btn" onclick="next()" disabled="disabled">Next Task</button>
+                    <!-- <button class="btn btn-primary btn-lg next-task-btn" onclick="next()" disabled="disabled">Next Task</button> -->
+                    <button class="btn btn-primary btn-lg next-task-btn" onclick="next()">Next Task</button>
                 </div>
                 <div id="autocompaste" class="col-sm-9">
                     <div id="autocompaste-display"></div>
@@ -80,7 +81,7 @@
         <script src="js/ACPToolKit.js"></script>
 
         <script>
-            var enteredDoneTime = 0;
+            // var enteredDoneTime = 0;
             var trialsData;
             var currentTrial;
             var totalNumberOfTrials;
