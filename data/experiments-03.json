@@ -2,38 +2,6 @@
     "experiments": [
         { 
             "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "window_width": "600",
-            "font_size": "10",
-            "data_file": "data/texts-article-1.json",
-            "stimuli": "transform mechanical energy into AC electrical power"
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "window_width": "600",
-            "font_size": "14",
-            "data_file": "data/texts-article-1.json",
-            "stimuli": "passes an AC signal" 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "window_width": "900",
-            "font_size": "10",
-            "data_file": "data/texts-article-1.json",
-            "stimuli": "A filter that uses an amplifier" 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "window_width": "900",
-            "font_size": "14",
-            "data_file": "data/texts-article-1.json",
-            "stimuli": "saturation and cut off"
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
             "granularity": "sentence",
             "window_width": "600",
             "font_size": "10",
@@ -66,6 +34,38 @@
         },
         { 
             "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "window_width": "600",
+            "font_size": "10",
+            "data_file": "data/texts-article-1.json",
+            "stimuli": "transform mechanical energy into AC electrical power"
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "window_width": "600",
+            "font_size": "14",
+            "data_file": "data/texts-article-1.json",
+            "stimuli": "passes an AC signal" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "window_width": "900",
+            "font_size": "10",
+            "data_file": "data/texts-article-1.json",
+            "stimuli": "A filter that uses an amplifier" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "window_width": "900",
+            "font_size": "14",
+            "data_file": "data/texts-article-1.json",
+            "stimuli": "saturation and cut off"
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "10",
@@ -95,6 +95,38 @@
             "font_size": "14",
             "data_file": "data/texts-article-3.json",
             "stimuli": "However, recent developments show that definite articles are morphological elements linked to certain noun types due to lexicalization. Under this point of view, definiteness does not play a role in the selection of a definite article more than the lexical entry attached to the article." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "window_width": "600",
+            "font_size": "10",
+            "data_file": "data/texts-article-5.json",
+            "stimuli": "Climate change is an urgent issue and I want to come here and speak to people that are brave enough to make big changes." 
+        }, 
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "window_width": "600",
+            "font_size": "14",
+            "data_file": "data/texts-article-5.json",
+            "stimuli": "The 48-year-old Canadian-born actress flew to the Pacific port of Vladivostok to attend an international economic forum at the invitation of environment minister Sergei Donskoi." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "window_width": "600",
+            "font_size": "14",
+            "data_file": "data/texts-article-5.json",
+            "stimuli": "The actress came to Russia after writing to President Vladimir Putin asking him to support her environmental causes, particularly her fight against whale hunting." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "window_width": "900",
+            "font_size": "14",
+            "data_file": "data/texts-article-5.json",
+            "stimuli": "Anderson attended a charity auction to raise money to protect endangered species and sold off a bright red float used in Baywatch filming for 3 million rubles (S$63,000) to a businessman, Interfax news agency reported." 
         },
         { 
             "technique": "TRADITIONAL", 
@@ -130,38 +162,6 @@
         },
         { 
             "technique": "TRADITIONAL", 
-            "granularity": "sentence",
-            "window_width": "600",
-            "font_size": "10",
-            "data_file": "data/texts-article-5.json",
-            "stimuli": "Climate change is an urgent issue and I want to come here and speak to people that are brave enough to make big changes." 
-        }, 
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "sentence",
-            "window_width": "600",
-            "font_size": "14",
-            "data_file": "data/texts-article-5.json",
-            "stimuli": "The 48-year-old Canadian-born actress flew to the Pacific port of Vladivostok to attend an international economic forum at the invitation of environment minister Sergei Donskoi." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "sentence",
-            "window_width": "600",
-            "font_size": "14",
-            "data_file": "data/texts-article-5.json",
-            "stimuli": "The actress came to Russia after writing to President Vladimir Putin asking him to support her environmental causes, particularly her fight against whale hunting." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "sentence",
-            "window_width": "900",
-            "font_size": "14",
-            "data_file": "data/texts-article-5.json",
-            "stimuli": "Anderson attended a charity auction to raise money to protect endangered species and sold off a bright red float used in Baywatch filming for 3 million rubles (S$63,000) to a businessman, Interfax news agency reported." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "10",
@@ -179,8 +179,8 @@
         { 
             "technique": "TRADITIONAL", 
             "granularity": "paragraph",
-            "window_width": "600",
-            "font_size": "14",
+            "window_width": "900",
+            "font_size": "10",
             "data_file": "data/texts-article-6.json",
             "stimuli": "What is bistable multivibrator? A multi vibrator with two stable states. An external signal is required to change the output from one state to the other. Also called a latch." 
         }, 
@@ -191,38 +191,6 @@
             "font_size": "14",
             "data_file": "data/texts-article-6.json",
             "stimuli": "What is bipolar junction transistor? (BJT), A three terminal device in which emitter to collector current is controlled by base current." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "window_width": "600",
-            "font_size": "10",
-            "data_file": "data/texts-article-1.json",
-            "stimuli": "saturation and cut off"
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "window_width": "600",
-            "font_size": "14",
-            "data_file": "data/texts-article-1.json",
-            "stimuli": "atoms that accept free electrons" 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "window_width": "900",
-            "font_size": "10",
-            "data_file": "data/texts-article-1.json",
-            "stimuli": "dissipation of energy" 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "window_width": "900",
-            "font_size": "14",
-            "data_file": "data/texts-article-1.json",
-            "stimuli": "region of BJT operation"
         },
         { 
             "technique": "AUTOCOMPASTE", 
@@ -258,6 +226,38 @@
         },
         { 
             "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "window_width": "600",
+            "font_size": "10",
+            "data_file": "data/texts-article-1.json",
+            "stimuli": "saturation and cut off"
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "window_width": "600",
+            "font_size": "14",
+            "data_file": "data/texts-article-1.json",
+            "stimuli": "atoms that accept free electrons" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "window_width": "900",
+            "font_size": "10",
+            "data_file": "data/texts-article-1.json",
+            "stimuli": "dissipation of energy" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "window_width": "900",
+            "font_size": "14",
+            "data_file": "data/texts-article-1.json",
+            "stimuli": "region of BJT operation"
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "10",
@@ -287,6 +287,38 @@
             "font_size": "14",
             "data_file": "data/texts-article-3.json",
             "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "window_width": "600",
+            "font_size": "10",
+            "data_file": "data/texts-article-5.json",
+            "stimuli": "Actress Pamela Anderson urged Russia Thursday to join her fight to save whales and seals as she auctioned off a red float used in filming the hit 1990s show Baywatch." 
+        }, 
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "window_width": "600",
+            "font_size": "14",
+            "data_file": "data/texts-article-5.json",
+            "stimuli": "Climate change is an urgent issue and I want to come here and speak to people that are brave enough to make big changes." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "window_width": "900",
+            "font_size": "10",
+            "data_file": "data/texts-article-5.json",
+            "stimuli": "The 48-year-old Canadian-born actress flew to the Pacific port of Vladivostok to attend an international economic forum at the invitation of environment minister Sergei Donskoi." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "window_width": "900",
+            "font_size": "14",
+            "data_file": "data/texts-article-5.json",
+            "stimuli": "The actress came to Russia after writing to President Vladimir Putin asking him to support her environmental causes, particularly her fight against whale hunting." 
         },
         { 
             "technique": "TRADITIONAL", 
@@ -322,38 +354,6 @@
         },
         { 
             "technique": "TRADITIONAL", 
-            "granularity": "sentence",
-            "window_width": "600",
-            "font_size": "10",
-            "data_file": "data/texts-article-5.json",
-            "stimuli": "Actress Pamela Anderson urged Russia Thursday to join her fight to save whales and seals as she auctioned off a red float used in filming the hit 1990s show Baywatch." 
-        }, 
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "sentence",
-            "window_width": "600",
-            "font_size": "14",
-            "data_file": "data/texts-article-5.json",
-            "stimuli": "Climate change is an urgent issue and I want to come here and speak to people that are brave enough to make big changes." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "sentence",
-            "window_width": "600",
-            "font_size": "14",
-            "data_file": "data/texts-article-5.json",
-            "stimuli": "The 48-year-old Canadian-born actress flew to the Pacific port of Vladivostok to attend an international economic forum at the invitation of environment minister Sergei Donskoi." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "sentence",
-            "window_width": "900",
-            "font_size": "14",
-            "data_file": "data/texts-article-5.json",
-            "stimuli": "The actress came to Russia after writing to President Vladimir Putin asking him to support her environmental causes, particularly her fight against whale hunting." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "10",
@@ -383,38 +383,6 @@
             "font_size": "14",
             "data_file": "data/texts-article-6.json",
             "stimuli": "What is battery? A DC voltage source containing two or more cells that convert chemical energy to electrical energy." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "window_width": "600",
-            "font_size": "10",
-            "data_file": "data/texts-article-1.json",
-            "stimuli": "transform mechanical energy into AC electrical power"
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "window_width": "600",
-            "font_size": "14",
-            "data_file": "data/texts-article-1.json",
-            "stimuli": "dissipation of energy" 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "window_width": "900",
-            "font_size": "10",
-            "data_file": "data/texts-article-1.json",
-            "stimuli": "AC generator" 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "window_width": "900",
-            "font_size": "14",
-            "data_file": "data/texts-article-1.json",
-            "stimuli": "reactive components"
         },
         { 
             "technique": "AUTOCOMPASTE", 
@@ -450,6 +418,38 @@
         },
         { 
             "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "window_width": "600",
+            "font_size": "10",
+            "data_file": "data/texts-article-1.json",
+            "stimuli": "transform mechanical energy into AC electrical power"
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "window_width": "600",
+            "font_size": "14",
+            "data_file": "data/texts-article-1.json",
+            "stimuli": "dissipation of energy" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "window_width": "900",
+            "font_size": "10",
+            "data_file": "data/texts-article-1.json",
+            "stimuli": "AC generator" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "window_width": "900",
+            "font_size": "14",
+            "data_file": "data/texts-article-1.json",
+            "stimuli": "reactive components"
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "10",
@@ -482,6 +482,38 @@
         },
         { 
             "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "window_width": "600",
+            "font_size": "10",
+            "data_file": "data/texts-article-5.json",
+            "stimuli": "The 48-year-old Canadian-born actress flew to the Pacific port of Vladivostok to attend an international economic forum at the invitation of environment minister Sergei Donskoi." 
+        }, 
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "window_width": "600",
+            "font_size": "14",
+            "data_file": "data/texts-article-5.json",
+            "stimuli": "Actress Pamela Anderson urged Russia Thursday to join her fight to save whales and seals as she auctioned off a red float used in filming the hit 1990s show Baywatch." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "window_width": "900",
+            "font_size": "10",
+            "data_file": "data/texts-article-5.json",
+            "stimuli": "Anderson attended a charity auction to raise money to protect endangered species and sold off a bright red float used in Baywatch filming for 3 million rubles (S$63,000) to a businessman, Interfax news agency reported." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "window_width": "900",
+            "font_size": "14",
+            "data_file": "data/texts-article-5.json",
+            "stimuli": "Climate change is an urgent issue and I want to come here and speak to people that are brave enough to make big changes." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "10",
@@ -511,38 +543,6 @@
             "font_size": "14",
             "data_file": "data/texts-article-4.json",
             "stimuli": "I was involved in product development" 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "sentence",
-            "window_width": "600",
-            "font_size": "10",
-            "data_file": "data/texts-article-5.json",
-            "stimuli": "The 48-year-old Canadian-born actress flew to the Pacific port of Vladivostok to attend an international economic forum at the invitation of environment minister Sergei Donskoi." 
-        }, 
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "sentence",
-            "window_width": "600",
-            "font_size": "14",
-            "data_file": "data/texts-article-5.json",
-            "stimuli": "Actress Pamela Anderson urged Russia Thursday to join her fight to save whales and seals as she auctioned off a red float used in filming the hit 1990s show Baywatch." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "sentence",
-            "window_width": "600",
-            "font_size": "14",
-            "data_file": "data/texts-article-5.json",
-            "stimuli": "Anderson attended a charity auction to raise money to protect endangered species and sold off a bright red float used in Baywatch filming for 3 million rubles (S$63,000) to a businessman, Interfax news agency reported." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "sentence",
-            "window_width": "900",
-            "font_size": "14",
-            "data_file": "data/texts-article-5.json",
-            "stimuli": "Climate change is an urgent issue and I want to come here and speak to people that are brave enough to make big changes." 
         },
         { 
             "technique": "TRADITIONAL", 

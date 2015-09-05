@@ -179,8 +179,8 @@
         { 
             "technique": "TRADITIONAL", 
             "granularity": "paragraph",
-            "window_width": "600",
-            "font_size": "14",
+            "window_width": "900",
+            "font_size": "10",
             "data_file": "data/texts-article-6.json",
             "stimuli": "What is bistable multivibrator? A multi vibrator with two stable states. An external signal is required to change the output from one state to the other. Also called a latch." 
         }, 
@@ -339,8 +339,8 @@
         { 
             "technique": "TRADITIONAL", 
             "granularity": "sentence",
-            "window_width": "600",
-            "font_size": "14",
+            "window_width": "900",
+            "font_size": "10",
             "data_file": "data/texts-article-5.json",
             "stimuli": "The 48-year-old Canadian-born actress flew to the Pacific port of Vladivostok to attend an international economic forum at the invitation of environment minister Sergei Donskoi." 
         },
@@ -531,8 +531,8 @@
         { 
             "technique": "TRADITIONAL", 
             "granularity": "sentence",
-            "window_width": "600",
-            "font_size": "14",
+            "window_width": "900",
+            "font_size": "10",
             "data_file": "data/texts-article-5.json",
             "stimuli": "Anderson attended a charity auction to raise money to protect endangered species and sold off a bright red float used in Baywatch filming for 3 million rubles (S$63,000) to a businessman, Interfax news agency reported." 
         },
@@ -563,8 +563,8 @@
         { 
             "technique": "TRADITIONAL", 
             "granularity": "paragraph",
-            "window_width": "600",
-            "font_size": "14",
+            "window_width": "900",
+            "font_size": "10",
             "data_file": "data/texts-article-6.json",
             "stimuli": "What is barrier potential? The natural difference of potential that exists across a forward biased pn junction." 
         }, 

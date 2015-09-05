@@ -2,38 +2,6 @@
     "experiments": [
         { 
             "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "window_width": "600",
-            "font_size": "10",
-            "data_file": "data/texts-article-1.json",
-            "stimuli": "transform mechanical energy into AC electrical power"
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "window_width": "600",
-            "font_size": "14",
-            "data_file": "data/texts-article-1.json",
-            "stimuli": "passes an AC signal" 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "window_width": "900",
-            "font_size": "10",
-            "data_file": "data/texts-article-1.json",
-            "stimuli": "A filter that uses an amplifier" 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "window_width": "900",
-            "font_size": "14",
-            "data_file": "data/texts-article-1.json",
-            "stimuli": "saturation and cut off"
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
             "granularity": "sentence",
             "window_width": "600",
             "font_size": "10",
@@ -97,36 +65,36 @@
             "stimuli": "However, recent developments show that definite articles are morphological elements linked to certain noun types due to lexicalization. Under this point of view, definiteness does not play a role in the selection of a definite article more than the lexical entry attached to the article." 
         },
         { 
-            "technique": "TRADITIONAL", 
+            "technique": "AUTOCOMPASTE", 
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/texts-article-4.json",
-            "stimuli": "reconfiguring bicycle components" 
+            "data_file": "data/texts-article-1.json",
+            "stimuli": "transform mechanical energy into AC electrical power"
         },
         { 
-            "technique": "TRADITIONAL", 
+            "technique": "AUTOCOMPASTE", 
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/texts-article-4.json",
-            "stimuli": "well-designed products" 
+            "data_file": "data/texts-article-1.json",
+            "stimuli": "passes an AC signal" 
         },
         { 
-            "technique": "TRADITIONAL", 
+            "technique": "AUTOCOMPASTE", 
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/texts-article-4.json",
-            "stimuli": "I was more interested" 
+            "data_file": "data/texts-article-1.json",
+            "stimuli": "A filter that uses an amplifier" 
         },
         { 
-            "technique": "TRADITIONAL", 
+            "technique": "AUTOCOMPASTE", 
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/texts-article-4.json",
-            "stimuli": "I was involved in product development for global brands" 
+            "data_file": "data/texts-article-1.json",
+            "stimuli": "saturation and cut off"
         },
         { 
             "technique": "TRADITIONAL", 
@@ -179,8 +147,8 @@
         { 
             "technique": "TRADITIONAL", 
             "granularity": "paragraph",
-            "window_width": "600",
-            "font_size": "14",
+            "window_width": "900",
+            "font_size": "10",
             "data_file": "data/texts-article-6.json",
             "stimuli": "What is bistable multivibrator? A multi vibrator with two stable states. An external signal is required to change the output from one state to the other. Also called a latch." 
         }, 
@@ -193,36 +161,36 @@
             "stimuli": "What is bipolar junction transistor? (BJT), A three terminal device in which emitter to collector current is controlled by base current." 
         },
         { 
-            "technique": "AUTOCOMPASTE", 
+            "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/texts-article-1.json",
-            "stimuli": "saturation and cut off"
+            "data_file": "data/texts-article-4.json",
+            "stimuli": "reconfiguring bicycle components" 
         },
         { 
-            "technique": "AUTOCOMPASTE", 
+            "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/texts-article-1.json",
-            "stimuli": "atoms that accept free electrons" 
+            "data_file": "data/texts-article-4.json",
+            "stimuli": "well-designed products" 
         },
         { 
-            "technique": "AUTOCOMPASTE", 
+            "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/texts-article-1.json",
-            "stimuli": "dissipation of energy" 
+            "data_file": "data/texts-article-4.json",
+            "stimuli": "I was more interested" 
         },
         { 
-            "technique": "AUTOCOMPASTE", 
+            "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/texts-article-1.json",
-            "stimuli": "region of BJT operation"
+            "data_file": "data/texts-article-4.json",
+            "stimuli": "I was involved in product development for global brands" 
         },
         { 
             "technique": "AUTOCOMPASTE", 
@@ -289,36 +257,36 @@
             "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." 
         },
         { 
-            "technique": "TRADITIONAL", 
+            "technique": "AUTOCOMPASTE", 
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/texts-article-4.json",
-            "stimuli": "a more personal elemental approach" 
+            "data_file": "data/texts-article-1.json",
+            "stimuli": "saturation and cut off"
         },
         { 
-            "technique": "TRADITIONAL", 
+            "technique": "AUTOCOMPASTE", 
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/texts-article-4.json",
-            "stimuli": "modern office and work supplies" 
+            "data_file": "data/texts-article-1.json",
+            "stimuli": "atoms that accept free electrons" 
         },
         { 
-            "technique": "TRADITIONAL", 
+            "technique": "AUTOCOMPASTE", 
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/texts-article-4.json",
-            "stimuli": "designing everyday products" 
+            "data_file": "data/texts-article-1.json",
+            "stimuli": "dissipation of energy" 
         },
         { 
-            "technique": "TRADITIONAL", 
+            "technique": "AUTOCOMPASTE", 
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/texts-article-4.json",
-            "stimuli": "range of clients" 
+            "data_file": "data/texts-article-1.json",
+            "stimuli": "region of BJT operation"
         },
         { 
             "technique": "TRADITIONAL", 
@@ -339,8 +307,8 @@
         { 
             "technique": "TRADITIONAL", 
             "granularity": "sentence",
-            "window_width": "600",
-            "font_size": "14",
+            "window_width": "900",
+            "font_size": "10",
             "data_file": "data/texts-article-5.json",
             "stimuli": "The 48-year-old Canadian-born actress flew to the Pacific port of Vladivostok to attend an international economic forum at the invitation of environment minister Sergei Donskoi." 
         },
@@ -385,36 +353,36 @@
             "stimuli": "What is battery? A DC voltage source containing two or more cells that convert chemical energy to electrical energy." 
         },
         { 
-            "technique": "AUTOCOMPASTE", 
+            "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/texts-article-1.json",
-            "stimuli": "transform mechanical energy into AC electrical power"
+            "data_file": "data/texts-article-4.json",
+            "stimuli": "a more personal elemental approach" 
         },
         { 
-            "technique": "AUTOCOMPASTE", 
+            "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/texts-article-1.json",
-            "stimuli": "dissipation of energy" 
+            "data_file": "data/texts-article-4.json",
+            "stimuli": "modern office and work supplies" 
         },
         { 
-            "technique": "AUTOCOMPASTE", 
+            "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/texts-article-1.json",
-            "stimuli": "AC generator" 
+            "data_file": "data/texts-article-4.json",
+            "stimuli": "designing everyday products" 
         },
         { 
-            "technique": "AUTOCOMPASTE", 
+            "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/texts-article-1.json",
-            "stimuli": "reactive components"
+            "data_file": "data/texts-article-4.json",
+            "stimuli": "range of clients" 
         },
         { 
             "technique": "AUTOCOMPASTE", 
@@ -481,36 +449,36 @@
             "stimuli": "A definite article indicates that its noun is a particular one which is identifiable to the listener. It may be something that the speaker has already mentioned, or it may be something uniquely specified. The definite article in English, for both singular and plural nouns, is the." 
         },
         { 
-            "technique": "TRADITIONAL", 
+            "technique": "AUTOCOMPASTE", 
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/texts-article-4.json",
-            "stimuli": "your current position" 
+            "data_file": "data/texts-article-1.json",
+            "stimuli": "transform mechanical energy into AC electrical power"
         },
         { 
-            "technique": "TRADITIONAL", 
+            "technique": "AUTOCOMPASTE", 
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/texts-article-4.json",
-            "stimuli": "create art for its own sake" 
+            "data_file": "data/texts-article-1.json",
+            "stimuli": "dissipation of energy" 
         },
         { 
-            "technique": "TRADITIONAL", 
+            "technique": "AUTOCOMPASTE", 
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/texts-article-4.json",
-            "stimuli": "A beautifully crafted object" 
+            "data_file": "data/texts-article-1.json",
+            "stimuli": "AC generator" 
         },
         { 
-            "technique": "TRADITIONAL", 
+            "technique": "AUTOCOMPASTE", 
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/texts-article-4.json",
-            "stimuli": "I was involved in product development" 
+            "data_file": "data/texts-article-1.json",
+            "stimuli": "reactive components"
         },
         { 
             "technique": "TRADITIONAL", 
@@ -531,8 +499,8 @@
         { 
             "technique": "TRADITIONAL", 
             "granularity": "sentence",
-            "window_width": "600",
-            "font_size": "14",
+            "window_width": "900",
+            "font_size": "10",
             "data_file": "data/texts-article-5.json",
             "stimuli": "Anderson attended a charity auction to raise money to protect endangered species and sold off a bright red float used in Baywatch filming for 3 million rubles (S$63,000) to a businessman, Interfax news agency reported." 
         },
@@ -575,6 +543,38 @@
             "font_size": "14",
             "data_file": "data/texts-article-6.json",
             "stimuli": "What is base biasing? A method of biasing a BJT in which the bias voltage is supplied to the base by means of a resistor." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "window_width": "600",
+            "font_size": "10",
+            "data_file": "data/texts-article-4.json",
+            "stimuli": "your current position" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "window_width": "600",
+            "font_size": "14",
+            "data_file": "data/texts-article-4.json",
+            "stimuli": "create art for its own sake" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "window_width": "900",
+            "font_size": "10",
+            "data_file": "data/texts-article-4.json",
+            "stimuli": "A beautifully crafted object" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "window_width": "900",
+            "font_size": "14",
+            "data_file": "data/texts-article-4.json",
+            "stimuli": "I was involved in product development" 
         }        
     ]
 }

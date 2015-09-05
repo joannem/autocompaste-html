@@ -2,6 +2,38 @@
     "experiments": [
         { 
             "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "window_width": "600",
+            "font_size": "10",
+            "data_file": "data/texts-article-3.json",
+            "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "window_width": "600",
+            "font_size": "14",
+            "data_file": "data/texts-article-3.json",
+            "stimuli": "Articles are usually characterized as either definite or indefinite. A few languages with well-developed systems of articles may distinguish additional subtypes. Within each type, languages may have various forms of each article, according to grammatical attributes such as gender, number, or case, or according to adjacent sounds."
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "window_width": "900",
+            "font_size": "10",
+            "data_file": "data/texts-article-3.json",
+            "stimuli": "A definite article indicates that its noun is a particular one which is identifiable to the listener. It may be something that the speaker has already mentioned, or it may be something uniquely specified. The definite article in English, for both singular and plural nouns, is the." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "window_width": "900",
+            "font_size": "14",
+            "data_file": "data/texts-article-3.json",
+            "stimuli": "However, recent developments show that definite articles are morphological elements linked to certain noun types due to lexicalization. Under this point of view, definiteness does not play a role in the selection of a definite article more than the lexical entry attached to the article." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "10",
@@ -65,36 +97,36 @@
             "stimuli": "With the new plant, Singapore will be able to produce a total of 160 million gallons of water a day through treated seawater." 
         },
         { 
-            "technique": "AUTOCOMPASTE", 
+            "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/texts-article-3.json",
-            "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." 
+            "data_file": "data/texts-article-6.json",
+            "stimuli": "What is bandwidth? Width of the band of frequencies between the half power points." 
         },
         { 
-            "technique": "AUTOCOMPASTE", 
+            "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/texts-article-3.json",
-            "stimuli": "Articles are usually characterized as either definite or indefinite. A few languages with well-developed systems of articles may distinguish additional subtypes. Within each type, languages may have various forms of each article, according to grammatical attributes such as gender, number, or case, or according to adjacent sounds."
+            "data_file": "data/texts-article-6.json",
+            "stimuli": "What is binary? A number system having only two symbols, 0 and 1. A base 2 number system." 
         },
         { 
-            "technique": "AUTOCOMPASTE", 
+            "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/texts-article-3.json",
-            "stimuli": "A definite article indicates that its noun is a particular one which is identifiable to the listener. It may be something that the speaker has already mentioned, or it may be something uniquely specified. The definite article in English, for both singular and plural nouns, is the." 
-        },
+            "data_file": "data/texts-article-6.json",
+            "stimuli": "What is bistable multivibrator? A multi vibrator with two stable states. An external signal is required to change the output from one state to the other. Also called a latch." 
+        }, 
         { 
-            "technique": "AUTOCOMPASTE", 
+            "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/texts-article-3.json",
-            "stimuli": "However, recent developments show that definite articles are morphological elements linked to certain noun types due to lexicalization. Under this point of view, definiteness does not play a role in the selection of a definite article more than the lexical entry attached to the article." 
+            "data_file": "data/texts-article-6.json",
+            "stimuli": "What is bipolar junction transistor? (BJT), A three terminal device in which emitter to collector current is controlled by base current." 
         },
         { 
             "technique": "TRADITIONAL", 
@@ -161,36 +193,36 @@
             "stimuli": "Anderson attended a charity auction to raise money to protect endangered species and sold off a bright red float used in Baywatch filming for 3 million rubles (S$63,000) to a businessman, Interfax news agency reported." 
         },
         { 
-            "technique": "TRADITIONAL", 
+            "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/texts-article-6.json",
-            "stimuli": "What is bandwidth? Width of the band of frequencies between the half power points." 
+            "data_file": "data/texts-article-3.json",
+            "stimuli": "A definite article indicates that its noun is a particular one which is identifiable to the listener. It may be something that the speaker has already mentioned, or it may be something uniquely specified. The definite article in English, for both singular and plural nouns, is the." 
         },
         { 
-            "technique": "TRADITIONAL", 
+            "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/texts-article-6.json",
-            "stimuli": "What is binary? A number system having only two symbols, 0 and 1. A base 2 number system." 
+            "data_file": "data/texts-article-3.json",
+            "stimuli": "Articles are usually characterized as either definite or indefinite. A few languages with well-developed systems of articles may distinguish additional subtypes. Within each type, languages may have various forms of each article, according to grammatical attributes such as gender, number, or case, or according to adjacent sounds."
         },
         { 
-            "technique": "TRADITIONAL", 
+            "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
-            "window_width": "600",
-            "font_size": "14",
-            "data_file": "data/texts-article-6.json",
-            "stimuli": "What is bistable multivibrator? A multi vibrator with two stable states. An external signal is required to change the output from one state to the other. Also called a latch." 
-        }, 
+            "window_width": "900",
+            "font_size": "10",
+            "data_file": "data/texts-article-3.json",
+            "stimuli": "However, recent developments show that definite articles are morphological elements linked to certain noun types due to lexicalization. Under this point of view, definiteness does not play a role in the selection of a definite article more than the lexical entry attached to the article." 
+        },
         { 
-            "technique": "TRADITIONAL", 
+            "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/texts-article-6.json",
-            "stimuli": "What is bipolar junction transistor? (BJT), A three terminal device in which emitter to collector current is controlled by base current." 
+            "data_file": "data/texts-article-3.json",
+            "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
@@ -257,36 +289,36 @@
             "stimuli": "It will be able to treat freshwater from the nearby Marina Reservoir and produce 30 million gallons of water per day." 
         },
         { 
-            "technique": "AUTOCOMPASTE", 
+            "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/texts-article-3.json",
-            "stimuli": "A definite article indicates that its noun is a particular one which is identifiable to the listener. It may be something that the speaker has already mentioned, or it may be something uniquely specified. The definite article in English, for both singular and plural nouns, is the." 
+            "data_file": "data/texts-article-6.json",
+            "stimuli": "What is base biasing? A method of biasing a BJT in which the bias voltage is supplied to the base by means of a resistor." 
         },
         { 
-            "technique": "AUTOCOMPASTE", 
+            "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/texts-article-3.json",
-            "stimuli": "Articles are usually characterized as either definite or indefinite. A few languages with well-developed systems of articles may distinguish additional subtypes. Within each type, languages may have various forms of each article, according to grammatical attributes such as gender, number, or case, or according to adjacent sounds."
+            "data_file": "data/texts-article-6.json",
+            "stimuli": "What is bipolar junction transistor? (BJT), A three terminal device in which emitter to collector current is controlled by base current." 
         },
         { 
-            "technique": "AUTOCOMPASTE", 
+            "technique": "TRADITIONAL", 
             "granularity": "paragraph",
-            "window_width": "900",
-            "font_size": "10",
-            "data_file": "data/texts-article-3.json",
-            "stimuli": "However, recent developments show that definite articles are morphological elements linked to certain noun types due to lexicalization. Under this point of view, definiteness does not play a role in the selection of a definite article more than the lexical entry attached to the article." 
-        },
+            "window_width": "600",
+            "font_size": "14",
+            "data_file": "data/texts-article-6.json",
+            "stimuli": "What is bandwidth? Width of the band of frequencies between the half power points." 
+        }, 
         { 
-            "technique": "AUTOCOMPASTE", 
+            "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/texts-article-3.json",
-            "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." 
+            "data_file": "data/texts-article-6.json",
+            "stimuli": "What is battery? A DC voltage source containing two or more cells that convert chemical energy to electrical energy." 
         },
         { 
             "technique": "TRADITIONAL", 
@@ -339,8 +371,8 @@
         { 
             "technique": "TRADITIONAL", 
             "granularity": "sentence",
-            "window_width": "600",
-            "font_size": "14",
+            "window_width": "900",
+            "font_size": "10",
             "data_file": "data/texts-article-5.json",
             "stimuli": "The 48-year-old Canadian-born actress flew to the Pacific port of Vladivostok to attend an international economic forum at the invitation of environment minister Sergei Donskoi." 
         },
@@ -353,36 +385,36 @@
             "stimuli": "The actress came to Russia after writing to President Vladimir Putin asking him to support her environmental causes, particularly her fight against whale hunting." 
         },
         { 
-            "technique": "TRADITIONAL", 
+            "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/texts-article-6.json",
-            "stimuli": "What is base biasing? A method of biasing a BJT in which the bias voltage is supplied to the base by means of a resistor." 
+            "data_file": "data/texts-article-3.json",
+            "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." 
         },
         { 
-            "technique": "TRADITIONAL", 
+            "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/texts-article-6.json",
-            "stimuli": "What is bipolar junction transistor? (BJT), A three terminal device in which emitter to collector current is controlled by base current." 
+            "data_file": "data/texts-article-3.json",
+            "stimuli": "Articles are usually characterized as either definite or indefinite. A few languages with well-developed systems of articles may distinguish additional subtypes. Within each type, languages may have various forms of each article, according to grammatical attributes such as gender, number, or case, or according to adjacent sounds."
         },
         { 
-            "technique": "TRADITIONAL", 
+            "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
-            "window_width": "600",
-            "font_size": "14",
-            "data_file": "data/texts-article-6.json",
-            "stimuli": "What is bandwidth? Width of the band of frequencies between the half power points." 
-        }, 
+            "window_width": "900",
+            "font_size": "10",
+            "data_file": "data/texts-article-3.json",
+            "stimuli": "An article (abbreviated ART) is a word (or prefix or suffix) that is used with a noun to indicate the type of reference being made by the noun. Articles specify grammatical definiteness of the noun, in some languages extending to volume or numerical scope. The articles in the English language are the and a/an, and (in certain contexts) some. 'An' and 'a' are modern forms of the Old English 'an', which in Anglian dialects was the number 'one' (compare 'on', in Saxon dialects) and survived into Modern Scots as the number 'ane'. Both 'on' (respelled 'one' by the Normans) and 'an' survived into Modern English, with 'one' used as the number and 'an' ('a', before nouns that begin with a consonant sound) as an indefinite article." 
+        },
         { 
-            "technique": "TRADITIONAL", 
+            "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/texts-article-6.json",
-            "stimuli": "What is battery? A DC voltage source containing two or more cells that convert chemical energy to electrical energy." 
+            "data_file": "data/texts-article-3.json",
+            "stimuli": "A definite article indicates that its noun is a particular one which is identifiable to the listener. It may be something that the speaker has already mentioned, or it may be something uniquely specified. The definite article in English, for both singular and plural nouns, is the." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
@@ -449,36 +481,36 @@
             "stimuli": "During the dry weather in recent years, we were able to ensure supply by increasing the production of Newater and desalinated water." 
         },
         { 
-            "technique": "AUTOCOMPASTE", 
+            "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/texts-article-3.json",
-            "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." 
+            "data_file": "data/texts-article-6.json",
+            "stimuli": "What is bandwidth? Width of the band of frequencies between the half power points." 
         },
         { 
-            "technique": "AUTOCOMPASTE", 
+            "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/texts-article-3.json",
-            "stimuli": "Articles are usually characterized as either definite or indefinite. A few languages with well-developed systems of articles may distinguish additional subtypes. Within each type, languages may have various forms of each article, according to grammatical attributes such as gender, number, or case, or according to adjacent sounds."
+            "data_file": "data/texts-article-6.json",
+            "stimuli": "What is bistable multivibrator? A multi vibrator with two stable states. An external signal is required to change the output from one state to the other. Also called a latch." 
         },
         { 
-            "technique": "AUTOCOMPASTE", 
+            "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/texts-article-3.json",
-            "stimuli": "An article (abbreviated ART) is a word (or prefix or suffix) that is used with a noun to indicate the type of reference being made by the noun. Articles specify grammatical definiteness of the noun, in some languages extending to volume or numerical scope. The articles in the English language are the and a/an, and (in certain contexts) some. 'An' and 'a' are modern forms of the Old English 'an', which in Anglian dialects was the number 'one' (compare 'on', in Saxon dialects) and survived into Modern Scots as the number 'ane'. Both 'on' (respelled 'one' by the Normans) and 'an' survived into Modern English, with 'one' used as the number and 'an' ('a', before nouns that begin with a consonant sound) as an indefinite article." 
-        },
+            "data_file": "data/texts-article-6.json",
+            "stimuli": "What is barrier potential? The natural difference of potential that exists across a forward biased pn junction." 
+        }, 
         { 
-            "technique": "AUTOCOMPASTE", 
+            "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/texts-article-3.json",
-            "stimuli": "A definite article indicates that its noun is a particular one which is identifiable to the listener. It may be something that the speaker has already mentioned, or it may be something uniquely specified. The definite article in English, for both singular and plural nouns, is the." 
+            "data_file": "data/texts-article-6.json",
+            "stimuli": "What is base biasing? A method of biasing a BJT in which the bias voltage is supplied to the base by means of a resistor." 
         },
         { 
             "technique": "TRADITIONAL", 
@@ -531,8 +563,8 @@
         { 
             "technique": "TRADITIONAL", 
             "granularity": "sentence",
-            "window_width": "600",
-            "font_size": "14",
+            "window_width": "900",
+            "font_size": "10",
             "data_file": "data/texts-article-5.json",
             "stimuli": "Anderson attended a charity auction to raise money to protect endangered species and sold off a bright red float used in Baywatch filming for 3 million rubles (S$63,000) to a businessman, Interfax news agency reported." 
         },
@@ -543,38 +575,6 @@
             "font_size": "14",
             "data_file": "data/texts-article-5.json",
             "stimuli": "Climate change is an urgent issue and I want to come here and speak to people that are brave enough to make big changes." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "paragraph",
-            "window_width": "600",
-            "font_size": "10",
-            "data_file": "data/texts-article-6.json",
-            "stimuli": "What is bandwidth? Width of the band of frequencies between the half power points." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "paragraph",
-            "window_width": "600",
-            "font_size": "14",
-            "data_file": "data/texts-article-6.json",
-            "stimuli": "What is bistable multivibrator? A multi vibrator with two stable states. An external signal is required to change the output from one state to the other. Also called a latch." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "paragraph",
-            "window_width": "600",
-            "font_size": "14",
-            "data_file": "data/texts-article-6.json",
-            "stimuli": "What is barrier potential? The natural difference of potential that exists across a forward biased pn junction." 
-        }, 
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "paragraph",
-            "window_width": "900",
-            "font_size": "14",
-            "data_file": "data/texts-article-6.json",
-            "stimuli": "What is base biasing? A method of biasing a BJT in which the bias voltage is supplied to the base by means of a resistor." 
         }        
     ]
 }
