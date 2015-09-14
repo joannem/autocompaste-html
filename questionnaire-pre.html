@@ -1,260 +1,281 @@
 <!doctype html>
 <html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>CS4249 Assignment 1</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/style.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        <nav class="navbar navbar-default">
-            <div class="container">
-                <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a href="index.html">Welcome</a></li>
-                        <li class="active"><a href="questionnaire-pre.html">Pre Questionnaire</a></li>
-                        <li><a href="instructions.html">Instructions</a></li>
-                        <li><a href="practice.html">Practice</a></li>
-                        <li><a href="experiment.html">Experiment</a></li>
-                        <li><a href="questionnaire-post.html">Post Questionnaire</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>CS4249 Assignment 1</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/vendor/modernizr-2.8.3.min.js"></script>
+	</head>
+	<body>
+		<!--[if lt IE 8]>
+			<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="index.html">Welcome</a></li>
+						<li class="active"><a href="questionnaire-pre.html">Pre Questionnaire</a></li>
+						<li><a href="instructions.html">Instructions</a></li>
+						<li><a href="practice.html">Practice</a></li>
+						<li><a href="experiment.html">Experiment</a></li>
+						<li><a href="questionnaire-post.html">Post Questionnaire</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <h1>Pre-Experiment Questionnaire</h1>
-                    <hr>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<h1>Pre-Experiment Questionnaire</h1>
+					<hr>
 
-                    <br>
-                    
-                    <p>Before we begin, please provide us with some basic information about yourself by answering <b>all</b> the following questions.</p>
+					<br>
+					
+					<p>Before we begin, please provide us with some basic information about yourself by answering <b>all</b> the following questions.</p>
 
-                    <br>
+					<br>
 
-                    <p>Information about <span class="js-pid pid"></span>: </p>
+					<p>Information about <span class="js-pid pid"></span>: </p>
 
-                    <form id="pre-expt-form">
-                        <!-- Questions on participant's profile -->
-                        <div class="form-group">
-                            <label for="q1">1. Gender</label>
-                            <div class="radio">
-                              <label>
-                                <input type="radio" name="gender" id="q1OptionMale" value="male" required>
-                                Male
-                              </label>
-                            </div>
-                            <div class="radio">
-                              <label>
-                                <input type="radio" name="gender" id="q1OptionFemale" value="female" required>
-                                Female
-                              </label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-3">
-                                <div class="form-group">
-                                    <label for="q2">2. Age (in years)</label>
-                                    <input type="number" min="1" step="1" class="form-control" id="age" name="age" placeholder="E.g. 21" required>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="q3">3. Education background</label>
-                            <div class="radio">
-                              <label>
-                                <input type="radio" name="educationBackground" id="q3OptionPrimary" value="primary" required>
-                                Primary
-                              </label>
-                            </div>
-                            <div class="radio">
-                              <label>
-                                <input type="radio" name="educationBackground" id="q3OptionSecondary" value="secondary" required>
-                                Secondary (O-levels, A-levels)
-                              </label>
-                            </div>
-                            <div class="radio">
-                              <label>
-                                <input type="radio" name="educationBackground" id="q3OptionTertiary" value="tertiary" required>
-                                Tertiary (Diploma, Degree)
-                              </label>
-                            </div>
-                            <div class="radio">
-                              <label>
-                                <input type="radio" name="educationBackground" id="q3OptionPostGraduate" value="postGraduate" required>
-                                Post-graduate (Masters, Post-doc)
-                              </label>
-                            </div>
-                        </div>
-                         <div class="row">
-                            <div class="col-xs-5">
-                                <div class="form-group">
-                                    <label for="q4">4. Occupation</label>
-                                    <input type="text" class="form-control" id="q4TextInput" name="occupation" required>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="q5">5. Are you right-handed?</label>
-                            <div class="radio">
-                              <label>
-                                <input type="radio" name="dominantHand" id="q5OptionLeft" value="right" required>
-                                Yes
-                              </label>
-                            </div>
-                            <div class="radio">
-                              <label>
-                                <input type="radio" name="dominantHand" id="q5OptionRight" value="left" required>
-                                No
-                              </label>
-                            </div>
-                        </div>
-                        <!-- Questions on computer habits -->
-                        <div class="form-group">
-                            <label for="q6">6. On average, how many times a week do you use the computer?</label>
-                            <div class="radio">
-                              <label>
-                                <input type="radio" name="computerWeeklyUsage" id="q6Option2orless" value="2orless" required>
-                                &le; 2 times a week
-                              </label>
-                            </div>
-                            <div class="radio">
-                              <label>
-                                <input type="radio" name="computerWeeklyUsage" id="q6Option3or4" value="3or4" required>
-                                3 - 4 times a week
-                              </label>
-                            </div>
-                            <div class="radio">
-                              <label>
-                                <input type="radio" name="computerWeeklyUsage" id="q6Option5" value="5" required>
-                                5 times a week
-                              </label>
-                            </div>
-                            <div class="radio">
-                              <label>
-                                <input type="radio" name="computerWeeklyUsage" id="q3Option6ormore" value="6ormore" required>
-                                &ge; 6 times a week
-                              </label>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="q7">7. What do you normally use the computer for?</label>
-                            <div class="checkbox">
-                              <label>
-                                <input type="checkbox" name="computerActivities" value="sendingAndReceivingEmails">
-                                Sending and receiving E-mails.
-                              </label>
-                            </div>
-                            <div class="checkbox">
-                              <label>
-                                <input type="checkbox" name="computerActivities" value="creatingDocumentsAndPresentationSlides">
-                                Creating word documents, presentation slides, spread sheets...
-                              </label>
-                            </div>
-                            <div class="checkbox">
-                              <label>
-                                <input type="checkbox" name="computerActivities" value="readingDocumentsOrArticles">
-                                Reading documents or articles realated to school/work.
-                              </label>
-                            </div>
-                            <div class="checkbox">
-                              <label>
-                                <input type="checkbox" name="computerActivities" value="browsingOnlineArticles">
-                                Browsing articles on the web.
-                              </label>
-                            </div>
-                            <div class="checkbox">
-                              <label>
-                                <input type="checkbox" name="computerActivities" value="entertainment">
-                                Entertainment (listening to music, watching videos, video gaming...).
-                              </label>
-                            </div>
-                            <div class="checkbox">
-                              <label>
-                                <input type="checkbox" name="computerActivities" value="others">
-                                Others
-                              </label>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="q8">8. If you own more than one computers, is the machine you're currently on the one that you use most often?</label>
-                            <div class="radio">
-                              <label>
-                                <input type="radio" name="computerFamiliarity" id="q8OptionYes" value="yes" required>
-                                Yes
-                              </label>
-                            </div>
-                            <div class="radio">
-                              <label>
-                                <input type="radio" name="computerFamiliarity" id="q8OptionNo" value="no" required>
-                                No
-                              </label>
-                            </div>
-                            <div class="radio">
-                              <label>
-                                <input type="radio" name="computerFamiliarity" id="q8OptionOnly" value="yes" required>
-                                This is the only computer I have
-                              </label>
-                            </div>
-                        </div>
+					<form id="pre-expt-form">
+						<!-- Questions on participant's profile -->
+						<div class="form-group">
+							<label for="q1">1. Gender</label>
+							<div class="radio">
+							  <label>
+								<input type="radio" name="gender" id="q1OptionMale" value="male" required>
+								Male
+							  </label>
+							</div>
+							<div class="radio">
+							  <label>
+								<input type="radio" name="gender" id="q1OptionFemale" value="female" required>
+								Female
+							  </label>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-3">
+								<div class="form-group">
+									<label for="q2">2. Age (in years)</label>
+									<input type="number" min="1" step="1" class="form-control" id="age" name="age" placeholder="E.g. 21" required>
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="q3">3. Education background</label>
+							<div class="radio">
+							  <label>
+								<input type="radio" name="educationBackground" id="q3OptionPrimary" value="primary" required>
+								Primary
+							  </label>
+							</div>
+							<div class="radio">
+							  <label>
+								<input type="radio" name="educationBackground" id="q3OptionSecondary" value="secondary" required>
+								Secondary (O-levels, A-levels)
+							  </label>
+							</div>
+							<div class="radio">
+							  <label>
+								<input type="radio" name="educationBackground" id="q3OptionTertiary" value="tertiary" required>
+								Tertiary (Diploma, Degree)
+							  </label>
+							</div>
+							<div class="radio">
+							  <label>
+								<input type="radio" name="educationBackground" id="q3OptionPostGraduate" value="postGraduate" required>
+								Post-graduate (Masters, Post-doc)
+							  </label>
+							</div>
+						</div>
+						 <div class="row">
+							<div class="col-xs-5">
+								<div class="form-group">
+									<label for="q4">4. Occupation</label>
+									<input type="text" class="form-control" id="q4TextInput" name="occupation" required>
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="q5">5. Are you right-handed?</label>
+							<div class="radio">
+							  <label>
+								<input type="radio" name="dominantHand" id="q5OptionLeft" value="right" required>
+								Yes
+							  </label>
+							</div>
+							<div class="radio">
+							  <label>
+								<input type="radio" name="dominantHand" id="q5OptionRight" value="left" required>
+								No
+							  </label>
+							</div>
+						</div>
+						<!-- Questions on computer habits -->
+						<div class="form-group">
+							<label for="q6">6. On average, how many times a week do you use the computer?</label>
+							<div class="radio">
+							  <label>
+								<input type="radio" name="computerWeeklyUsage" id="q6Option2orless" value="2orless" required>
+								&le; 2 times a week
+							  </label>
+							</div>
+							<div class="radio">
+							  <label>
+								<input type="radio" name="computerWeeklyUsage" id="q6Option3or4" value="3or4" required>
+								3 - 4 times a week
+							  </label>
+							</div>
+							<div class="radio">
+							  <label>
+								<input type="radio" name="computerWeeklyUsage" id="q6Option5" value="5" required>
+								5 times a week
+							  </label>
+							</div>
+							<div class="radio">
+							  <label>
+								<input type="radio" name="computerWeeklyUsage" id="q3Option6ormore" value="6ormore" required>
+								&ge; 6 times a week
+							  </label>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="q7">7. What do you normally use the computer for?</label>
+							<div class="checkbox">
+							  <label>
+								<input type="checkbox" name="computerActivities" value="sendingAndReceivingEmails">
+								Sending and receiving E-mails.
+							  </label>
+							</div>
+							<div class="checkbox">
+							  <label>
+								<input type="checkbox" name="computerActivities" value="creatingDocumentsAndPresentationSlides">
+								Creating word documents, presentation slides, spread sheets...
+							  </label>
+							</div>
+							<div class="checkbox">
+							  <label>
+								<input type="checkbox" name="computerActivities" value="readingDocumentsOrArticles">
+								Reading documents or articles realated to school/work.
+							  </label>
+							</div>
+							<div class="checkbox">
+							  <label>
+								<input type="checkbox" name="computerActivities" value="browsingOnlineArticles">
+								Browsing articles on the web.
+							  </label>
+							</div>
+							<div class="checkbox">
+							  <label>
+								<input type="checkbox" name="computerActivities" value="entertainment">
+								Entertainment (listening to music, watching videos, video gaming...).
+							  </label>
+							</div>
+							<div class="checkbox">
+							  <label>
+								<input type="checkbox" name="computerActivities" value="others">
+								Others
+							  </label>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="q8">8. What type of pointing device are you currently using?</label>
+							<div class="radio">
+							  <label>
+								<input type="radio" name="pointingDevice" id="q8OptionMouse" value="mouse" required>
+								Mouse
+							  </label>
+							</div>
+							<div class="radio">
+							  <label>
+								<input type="radio" name="pointingDevice" id="q8OptionTrackpad" value="trackpad" required>
+								Trackpad
+							  </label>
+							</div>
+							<div class="radio">
+							  <label>
+								<input type="radio" name="pointingDevice" id="q8OptionOthers" value="others" required>
+								Others
+							  </label>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="q9">9. If you own more than one computers, is the machine you're currently on the one that you use most often?</label>
+							<div class="radio">
+							  <label>
+								<input type="radio" name="computerFamiliarity" id="q9OptionYes" value="yes" required>
+								Yes
+							  </label>
+							</div>
+							<div class="radio">
+							  <label>
+								<input type="radio" name="computerFamiliarity" id="q9OptionNo" value="no" required>
+								No
+							  </label>
+							</div>
+							<div class="radio">
+							  <label>
+								<input type="radio" name="computerFamiliarity" id="q9OptionOnly" value="yes" required>
+								This is the only computer I have
+							  </label>
+							</div>
+						</div>
 
-                        <br>
+						<br>
 
-                        <p><i>When you're satisfied with your answers above, please click the <b>Submit</b> button below and download the file named "acp-<span class="js-pid pid"></span>-pre.csv" into a new folder.</i></p>
+						<p><i>When you're satisfied with your answers above, please click the <b>Submit</b> button below and download the file named "acp-<span class="js-pid pid"></span>-pre.csv" into a new folder.</i></p>
 
-                        <p><b>DO NOT CANCEL THE DOWNLOAD!</b></p>
+						<p><b>DO NOT CANCEL THE DOWNLOAD!</b></p>
 
-                        <br>
-                        
-                        <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+						<br>
+						
+						<button type="submit" class="btn btn-primary btn-lg">Submit</button>
 
-                        <br>
+						<br>
 
-                    </form>
-                </div>
-            </div>
-        </div>
+					</form>
+				</div>
+			</div>
+		</div>
 
-        <script src="js/vendor/jquery-1.11.2.min.js"></script> 
-        <script src="js/plugins.js"></script>
-        <script src="js/DataStorage.js"></script>
-        <script src="js/ACPToolKit.js"></script>
-        <script src="js/main.js"></script>
+		<script src="js/vendor/jquery-1.11.2.min.js"></script> 
+		<script src="js/plugins.js"></script>
+		<script src="js/DataStorage.js"></script>
+		<script src="js/ACPToolKit.js"></script>
+		<script src="js/main.js"></script>
 
-        <script>
-            $(function () {
-                $('#pre-expt-form').submit(function (event) {
-                    event.preventDefault();
-                    var formResponses = $(this).serializeArray();
+		<script>
+			$(function () {
+				$('#pre-expt-form').submit(function (event) {
+					event.preventDefault();
+					var formResponses = $(this).serializeArray();
 
-                    if (validateForm(formResponses)) {
-                        ACPToolKit.downloadFormData(formResponses, 'pre');
-                        window.location = 'instructions.html';
-                    } else {
-                        alert('please answer all the questions');
-                    }
+					if (validateForm(formResponses)) {
+						ACPToolKit.downloadFormData(formResponses, 'pre');
+						window.location = 'instructions.html';
+					} else {
+						alert('please answer all the questions');
+					}
 
-                });
-            });
+				});
+			});
 
-            function validateForm(formResponses) {
-                if (formResponses.length < 8) {
-                    return false;
-                } else {
-                    return true;
-                }
-            }
-        </script>
-    </body>
+			function validateForm(formResponses) {
+				if (formResponses.length < 8) {
+					return false;
+				} else {
+					return true;
+				}
+			}
+		</script>
+	</body>
 </html>
