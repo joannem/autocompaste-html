@@ -5,64 +5,64 @@
             "granularity": "sentence",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/text-article-2.json",
-            "stimuli": "Building up weather-resilient water sources will help us be better prepared for possible prolonged periods of dry spells in future." 
+            "data_file": "data/text-article-1.json",
+            "stimuli": "Loss or dissipation of energy as it travels through a medium." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "sentence",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-2.json",
-            "stimuli": "Singapore will build a fourth water desalination plant to meet future water needs in the city area and strengthen its drought resilience." 
+            "data_file": "data/text-article-1.json",
+            "stimuli": "What is AC power supply?" 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "sentence",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/text-article-2.json",
-            "stimuli": "It will be able to treat freshwater from the nearby Marina Reservoir and produce 30 million gallons of water per day."
+            "data_file": "data/text-article-1.json",
+            "stimuli": "A filter that uses an amplifier in addition to reactive components to pass or reject selected frequencies."
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "sentence",
             "window_width": "900",
             "font_size": "14",
+            "data_file": "data/text-article-1.json",
+            "stimuli": "The region of BJT operation between saturation and cut off used for linear amplification." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "window_width": "600",
+            "font_size": "10",
             "data_file": "data/text-article-2.json",
-            "stimuli": "With the new plant, Singapore will be able to produce a total of 160 million gallons of water a day through treated seawater." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "window_width": "600",
-            "font_size": "10",
-            "data_file": "data/text-article-1.json",
-            "stimuli": "transform mechanical energy into AC electrical power"
+            "stimuli": "has been making investments"
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-1.json",
-            "stimuli": "passes an AC signal" 
+            "data_file": "data/text-article-2.json",
+            "stimuli": "Singapore will be able to produce" 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/text-article-1.json",
-            "stimuli": "A filter that uses an amplifier" 
+            "data_file": "data/text-article-2.json",
+            "stimuli": "tender for the provision of consultancy services" 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/text-article-1.json",
-            "stimuli": "saturation and cut off"
+            "data_file": "data/text-article-2.json",
+            "stimuli": "increasing the production of Newater and desalinated water"
         },
         { 
             "technique": "AUTOCOMPASTE", 
@@ -101,64 +101,64 @@
             "granularity": "sentence",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/text-article-5.json",
-            "stimuli": "Climate change is an urgent issue and I want to come here and speak to people that are brave enough to make big changes." 
+            "data_file": "data/text-article-4.json",
+            "stimuli": "I’m Jeff Miller, Vice President of Design at Poppin—a one-stop shop for workstyle." 
         }, 
         { 
             "technique": "TRADITIONAL", 
             "granularity": "sentence",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-5.json",
-            "stimuli": "The 48-year-old Canadian-born actress flew to the Pacific port of Vladivostok to attend an international economic forum at the invitation of environment minister Sergei Donskoi." 
+            "data_file": "data/text-article-4.json",
+            "stimuli": "Tell us a little about who you are, your current position, and how long you’ve been at it." 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "sentence",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-5.json",
-            "stimuli": "The actress came to Russia after writing to President Vladimir Putin asking him to support her environmental causes, particularly her fight against whale hunting." 
+            "data_file": "data/text-article-4.json",
+            "stimuli": "Good design balances form, functionality, and aesthetics in a way that makes the work put into it invisible." 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "sentence",
             "window_width": "900",
             "font_size": "14",
+            "data_file": "data/text-article-4.json",
+            "stimuli": "No internet back then." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "window_width": "600",
+            "font_size": "10",
             "data_file": "data/text-article-5.json",
-            "stimuli": "Anderson attended a charity auction to raise money to protect endangered species and sold off a bright red float used in Baywatch filming for 3 million rubles (S$63,000) to a businessman, Interfax news agency reported." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "phrase",
-            "window_width": "600",
-            "font_size": "10",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "reconfiguring bicycle components" 
+            "stimuli": "asking him to support her environmental causes" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "well-designed products" 
+            "data_file": "data/text-article-5.json",
+            "stimuli": "the issue of whales held in captivity" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "I was more interested" 
+            "data_file": "data/text-article-5.json",
+            "stimuli": "used in filming the hit 1990s show Baywatch" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "I was involved in product development for global brands" 
+            "data_file": "data/text-article-5.json",
+            "stimuli": "jogging on the spot on stage" 
         },
         { 
             "technique": "TRADITIONAL", 
@@ -197,64 +197,64 @@
             "granularity": "sentence",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/text-article-2.json",
-            "stimuli": "With the new plant, Singapore will be able to produce a total of 160 million gallons of water a day through treated seawater." 
+            "data_file": "data/text-article-1.json",
+            "stimuli": "What is acceptor atoms?" 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "sentence",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-2.json",
-            "stimuli": "Singapore will build a fourth water desalination plant to meet future water needs in the city area and strengthen its drought resilience." 
+            "data_file": "data/text-article-1.json",
+            "stimuli": "A graph representing all possible combinations of AC output voltage and currentfor an amplifier." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "sentence",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/text-article-2.json",
-            "stimuli": "PUB deputy chief executive (policy and development), Mr Chua Soon Guan, said the agency has been making investments to build up and diversify Singapore's water sources to strengthen water security."
+            "data_file": "data/text-article-1.json",
+            "stimuli": "Equipment that will operate on either an AC or DC power source."
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "sentence",
             "window_width": "900",
             "font_size": "14",
+            "data_file": "data/text-article-1.json",
+            "stimuli": "Trivalent atoms that accept free electrons from pentavalent atoms." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "window_width": "600",
+            "font_size": "10",
             "data_file": "data/text-article-2.json",
-            "stimuli": "It will be able to treat freshwater from the nearby Marina Reservoir and produce 30 million gallons of water per day." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "window_width": "600",
-            "font_size": "10",
-            "data_file": "data/text-article-1.json",
-            "stimuli": "saturation and cut off"
+            "stimuli": "making investments to build up and diversify Singapore's water sources"
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-1.json",
-            "stimuli": "atoms that accept free electrons" 
+            "data_file": "data/text-article-2.json",
+            "stimuli": "able to ensure supply" 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/text-article-1.json",
-            "stimuli": "dissipation of energy" 
+            "data_file": "data/text-article-2.json",
+            "stimuli": "to meet future water needs in the city area" 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/text-article-1.json",
-            "stimuli": "region of BJT operation"
+            "data_file": "data/text-article-2.json",
+            "stimuli": "a total of 160 million gallons of water a day"
         },
         { 
             "technique": "AUTOCOMPASTE", 
@@ -293,64 +293,64 @@
             "granularity": "sentence",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/text-article-5.json",
-            "stimuli": "Actress Pamela Anderson urged Russia Thursday to join her fight to save whales and seals as she auctioned off a red float used in filming the hit 1990s show Baywatch." 
+            "data_file": "data/text-article-4.json",
+            "stimuli": "Years prior, I was the long-time member and Vice President of Design at ECCO Design, in New York, where for more than a decade I was involved in product development for global brands including: Apple, Colgate, Corning, LG, Motorola, OXO and Procter & Gamble." 
         }, 
         { 
             "technique": "TRADITIONAL", 
             "granularity": "sentence",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-5.json",
-            "stimuli": "Climate change is an urgent issue and I want to come here and speak to people that are brave enough to make big changes." 
+            "data_file": "data/text-article-4.json",
+            "stimuli": "It’s a balance that the best designers make seem effortless." 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "sentence",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/text-article-5.json",
-            "stimuli": "The 48-year-old Canadian-born actress flew to the Pacific port of Vladivostok to attend an international economic forum at the invitation of environment minister Sergei Donskoi." 
+            "data_file": "data/text-article-4.json",
+            "stimuli": "I knew I wanted to make things, and that left architecture as a realistic professional pursuit, but the scale and scope of developing buildings didn’t appeal to me." 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "sentence",
             "window_width": "900",
             "font_size": "14",
+            "data_file": "data/text-article-4.json",
+            "stimuli": "To learn a little about the thought that goes into designing everyday products, we spoke with Jeff Miller." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "window_width": "600",
+            "font_size": "10",
             "data_file": "data/text-article-5.json",
-            "stimuli": "The actress came to Russia after writing to President Vladimir Putin asking him to support her environmental causes, particularly her fight against whale hunting." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "phrase",
-            "window_width": "600",
-            "font_size": "10",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "a more personal elemental approach" 
+            "stimuli": "sold off a bright red float" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "modern office and work supplies" 
+            "data_file": "data/text-article-5.json",
+            "stimuli": "an urgent issue" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "designing everyday products" 
+            "data_file": "data/text-article-5.json",
+            "stimuli": "from seals hunted commercially in Canada" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "range of clients" 
+            "data_file": "data/text-article-5.json",
+            "stimuli": "sking him to support her environmental causes" 
         },
         { 
             "technique": "TRADITIONAL", 
@@ -383,38 +383,38 @@
             "font_size": "14",
             "data_file": "data/text-article-6.json",
             "stimuli": "What is battery? A DC voltage source containing two or more cells that convert chemical energy to electrical energy." 
-        },
+        }4
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "sentence",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/text-article-2.json",
-            "stimuli": "Building up weather-resilient water sources will help us be better prepared for possible prolonged periods of dry spells in future." 
+            "data_file": "data/text-article-1.json",
+            "stimuli": "Loss or dissipation of energy as it travels through a medium. " 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "sentence",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-2.json",
-            "stimuli": "It will be able to treat freshwater from the nearby Marina Reservoir and produce 30 million gallons of water per day." 
+            "data_file": "data/text-article-1.json",
+            "stimuli": "Equipment that will operate on either an AC or DC power source." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "sentence",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/text-article-2.json",
-            "stimuli": "It will be able to treat freshwater from the nearby Marina Reservoir and produce 30 million gallons of water per day."
+            "data_file": "data/text-article-1.json",
+            "stimuli": "What is active region?"
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "sentence",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/text-article-2.json",
-            "stimuli": "During the dry weather in recent years, we were able to ensure supply by increasing the production of Newater and desalinated water." 
+            "data_file": "data/text-article-1.json",
+            "stimuli": "A filter that uses an amplifier in addition to reactive components to pass or reject selected frequencies." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
@@ -422,7 +422,7 @@
             "window_width": "600",
             "font_size": "10",
             "data_file": "data/text-article-1.json",
-            "stimuli": "transform mechanical energy into AC electrical power"
+            "stimuli": "policy and development"
         },
         { 
             "technique": "AUTOCOMPASTE", 
@@ -430,7 +430,7 @@
             "window_width": "600",
             "font_size": "14",
             "data_file": "data/text-article-1.json",
-            "stimuli": "dissipation of energy" 
+            "stimuli": "from the nearby Marina Reservoir" 
         },
         { 
             "technique": "AUTOCOMPASTE", 
@@ -438,7 +438,7 @@
             "window_width": "900",
             "font_size": "10",
             "data_file": "data/text-article-1.json",
-            "stimuli": "AC generator" 
+            "stimuli": "fourth water desalination plant" 
         },
         { 
             "technique": "AUTOCOMPASTE", 
@@ -446,7 +446,7 @@
             "window_width": "900",
             "font_size": "14",
             "data_file": "data/text-article-1.json",
-            "stimuli": "reactive components"
+            "stimuli": "able to produce a total of 160 million gallons of water a day"
         },
         { 
             "technique": "AUTOCOMPASTE", 
@@ -485,31 +485,31 @@
             "granularity": "sentence",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/text-article-5.json",
-            "stimuli": "The 48-year-old Canadian-born actress flew to the Pacific port of Vladivostok to attend an international economic forum at the invitation of environment minister Sergei Donskoi." 
+            "data_file": "data/text-article-4.json",
+            "stimuli": "Concurrently, I was the Creative Director of Itoki Design, a New York-based subsidiary of one of Japan’s largest office furniture manufacturers." 
         }, 
         { 
             "technique": "TRADITIONAL", 
             "granularity": "sentence",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-5.json",
-            "stimuli": "Actress Pamela Anderson urged Russia Thursday to join her fight to save whales and seals as she auctioned off a red float used in filming the hit 1990s show Baywatch." 
+            "data_file": "data/text-article-4.json",
+            "stimuli": "What drove you to choose your career path?" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "sentence",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/text-article-5.json",
-            "stimuli": "Anderson attended a charity auction to raise money to protect endangered species and sold off a bright red float used in Baywatch filming for 3 million rubles (S$63,000) to a businessman, Interfax news agency reported." 
+            "data_file": "data/text-article-4.json",
+            "stimuli": "So it’s what I always wanted to do, but didn’t know it was a job until I found a book about famed industrial designer, Raymond Loewy in my high school library." 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "sentence",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/text-article-5.json",
+            "data_file": "data/text-article-4.json",
             "stimuli": "Climate change is an urgent issue and I want to come here and speak to people that are brave enough to make big changes." 
         },
         { 
@@ -517,32 +517,32 @@
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "your current position" 
+            "data_file": "data/text-article-5.json",
+            "stimuli": "brave enough to make big changes" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "create art for its own sake" 
+            "data_file": "data/text-article-5.json",
+            "stimuli": "showed Anderson jogging on the spot on stage" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "A beautifully crafted object" 
+            "data_file": "data/text-article-5.json",
+            "stimuli": "writing to President Vladimir Putin" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "I was involved in product development" 
+            "data_file": "data/text-article-5.json",
+            "stimuli": "flew to the Pacific port of Vladivostok" 
         },
         { 
             "technique": "TRADITIONAL", 

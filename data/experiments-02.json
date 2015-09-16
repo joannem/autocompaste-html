@@ -37,64 +37,64 @@
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/text-article-3.json",
-            "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "paragraph",
-            "window_width": "600",
-            "font_size": "14",
-            "data_file": "data/text-article-3.json",
-            "stimuli": "Articles are usually characterized as either definite or indefinite. A few languages with well-developed systems of articles may distinguish additional subtypes. Within each type, languages may have various forms of each article, according to grammatical attributes such as gender, number, or case, or according to adjacent sounds."
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "paragraph",
-            "window_width": "900",
-            "font_size": "10",
-            "data_file": "data/text-article-3.json",
-            "stimuli": "A definite article indicates that its noun is a particular one which is identifiable to the listener. It may be something that the speaker has already mentioned, or it may be something uniquely specified. The definite article in English, for both singular and plural nouns, is the." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "paragraph",
-            "window_width": "900",
-            "font_size": "14",
-            "data_file": "data/text-article-3.json",
-            "stimuli": "However, recent developments show that definite articles are morphological elements linked to certain noun types due to lexicalization. Under this point of view, definiteness does not play a role in the selection of a definite article more than the lexical entry attached to the article." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "sentence",
-            "window_width": "600",
-            "font_size": "10",
             "data_file": "data/text-article-2.json",
-            "stimuli": "Building up weather-resilient water sources will help us be better prepared for possible prolonged periods of dry spells in future." 
+            "stimuli": "Yesterday, national water agency PUB announced that it will call for a tender for the provision of consultancy services for the new plant in Marina East. It will be able to treat freshwater from the nearby Marina Reservoir and produce 30 million gallons of water per day." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
-            "granularity": "sentence",
+            "granularity": "paragraph",
             "window_width": "600",
             "font_size": "14",
+            "data_file": "data/text-article-2.json",
+            "stimuli": "With the new plant, Singapore will be able to produce a total of 160 million gallons of water a day through treated seawater."
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "window_width": "900",
+            "font_size": "10",
             "data_file": "data/text-article-2.json",
             "stimuli": "Singapore will build a fourth water desalination plant to meet future water needs in the city area and strengthen its drought resilience." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "window_width": "900",
+            "font_size": "14",
+            "data_file": "data/text-article-2.json",
+            "stimuli": "PUB deputy chief executive (policy and development), Mr Chua Soon Guan, said the agency has been making investments to build up and diversify Singapore's water sources to strengthen water security. He said: \"During the dry weather in recent years, we were able to ensure supply by increasing the production of Newater and desalinated water. Building up weather-resilient water sources will help us be better prepared for possible prolonged periods of dry spells in future.\"" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "window_width": "600",
+            "font_size": "10",
+            "data_file": "data/text-article-3.json",
+            "stimuli": "In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "window_width": "600",
+            "font_size": "14",
+            "data_file": "data/text-article-3.json",
+            "stimuli": "Articles specify grammatical definiteness of the noun, in some languages extending to volume or numerical scope." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
             "granularity": "sentence",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/text-article-2.json",
-            "stimuli": "It will be able to treat freshwater from the nearby Marina Reservoir and produce 30 million gallons of water per day."
+            "data_file": "data/text-article-3.json",
+            "stimuli": "A definite article indicates that its noun is a particular one which is identifiable to the listener."
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "sentence",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/text-article-2.json",
-            "stimuli": "With the new plant, Singapore will be able to produce a total of 160 million gallons of water a day through treated seawater." 
+            "data_file": "data/text-article-3.json",
+            "stimuli": "Articles are usually characterized as either definite or indefinite." 
         },
         { 
             "technique": "TRADITIONAL", 
@@ -133,64 +133,64 @@
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/text-article-6.json",
-            "stimuli": "What is bandwidth? Width of the band of frequencies between the half power points." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "paragraph",
-            "window_width": "600",
-            "font_size": "14",
-            "data_file": "data/text-article-6.json",
-            "stimuli": "What is binary? A number system having only two symbols, 0 and 1. A base 2 number system." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "paragraph",
-            "window_width": "900",
-            "font_size": "10",
-            "data_file": "data/text-article-6.json",
-            "stimuli": "What is bistable multivibrator? A multi vibrator with two stable states. An external signal is required to change the output from one state to the other. Also called a latch." 
-        }, 
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "paragraph",
-            "window_width": "900",
-            "font_size": "14",
-            "data_file": "data/text-article-6.json",
-            "stimuli": "What is bipolar junction transistor? (BJT), A three terminal device in which emitter to collector current is controlled by base current." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "sentence",
-            "window_width": "600",
-            "font_size": "10",
-            "data_file": "data/text-article-5.json",
-            "stimuli": "Climate change is an urgent issue and I want to come here and speak to people that are brave enough to make big changes." 
-        }, 
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "sentence",
-            "window_width": "600",
-            "font_size": "14",
-            "data_file": "data/text-article-5.json",
-            "stimuli": "The 48-year-old Canadian-born actress flew to the Pacific port of Vladivostok to attend an international economic forum at the invitation of environment minister Sergei Donskoi." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "sentence",
-            "window_width": "600",
-            "font_size": "14",
             "data_file": "data/text-article-5.json",
             "stimuli": "The actress came to Russia after writing to President Vladimir Putin asking him to support her environmental causes, particularly her fight against whale hunting." 
         },
         { 
             "technique": "TRADITIONAL", 
-            "granularity": "sentence",
+            "granularity": "paragraph",
+            "window_width": "600",
+            "font_size": "14",
+            "data_file": "data/text-article-5.json",
+            "stimuli": "\"Climate change is an urgent issue and I want to come here and speak to people that are brave enough to make big changes.\" Anderson said she raised the issue of whales held in captivity and Russia's import of fur from seals hunted commercially in Canada. \"I want to do something significant, which really can change something, together with Russia,\" Anderson was quoted by the state news agency RIA Novosti in comments translated into Russian. \"Starting with fur seals: I know that products made of fur seals go to Russia,\" she said." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "window_width": "900",
+            "font_size": "10",
+            "data_file": "data/text-article-5.json",
+            "stimuli": "The 48-year-old Canadian-born actress flew to the Pacific port of Vladivostok to attend an international economic forum at the invitation of environment minister Sergei Donskoi. Anderson attended a charity auction to raise money to protect endangered species and sold off a bright red float used in Baywatch filming for 3 million rubles (S$63,000) to a businessman, Interfax news agency reported." 
+        }, 
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
             "window_width": "900",
             "font_size": "14",
             "data_file": "data/text-article-5.json",
-            "stimuli": "Anderson attended a charity auction to raise money to protect endangered species and sold off a bright red float used in Baywatch filming for 3 million rubles (S$63,000) to a businessman, Interfax news agency reported." 
+            "stimuli": "Actress Pamela Anderson urged Russia Thursday to join her fight to save whales and seals as she auctioned off a red float used in filming the hit 1990s show Baywatch." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "window_width": "600",
+            "font_size": "10",
+            "data_file": "data/text-article-6.json",
+            "stimuli": "The natural difference of potential that exists across a forward biased pn junction." 
+        }, 
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "window_width": "600",
+            "font_size": "14",
+            "data_file": "data/text-article-6.json",
+            "stimuli": "What is bandwidth?" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "window_width": "600",
+            "font_size": "14",
+            "data_file": "data/text-article-6.json",
+            "stimuli": "A multi vibrator with two stable states." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "window_width": "900",
+            "font_size": "14",
+            "data_file": "data/text-article-6.json",
+            "stimuli": "What is battery?" 
         },
         { 
             "technique": "AUTOCOMPASTE", 
@@ -229,38 +229,30 @@
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/text-article-3.json",
-            "stimuli": "A definite article indicates that its noun is a particular one which is identifiable to the listener. It may be something that the speaker has already mentioned, or it may be something uniquely specified. The definite article in English, for both singular and plural nouns, is the." 
+            "data_file": "data/text-article-2.json",
+            "stimuli": "Yesterday, national water agency PUB announced that it will call for a tender for the provision of consultancy services for the new plant in Marina East. It will be able to treat freshwater from the nearby Marina Reservoir and produce 30 million gallons of water per day." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-3.json",
-            "stimuli": "Articles are usually characterized as either definite or indefinite. A few languages with well-developed systems of articles may distinguish additional subtypes. Within each type, languages may have various forms of each article, according to grammatical attributes such as gender, number, or case, or according to adjacent sounds."
+            "data_file": "data/text-article-2.json",
+            "stimuli": "PUB deputy chief executive (policy and development), Mr Chua Soon Guan, said the agency has been making investments to build up and diversify Singapore's water sources to strengthen water security. He said: \"During the dry weather in recent years, we were able to ensure supply by increasing the production of Newater and desalinated water. Building up weather-resilient water sources will help us be better prepared for possible prolonged periods of dry spells in future.\""
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/text-article-3.json",
-            "stimuli": "However, recent developments show that definite articles are morphological elements linked to certain noun types due to lexicalization. Under this point of view, definiteness does not play a role in the selection of a definite article more than the lexical entry attached to the article." 
+            "data_file": "data/text-article-2.json",
+            "stimuli": "Singapore will build a fourth water desalination plant to meet future water needs in the city area and strengthen its drought resilience." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/text-article-3.json",
-            "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "sentence",
-            "window_width": "600",
-            "font_size": "10",
             "data_file": "data/text-article-2.json",
             "stimuli": "With the new plant, Singapore will be able to produce a total of 160 million gallons of water a day through treated seawater." 
         },
@@ -268,25 +260,33 @@
             "technique": "AUTOCOMPASTE", 
             "granularity": "sentence",
             "window_width": "600",
+            "font_size": "10",
+            "data_file": "data/text-article-3.json",
+            "stimuli": "It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-2.json",
-            "stimuli": "Singapore will build a fourth water desalination plant to meet future water needs in the city area and strengthen its drought resilience." 
+            "data_file": "data/text-article-3.json",
+            "stimuli": "Articles specify grammatical definiteness of the noun, in some languages extending to volume or numerical scope." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "sentence",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/text-article-2.json",
-            "stimuli": "PUB deputy chief executive (policy and development), Mr Chua Soon Guan, said the agency has been making investments to build up and diversify Singapore's water sources to strengthen water security."
+            "data_file": "data/text-article-3.json",
+            "stimuli": "The definite article in English, for both singular and plural nouns, is the."
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "sentence",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/text-article-2.json",
-            "stimuli": "It will be able to treat freshwater from the nearby Marina Reservoir and produce 30 million gallons of water per day." 
+            "data_file": "data/text-article-3.json",
+            "stimuli": "Under this point of view, definiteness does not play a role in the selection of a definite article more than the lexical entry attached to the article." 
         },
         { 
             "technique": "TRADITIONAL", 
@@ -325,64 +325,64 @@
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/text-article-6.json",
-            "stimuli": "What is base biasing? A method of biasing a BJT in which the bias voltage is supplied to the base by means of a resistor." 
+            "data_file": "data/text-article-5.json",
+            "stimuli": "\"Climate change is an urgent issue and I want to come here and speak to people that are brave enough to make big changes.\" Anderson said she raised the issue of whales held in captivity and Russia's import of fur from seals hunted commercially in Canada. \"I want to do something significant, which really can change something, together with Russia,\" Anderson was quoted by the state news agency RIA Novosti in comments translated into Russian. \"Starting with fur seals: I know that products made of fur seals go to Russia,\" she said." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "window_width": "600",
+            "font_size": "14",
+            "data_file": "data/text-article-5.json",
+            "stimuli": "Actress Pamela Anderson urged Russia Thursday to join her fight to save whales and seals as she auctioned off a red float used in filming the hit 1990s show Baywatch." 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "window_width": "600",
-            "font_size": "14",
-            "data_file": "data/text-article-6.json",
-            "stimuli": "What is bipolar junction transistor? (BJT), A three terminal device in which emitter to collector current is controlled by base current." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "paragraph",
-            "window_width": "600",
-            "font_size": "14",
-            "data_file": "data/text-article-6.json",
-            "stimuli": "What is bandwidth? Width of the band of frequencies between the half power points." 
-        }, 
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "paragraph",
-            "window_width": "900",
-            "font_size": "14",
-            "data_file": "data/text-article-6.json",
-            "stimuli": "What is battery? A DC voltage source containing two or more cells that convert chemical energy to electrical energy." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "sentence",
-            "window_width": "600",
-            "font_size": "10",
-            "data_file": "data/text-article-5.json",
-            "stimuli": "Actress Pamela Anderson urged Russia Thursday to join her fight to save whales and seals as she auctioned off a red float used in filming the hit 1990s show Baywatch." 
-        }, 
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "sentence",
-            "window_width": "600",
-            "font_size": "14",
-            "data_file": "data/text-article-5.json",
-            "stimuli": "Climate change is an urgent issue and I want to come here and speak to people that are brave enough to make big changes." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "sentence",
-            "window_width": "900",
-            "font_size": "10",
-            "data_file": "data/text-article-5.json",
-            "stimuli": "The 48-year-old Canadian-born actress flew to the Pacific port of Vladivostok to attend an international economic forum at the invitation of environment minister Sergei Donskoi." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "sentence",
-            "window_width": "900",
             "font_size": "14",
             "data_file": "data/text-article-5.json",
             "stimuli": "The actress came to Russia after writing to President Vladimir Putin asking him to support her environmental causes, particularly her fight against whale hunting." 
+        }, 
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "window_width": "900",
+            "font_size": "14",
+            "data_file": "data/text-article-5.json",
+            "stimuli": "The 48-year-old Canadian-born actress flew to the Pacific port of Vladivostok to attend an international economic forum at the invitation of environment minister Sergei Donskoi. Anderson attended a charity auction to raise money to protect endangered species and sold off a bright red float used in Baywatch filming for 3 million rubles (S$63,000) to a businessman, Interfax news agency reported." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "window_width": "600",
+            "font_size": "10",
+            "data_file": "data/text-article-6.json",
+            "stimuli": "A method of biasing a BJT in which the bias voltage is supplied to the base by means of a resistor." 
+        }, 
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "window_width": "600",
+            "font_size": "14",
+            "data_file": "data/text-article-6.json",
+            "stimuli": "What is battery?" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "window_width": "900",
+            "font_size": "10",
+            "data_file": "data/text-article-6.json",
+            "stimuli": "The natural difference of potential that exists across a forward biased pn junction." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "window_width": "900",
+            "font_size": "14",
+            "data_file": "data/text-article-6.json",
+            "stimuli": "What is binary?" 
         },
         { 
             "technique": "AUTOCOMPASTE", 
@@ -421,64 +421,64 @@
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/text-article-3.json",
-            "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." 
+            "data_file": "data/text-article-2.json",
+            "stimuli": "Yesterday, national water agency PUB announced that it will call for a tender for the provision of consultancy services for the new plant in Marina East. It will be able to treat freshwater from the nearby Marina Reservoir and produce 30 million gallons of water per day." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-3.json",
-            "stimuli": "Articles are usually characterized as either definite or indefinite. A few languages with well-developed systems of articles may distinguish additional subtypes. Within each type, languages may have various forms of each article, according to grammatical attributes such as gender, number, or case, or according to adjacent sounds."
+            "data_file": "data/text-article-2.json",
+            "stimuli": "Singapore will build a fourth water desalination plant to meet future water needs in the city area and strengthen its drought resilience."
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/text-article-3.json",
-            "stimuli": "An article (abbreviated ART) is a word (or prefix or suffix) that is used with a noun to indicate the type of reference being made by the noun. Articles specify grammatical definiteness of the noun, in some languages extending to volume or numerical scope. The articles in the English language are the and a/an, and (in certain context) some. 'An' and 'a' are modern forms of the Old English 'an', which in Anglian dialects was the number 'one' (compare 'on', in Saxon dialects) and survived into Modern Scots as the number 'ane'. Both 'on' (respelled 'one' by the Normans) and 'an' survived into Modern English, with 'one' used as the number and 'an' ('a', before nouns that begin with a consonant sound) as an indefinite article." 
+            "data_file": "data/text-article-2.json",
+            "stimuli": "With the new plant, Singapore will be able to produce a total of 160 million gallons of water a day through treated seawater." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "14",
+            "data_file": "data/text-article-2.json",
+            "stimuli": "PUB deputy chief executive (policy and development), Mr Chua Soon Guan, said the agency has been making investments to build up and diversify Singapore's water sources to strengthen water security. He said: \"During the dry weather in recent years, we were able to ensure supply by increasing the production of Newater and desalinated water. Building up weather-resilient water sources will help us be better prepared for possible prolonged periods of dry spells in future.\"" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "window_width": "600",
+            "font_size": "10",
             "data_file": "data/text-article-3.json",
-            "stimuli": "A definite article indicates that its noun is a particular one which is identifiable to the listener. It may be something that the speaker has already mentioned, or it may be something uniquely specified. The definite article in English, for both singular and plural nouns, is the." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "sentence",
-            "window_width": "600",
-            "font_size": "10",
-            "data_file": "data/text-article-2.json",
-            "stimuli": "Building up weather-resilient water sources will help us be better prepared for possible prolonged periods of dry spells in future." 
+            "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "sentence",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-2.json",
-            "stimuli": "It will be able to treat freshwater from the nearby Marina Reservoir and produce 30 million gallons of water per day." 
+            "data_file": "data/text-article-3.json",
+            "stimuli": "The articles in the English language are the and a/an, and (in certain contexts) some." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "sentence",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/text-article-2.json",
-            "stimuli": "It will be able to treat freshwater from the nearby Marina Reservoir and produce 30 million gallons of water per day."
+            "data_file": "data/text-article-3.json",
+            "stimuli": "In languages that employ articles, every common noun, with some exceptions, is expressed with a certain definiteness, just as many languages express every noun with a certain grammatical number."
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "sentence",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/text-article-2.json",
-            "stimuli": "During the dry weather in recent years, we were able to ensure supply by increasing the production of Newater and desalinated water." 
+            "data_file": "data/text-article-3.json",
+            "stimuli": "It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." 
         },
         { 
             "technique": "TRADITIONAL", 
@@ -517,64 +517,65 @@
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/text-article-6.json",
-            "stimuli": "What is bandwidth? Width of the band of frequencies between the half power points." 
+            "data_file": "data/text-article-5.json",
+            "stimuli": "The actress came to Russia after writing to President Vladimir Putin asking him to support her environmental causes, particularly her fight against whale hunting." 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-6.json",
-            "stimuli": "What is bistable multivibrator? A multi vibrator with two stable states. An external signal is required to change the output from one state to the other. Also called a latch." 
+            "data_file": "data/text-article-5.json",
+            "stimuli": "The 48-year-old Canadian-born actress flew to the Pacific port of Vladivostok to attend an international economic forum at the invitation of environment minister Sergei Donskoi. Anderson attended a charity auction to raise money to protect endangered species and sold off a bright red float used in Baywatch filming for 3 million rubles (S$63,000) to a businessman, Interfax news agency reported." 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/text-article-6.json",
-            "stimuli": "What is barrier potential? The natural difference of potential that exists across a forward biased pn junction." 
+            "data_file": "data/text-article-5.json",
+            "stimuli": "\"Climate change is an urgent issue and I want to come here and speak to people that are brave enough to make big changes.\" Anderson said she raised the issue of whales held in captivity and Russia's import of fur from seals hunted commercially in Canada. \"I want to do something significant, which really can change something, together with Russia,\" Anderson was quoted by the state news agency RIA Novosti in comments translated into Russian. \"Starting with fur seals: I know that products made of fur seals go to Russia,\" she said." 
         }, 
         { 
             "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/text-article-6.json",
-            "stimuli": "What is base biasing? A method of biasing a BJT in which the bias voltage is supplied to the base by means of a resistor." 
+            "data_file": "data/text-article-5.json",
+            "stimuli": "The actress came to Russia after writing to President Vladimir Putin asking him to support her environmental causes, particularly her fight against whale hunting." 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "sentence",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/text-article-5.json",
-            "stimuli": "The 48-year-old Canadian-born actress flew to the Pacific port of Vladivostok to attend an international economic forum at the invitation of environment minister Sergei Donskoi." 
+            "data_file": "data/text-article-6.json",
+            "stimuli": "A DC voltage source containing two or more cells that convert chemical energy to electrical energy." 
         }, 
         { 
             "technique": "TRADITIONAL", 
             "granularity": "sentence",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-5.json",
-            "stimuli": "Actress Pamela Anderson urged Russia Thursday to join her fight to save whales and seals as she auctioned off a red float used in filming the hit 1990s show Baywatch." 
+            "data_file": "data/text-article-6.json",
+            "stimuli": "A number system having only two symbols, 0 and 1. A base 2 number system.
+" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "sentence",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/text-article-5.json",
-            "stimuli": "Anderson attended a charity auction to raise money to protect endangered species and sold off a bright red float used in Baywatch filming for 3 million rubles (S$63,000) to a businessman, Interfax news agency reported." 
+            "data_file": "data/text-article-6.json",
+            "stimuli": "What is bistable multivibrator?" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "sentence",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/text-article-5.json",
-            "stimuli": "Climate change is an urgent issue and I want to come here and speak to people that are brave enough to make big changes." 
+            "data_file": "data/text-article-6.json",
+            "stimuli": "What is bandwidth?" 
         }        
     ]
 }
