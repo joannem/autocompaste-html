@@ -383,7 +383,7 @@
             "font_size": "14",
             "data_file": "data/text-article-6.json",
             "stimuli": "What is battery? A DC voltage source containing two or more cells that convert chemical energy to electrical energy." 
-        }4
+        },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "sentence",
