@@ -169,7 +169,7 @@
             $(document).ready(function () {
                 var pid_int = ACPToolKit.getCurrentParticipantId().substring(1, 3);
                 currentBlock = 1;
-
+                
                 $.get('data/experiments-' + pid_int + '.json', function (data) {
                     trialsData = data.experiments;
                     currentTrial = 0;

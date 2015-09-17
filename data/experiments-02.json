@@ -558,8 +558,7 @@
             "window_width": "600",
             "font_size": "14",
             "data_file": "data/text-article-6.json",
-            "stimuli": "A number system having only two symbols, 0 and 1. A base 2 number system.
-" 
+            "stimuli": "A number system having only two symbols, 0 and 1. A base 2 number system." 
         },
         { 
             "technique": "TRADITIONAL", 
