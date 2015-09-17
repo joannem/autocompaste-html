@@ -5,116 +5,524 @@
             "granularity": "sentence",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/text-article-2.json",
-            "stimuli": "Building up weather-resilient water sources will help us be better prepared for possible prolonged periods of dry spells in future." 
+            "data_file": "data/text-article-1.json",
+            "stimuli": "Loss or dissipation of energy as it travels through a medium. Example: radio waves lose some of their energy as they travel through that atmosphere." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "sentence",
             "window_width": "600",
             "font_size": "14",
+            "data_file": "data/text-article-1.json",
+            "stimuli": "What is AC power supply?" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "window_width": "900",
+            "font_size": "10",
+            "data_file": "data/text-article-1.json",
+            "stimuli": "What is AC generator?"
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "window_width": "900",
+            "font_size": "14",
+            "data_file": "data/text-article-1.json",
+            "stimuli": "Loss or dissipation of energy as it travels through a medium. Example: radio waves lose some of their energy as they travel through that atmosphere." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "window_width": "600",
+            "font_size": "10",
+            "data_file": "data/text-article-2.json",
+            "stimuli": "Yesterday, national water agency PUB announced that it will call for a tender for the provision of consultancy services for the new plant in Marina East. It will be able to treat freshwater from the nearby Marina Reservoir and produce 30 million gallons of water per day." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "window_width": "600",
+            "font_size": "14",
+            "data_file": "data/text-article-2.json",
+            "stimuli": "With the new plant, Singapore will be able to produce a total of 160 million gallons of water a day through treated seawater."
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "window_width": "900",
+            "font_size": "10",
             "data_file": "data/text-article-2.json",
             "stimuli": "Singapore will build a fourth water desalination plant to meet future water needs in the city area and strengthen its drought resilience." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
-            "granularity": "sentence",
-            "window_width": "900",
-            "font_size": "10",
-            "data_file": "data/text-article-2.json",
-            "stimuli": "It will be able to treat freshwater from the nearby Marina Reservoir and produce 30 million gallons of water per day."
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "sentence",
+            "granularity": "paragraph",
             "window_width": "900",
             "font_size": "14",
             "data_file": "data/text-article-2.json",
-            "stimuli": "With the new plant, Singapore will be able to produce a total of 160 million gallons of water a day through treated seawater." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "paragraph",
-            "window_width": "600",
-            "font_size": "10",
-            "data_file": "data/text-article-3.json",
-            "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "paragraph",
-            "window_width": "600",
-            "font_size": "14",
-            "data_file": "data/text-article-3.json",
-            "stimuli": "Articles are usually characterized as either definite or indefinite. A few languages with well-developed systems of articles may distinguish additional subtypes. Within each type, languages may have various forms of each article, according to grammatical attributes such as gender, number, or case, or according to adjacent sounds."
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "paragraph",
-            "window_width": "900",
-            "font_size": "10",
-            "data_file": "data/text-article-3.json",
-            "stimuli": "A definite article indicates that its noun is a particular one which is identifiable to the listener. It may be something that the speaker has already mentioned, or it may be something uniquely specified. The definite article in English, for both singular and plural nouns, is the." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "paragraph",
-            "window_width": "900",
-            "font_size": "14",
-            "data_file": "data/text-article-3.json",
-            "stimuli": "However, recent developments show that definite articles are morphological elements linked to certain noun types due to lexicalization. Under this point of view, definiteness does not play a role in the selection of a definite article more than the lexical entry attached to the article." 
+            "stimuli": "Yesterday, national water agency PUB announced that it will call for a tender for the provision of consultancy services for the new plant in Marina East. It will be able to treat freshwater from the nearby Marina Reservoir and produce 30 million gallons of water per day." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/text-article-1.json",
-            "stimuli": "transform mechanical energy into AC electrical power"
+            "data_file": "data/text-article-3.json",
+            "stimuli": "an article is usually considered"
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-1.json",
-            "stimuli": "passes an AC signal" 
+            "data_file": "data/text-article-3.json",
+            "stimuli": "specify grammatical definiteness of the noun" 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/text-article-1.json",
-            "stimuli": "A filter that uses an amplifier" 
+            "data_file": "data/text-article-3.json",
+            "stimuli": "may be something uniquely specified" 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/text-article-1.json",
-            "stimuli": "saturation and cut off"
+            "data_file": "data/text-article-3.json",
+            "stimuli": "other adjectives and determiners"
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "sentence",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/text-article-5.json",
-            "stimuli": "Climate change is an urgent issue and I want to come here and speak to people that are brave enough to make big changes." 
+            "data_file": "data/text-article-4.json",
+            "stimuli": "No internet back then." 
         }, 
         { 
             "technique": "TRADITIONAL", 
             "granularity": "sentence",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-5.json",
-            "stimuli": "The 48-year-old Canadian-born actress flew to the Pacific port of Vladivostok to attend an international economic forum at the invitation of environment minister Sergei Donskoi." 
+            "data_file": "data/text-article-4.json",
+            "stimuli": "Good design balances form, functionality, and aesthetics in a way that makes the work put into it invisible." 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "sentence",
+            "window_width": "600",
+            "font_size": "14",
+            "data_file": "data/text-article-4.json",
+            "stimuli": "So it’s what I always wanted to do, but didn’t know it was a job until I found a book about famed industrial designer, Raymond Loewy in my high school library." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "window_width": "900",
+            "font_size": "14",
+            "data_file": "data/text-article-4.json",
+            "stimuli": "Concurrently, I was the Creative Director of Itoki Design, a New York-based subsidiary of one of Japan’s largest office furniture manufacturers." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "window_width": "600",
+            "font_size": "10",
+            "data_file": "data/text-article-5.json",
+            "stimuli": "\"Climate change is an urgent issue and I want to come here and speak to people that are brave enough to make big changes.\" Anderson said she raised the issue of whales held in captivity and Russia's import of fur from seals hunted commercially in Canada. \"I want to do something significant, which really can change something, together with Russia,\" Anderson was quoted by the state news agency RIA Novosti in comments translated into Russian. \"Starting with fur seals: I know that products made of fur seals go to Russia,\" she said." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "window_width": "600",
+            "font_size": "14",
+            "data_file": "data/text-article-5.json",
+            "stimuli": "The 48-year-old Canadian-born actress flew to the Pacific port of Vladivostok to attend an international economic forum at the invitation of environment minister Sergei Donskoi. Anderson attended a charity auction to raise money to protect endangered species and sold off a bright red float used in Baywatch filming for 3 million rubles (S$63,000) to a businessman, Interfax news agency reported." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "window_width": "900",
+            "font_size": "10",
+            "data_file": "data/text-article-5.json",
+            "stimuli": "The actress came to Russia after writing to President Vladimir Putin asking him to support her environmental causes, particularly her fight against whale hunting." 
+        }, 
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "window_width": "900",
+            "font_size": "14",
+            "data_file": "data/text-article-5.json",
+            "stimuli": "Actress Pamela Anderson urged Russia Thursday to join her fight to save whales and seals as she auctioned off a red float used in filming the hit 1990s show Baywatch." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "window_width": "600",
+            "font_size": "10",
+            "data_file": "data/text-article-6.json",
+            "stimuli": "change the output" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "window_width": "600",
+            "font_size": "14",
+            "data_file": "data/text-article-6.json",
+            "stimuli": "two or more cells" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "window_width": "900",
+            "font_size": "10",
+            "data_file": "data/text-article-6.json",
+            "stimuli": "supplied to the base by means of a resistor" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "window_width": "900",
+            "font_size": "14",
+            "data_file": "data/text-article-6.json",
+            "stimuli": "the band of frequencies" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "window_width": "600",
+            "font_size": "10",
+            "data_file": "data/text-article-1.json",
+            "stimuli": "What is acceptor atoms?" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "window_width": "600",
+            "font_size": "14",
+            "data_file": "data/text-article-1.json",
+            "stimuli": "A graph representing all possible combinations of AC output voltage and currentfor an amplifier." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "window_width": "900",
+            "font_size": "10",
+            "data_file": "data/text-article-1.json",
+            "stimuli": "A graph representing all possible combinations of AC output voltage and currentfor an amplifier."
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "window_width": "900",
+            "font_size": "14",
+            "data_file": "data/text-article-1.json",
+            "stimuli": "What is AC/DC?" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "window_width": "600",
+            "font_size": "10",
+            "data_file": "data/text-article-3.json",
+            "stimuli": "With the new plant, Singapore will be able to produce a total of 160 million gallons of water a day through treated seawater." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "window_width": "600",
+            "font_size": "14",
+            "data_file": "data/text-article-3.json",
+            "stimuli": "Yesterday, national water agency PUB announced that it will call for a tender for the provision of consultancy services for the new plant in Marina East. It will be able to treat freshwater from the nearby Marina Reservoir and produce 30 million gallons of water per day."
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "window_width": "900",
+            "font_size": "10",
+            "data_file": "data/text-article-3.json",
+            "stimuli": "PUB deputy chief executive (policy and development), Mr Chua Soon Guan, said the agency has been making investments to build up and diversify Singapore's water sources to strengthen water security. He said: \"During the dry weather in recent years, we were able to ensure supply by increasing the production of Newater and desalinated water. Building up weather-resilient water sources will help us be better prepared for possible prolonged periods of dry spells in future.\"" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "window_width": "900",
+            "font_size": "14",
+            "data_file": "data/text-article-3.json",
+            "stimuli": "Singapore will build a fourth water desalination plant to meet future water needs in the city area and strengthen its drought resilience." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "window_width": "600",
+            "font_size": "10",
+            "data_file": "data/text-article-3.json",
+            "stimuli": "other adjectives and determiners"
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "window_width": "600",
+            "font_size": "14",
+            "data_file": "data/text-article-3.json",
+            "stimuli": "the most frequent word is the" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "window_width": "900",
+            "font_size": "10",
+            "data_file": "data/text-article-3.json",
+            "stimuli": "extending to volume or numerical scope" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "window_width": "900",
+            "font_size": "14",
+            "data_file": "data/text-article-3.json",
+            "stimuli": "this point of view"
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "window_width": "600",
+            "font_size": "10",
+            "data_file": "data/text-article-4.json",
+            "stimuli": "From an early age I was art tracked, gifted at drawing and sculpting but without ambition to create art for its own sake." 
+        }, 
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "window_width": "600",
+            "font_size": "14",
+            "data_file": "data/text-article-4.json",
+            "stimuli": "I knew I wanted to make things, and that left architecture as a realistic professional pursuit, but the scale and scope of developing buildings didn’t appeal to me." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "window_width": "900",
+            "font_size": "10",
+            "data_file": "data/text-article-4.json",
+            "stimuli": "It’s a balance that the best designers make seem effortless." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "window_width": "900",
+            "font_size": "14",
+            "data_file": "data/text-article-4.json",
+            "stimuli": "Jeff currently works for Poppin, a company designing pleasingly modern office and work supplies." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "window_width": "600",
+            "font_size": "10",
+            "data_file": "data/text-article-5.json",
+            "stimuli": "Actress Pamela Anderson urged Russia Thursday to join her fight to save whales and seals as she auctioned off a red float used in filming the hit 1990s show Baywatch." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "window_width": "600",
+            "font_size": "14",
+            "data_file": "data/text-article-5.json",
+            "stimuli": "\"Climate change is an urgent issue and I want to come here and speak to people that are brave enough to make big changes.\" Anderson said she raised the issue of whales held in captivity and Russia's import of fur from seals hunted commercially in Canada. \"I want to do something significant, which really can change something, together with Russia,\" Anderson was quoted by the state news agency RIA Novosti in comments translated into Russian. \"Starting with fur seals: I know that products made of fur seals go to Russia,\" she said" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "window_width": "600",
+            "font_size": "14",
+            "data_file": "data/text-article-5.json",
+            "stimuli": "The actress came to Russia after writing to President Vladimir Putin asking him to support her environmental causes, particularly her fight against whale hunting." 
+        }, 
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "window_width": "900",
+            "font_size": "14",
+            "data_file": "data/text-article-5.json",
+            "stimuli": "The 48-year-old Canadian-born actress flew to the Pacific port of Vladivostok to attend an international economic forum at the invitation of environment minister Sergei Donskoi. Anderson attended a charity auction to raise money to protect endangered species and sold off a bright red float used in Baywatch filming for 3 million rubles (S$63,000) to a businessman, Interfax news agency reported." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "window_width": "600",
+            "font_size": "10",
+            "data_file": "data/text-article-6.json",
+            "stimuli": "means of a resistor" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "window_width": "600",
+            "font_size": "14",
+            "data_file": "data/text-article-6.json",
+            "stimuli": "base 2 number system" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "window_width": "900",
+            "font_size": "10",
+            "data_file": "data/text-article-6.json",
+            "stimuli": "from one state to the other" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "window_width": "900",
+            "font_size": "14",
+            "data_file": "data/text-article-6.json",
+            "stimuli": "convert chemical energy" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "window_width": "600",
+            "font_size": "10",
+            "data_file": "data/text-article-1.json",
+            "stimuli": "What is absorption?" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "window_width": "600",
+            "font_size": "14",
+            "data_file": "data/text-article-1.json",
+            "stimuli": "What is AC load line?" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "window_width": "900",
+            "font_size": "10",
+            "data_file": "data/text-article-1.json",
+            "stimuli": "What is AC/DC?"
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "window_width": "900",
+            "font_size": "14",
+            "data_file": "data/text-article-1.json",
+            "stimuli": "Trivalent atoms that accept free electrons from pentavalent atoms." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "window_width": "600",
+            "font_size": "10",
+            "data_file": "data/text-article-2.json",
+            "stimuli": "Singapore will build a fourth water desalination plant to meet future water needs in the city area and strengthen its drought resilience." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "window_width": "600",
+            "font_size": "14",
+            "data_file": "data/text-article-2.json",
+            "stimuli": "Yesterday, national water agency PUB announced that it will call for a tender for the provision of consultancy services for the new plant in Marina East. It will be able to treat freshwater from the nearby Marina Reservoir and produce 30 million gallons of water per day."
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "window_width": "900",
+            "font_size": "10",
+            "data_file": "data/text-article-2.json",
+            "stimuli": "With the new plant, Singapore will be able to produce a total of 160 million gallons of water a day through treated seawater." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "window_width": "900",
+            "font_size": "14",
+            "data_file": "data/text-article-2.json",
+            "stimuli": "PUB deputy chief executive (policy and development), Mr Chua Soon Guan, said the agency has been making investments to build up and diversify Singapore's water sources to strengthen water security. He said: \"During the dry weather in recent years, we were able to ensure supply by increasing the production of Newater and desalinated water. Building up weather-resilient water sources will help us be better prepared for possible prolonged periods of dry spells in future.\"" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "window_width": "600",
+            "font_size": "10",
+            "data_file": "data/text-article-3.json",
+            "stimuli": "a zero article"
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "window_width": "600",
+            "font_size": "14",
+            "data_file": "data/text-article-3.json",
+            "stimuli": "are usually characterized as either definite or indefinite" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "window_width": "900",
+            "font_size": "10",
+            "data_file": "data/text-article-3.json",
+            "stimuli": "in certain contexts" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "window_width": "900",
+            "font_size": "14",
+            "data_file": "data/text-article-3.json",
+            "stimuli": "used as the number and 'an'"
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "window_width": "600",
+            "font_size": "10",
+            "data_file": "data/text-article-4.json",
+            "stimuli": "For more than four years I’ve been responsible for heading the design of all the products we make; from pens and notebooks to desk accessories and furniture." 
+        }, 
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "window_width": "600",
+            "font_size": "14",
+            "data_file": "data/text-article-4.json",
+            "stimuli": "What drove you to choose your career path?" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "window_width": "900",
+            "font_size": "10",
+            "data_file": "data/text-article-4.json",
+            "stimuli": "Good design balances form, functionality, and aesthetics in a way that makes the work put into it invisible." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "window_width": "900",
+            "font_size": "14",
+            "data_file": "data/text-article-4.json",
+            "stimuli": "From an early age I was art tracked, gifted at drawing and sculpting but without ambition to create art for its own sake." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "window_width": "600",
+            "font_size": "10",
+            "data_file": "data/text-article-5.json",
+            "stimuli": "\"Climate change is an urgent issue and I want to come here and speak to people that are brave enough to make big changes.\" Anderson said she raised the issue of whales held in captivity and Russia's import of fur from seals hunted commercially in Canada. \"I want to do something significant, which really can change something, together with Russia,\" Anderson was quoted by the state news agency RIA Novosti in comments translated into Russian. \"Starting with fur seals: I know that products made of fur seals go to Russia,\" she said." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
             "window_width": "600",
             "font_size": "14",
             "data_file": "data/text-article-5.json",
@@ -122,459 +530,51 @@
         },
         { 
             "technique": "TRADITIONAL", 
-            "granularity": "sentence",
-            "window_width": "900",
+            "granularity": "paragraph",
+            "window_width": "600",
             "font_size": "14",
             "data_file": "data/text-article-5.json",
-            "stimuli": "Anderson attended a charity auction to raise money to protect endangered species and sold off a bright red float used in Baywatch filming for 3 million rubles (S$63,000) to a businessman, Interfax news agency reported." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "paragraph",
-            "window_width": "600",
-            "font_size": "10",
-            "data_file": "data/text-article-6.json",
-            "stimuli": "What is bandwidth? Width of the band of frequencies between the half power points." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "paragraph",
-            "window_width": "600",
-            "font_size": "14",
-            "data_file": "data/text-article-6.json",
-            "stimuli": "What is binary? A number system having only two symbols, 0 and 1. A base 2 number system." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "paragraph",
-            "window_width": "900",
-            "font_size": "10",
-            "data_file": "data/text-article-6.json",
-            "stimuli": "What is bistable multivibrator? A multi vibrator with two stable states. An external signal is required to change the output from one state to the other. Also called a latch." 
+            "stimuli": "The 48-year-old Canadian-born actress flew to the Pacific port of Vladivostok to attend an international economic forum at the invitation of environment minister Sergei Donskoi. Anderson attended a charity auction to raise money to protect endangered species and sold off a bright red float used in Baywatch filming for 3 million rubles (S$63,000) to a businessman, Interfax news agency reported." 
         }, 
         { 
             "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "window_width": "900",
-            "font_size": "14",
-            "data_file": "data/text-article-6.json",
-            "stimuli": "What is bipolar junction transistor? (BJT), A three terminal device in which emitter to collector current is controlled by base current." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "phrase",
-            "window_width": "600",
-            "font_size": "10",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "reconfiguring bicycle components" 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "phrase",
-            "window_width": "600",
-            "font_size": "14",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "well-designed products" 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "phrase",
-            "window_width": "900",
-            "font_size": "10",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "I was more interested" 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "phrase",
-            "window_width": "900",
-            "font_size": "14",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "I was involved in product development for global brands" 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "sentence",
-            "window_width": "600",
-            "font_size": "10",
-            "data_file": "data/text-article-2.json",
-            "stimuli": "With the new plant, Singapore will be able to produce a total of 160 million gallons of water a day through treated seawater." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "sentence",
-            "window_width": "600",
-            "font_size": "14",
-            "data_file": "data/text-article-2.json",
-            "stimuli": "Singapore will build a fourth water desalination plant to meet future water needs in the city area and strengthen its drought resilience." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "sentence",
-            "window_width": "900",
-            "font_size": "10",
-            "data_file": "data/text-article-2.json",
-            "stimuli": "PUB deputy chief executive (policy and development), Mr Chua Soon Guan, said the agency has been making investments to build up and diversify Singapore's water sources to strengthen water security."
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "sentence",
-            "window_width": "900",
-            "font_size": "14",
-            "data_file": "data/text-article-2.json",
-            "stimuli": "It will be able to treat freshwater from the nearby Marina Reservoir and produce 30 million gallons of water per day." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "paragraph",
-            "window_width": "600",
-            "font_size": "10",
-            "data_file": "data/text-article-3.json",
-            "stimuli": "A definite article indicates that its noun is a particular one which is identifiable to the listener. It may be something that the speaker has already mentioned, or it may be something uniquely specified. The definite article in English, for both singular and plural nouns, is the." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "paragraph",
-            "window_width": "600",
-            "font_size": "14",
-            "data_file": "data/text-article-3.json",
-            "stimuli": "Articles are usually characterized as either definite or indefinite. A few languages with well-developed systems of articles may distinguish additional subtypes. Within each type, languages may have various forms of each article, according to grammatical attributes such as gender, number, or case, or according to adjacent sounds."
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "paragraph",
-            "window_width": "900",
-            "font_size": "10",
-            "data_file": "data/text-article-3.json",
-            "stimuli": "However, recent developments show that definite articles are morphological elements linked to certain noun types due to lexicalization. Under this point of view, definiteness does not play a role in the selection of a definite article more than the lexical entry attached to the article." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "paragraph",
-            "window_width": "900",
-            "font_size": "14",
-            "data_file": "data/text-article-3.json",
-            "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "window_width": "600",
-            "font_size": "10",
-            "data_file": "data/text-article-1.json",
-            "stimuli": "saturation and cut off"
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "window_width": "600",
-            "font_size": "14",
-            "data_file": "data/text-article-1.json",
-            "stimuli": "atoms that accept free electrons" 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "window_width": "900",
-            "font_size": "10",
-            "data_file": "data/text-article-1.json",
-            "stimuli": "dissipation of energy" 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "window_width": "900",
-            "font_size": "14",
-            "data_file": "data/text-article-1.json",
-            "stimuli": "region of BJT operation"
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "sentence",
-            "window_width": "600",
-            "font_size": "10",
-            "data_file": "data/text-article-5.json",
-            "stimuli": "Actress Pamela Anderson urged Russia Thursday to join her fight to save whales and seals as she auctioned off a red float used in filming the hit 1990s show Baywatch." 
-        }, 
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "sentence",
-            "window_width": "600",
-            "font_size": "14",
-            "data_file": "data/text-article-5.json",
-            "stimuli": "Climate change is an urgent issue and I want to come here and speak to people that are brave enough to make big changes." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "sentence",
-            "window_width": "900",
-            "font_size": "10",
-            "data_file": "data/text-article-5.json",
-            "stimuli": "The 48-year-old Canadian-born actress flew to the Pacific port of Vladivostok to attend an international economic forum at the invitation of environment minister Sergei Donskoi." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "sentence",
-            "window_width": "900",
-            "font_size": "14",
-            "data_file": "data/text-article-5.json",
-            "stimuli": "The actress came to Russia after writing to President Vladimir Putin asking him to support her environmental causes, particularly her fight against whale hunting." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "paragraph",
-            "window_width": "600",
-            "font_size": "10",
-            "data_file": "data/text-article-6.json",
-            "stimuli": "What is base biasing? A method of biasing a BJT in which the bias voltage is supplied to the base by means of a resistor." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "paragraph",
-            "window_width": "600",
-            "font_size": "14",
-            "data_file": "data/text-article-6.json",
-            "stimuli": "What is bipolar junction transistor? (BJT), A three terminal device in which emitter to collector current is controlled by base current." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "paragraph",
-            "window_width": "600",
-            "font_size": "14",
-            "data_file": "data/text-article-6.json",
-            "stimuli": "What is bandwidth? Width of the band of frequencies between the half power points." 
-        }, 
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "paragraph",
-            "window_width": "900",
-            "font_size": "14",
-            "data_file": "data/text-article-6.json",
-            "stimuli": "What is battery? A DC voltage source containing two or more cells that convert chemical energy to electrical energy." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "phrase",
-            "window_width": "600",
-            "font_size": "10",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "a more personal elemental approach" 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "phrase",
-            "window_width": "600",
-            "font_size": "14",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "modern office and work supplies" 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "phrase",
-            "window_width": "900",
-            "font_size": "10",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "designing everyday products" 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "phrase",
-            "window_width": "900",
-            "font_size": "14",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "range of clients" 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "sentence",
-            "window_width": "600",
-            "font_size": "10",
-            "data_file": "data/text-article-2.json",
-            "stimuli": "Building up weather-resilient water sources will help us be better prepared for possible prolonged periods of dry spells in future." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "sentence",
-            "window_width": "600",
-            "font_size": "14",
-            "data_file": "data/text-article-2.json",
-            "stimuli": "It will be able to treat freshwater from the nearby Marina Reservoir and produce 30 million gallons of water per day." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "sentence",
-            "window_width": "900",
-            "font_size": "10",
-            "data_file": "data/text-article-2.json",
-            "stimuli": "It will be able to treat freshwater from the nearby Marina Reservoir and produce 30 million gallons of water per day."
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "sentence",
-            "window_width": "900",
-            "font_size": "14",
-            "data_file": "data/text-article-2.json",
-            "stimuli": "During the dry weather in recent years, we were able to ensure supply by increasing the production of Newater and desalinated water." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "paragraph",
-            "window_width": "600",
-            "font_size": "10",
-            "data_file": "data/text-article-3.json",
-            "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "paragraph",
-            "window_width": "600",
-            "font_size": "14",
-            "data_file": "data/text-article-3.json",
-            "stimuli": "Articles are usually characterized as either definite or indefinite. A few languages with well-developed systems of articles may distinguish additional subtypes. Within each type, languages may have various forms of each article, according to grammatical attributes such as gender, number, or case, or according to adjacent sounds."
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "paragraph",
-            "window_width": "900",
-            "font_size": "10",
-            "data_file": "data/text-article-3.json",
-            "stimuli": "An article (abbreviated ART) is a word (or prefix or suffix) that is used with a noun to indicate the type of reference being made by the noun. Articles specify grammatical definiteness of the noun, in some languages extending to volume or numerical scope. The articles in the English language are the and a/an, and (in certain context) some. 'An' and 'a' are modern forms of the Old English 'an', which in Anglian dialects was the number 'one' (compare 'on', in Saxon dialects) and survived into Modern Scots as the number 'ane'. Both 'on' (respelled 'one' by the Normans) and 'an' survived into Modern English, with 'one' used as the number and 'an' ('a', before nouns that begin with a consonant sound) as an indefinite article." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "paragraph",
-            "window_width": "900",
-            "font_size": "14",
-            "data_file": "data/text-article-3.json",
-            "stimuli": "A definite article indicates that its noun is a particular one which is identifiable to the listener. It may be something that the speaker has already mentioned, or it may be something uniquely specified. The definite article in English, for both singular and plural nouns, is the." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "window_width": "600",
-            "font_size": "10",
-            "data_file": "data/text-article-1.json",
-            "stimuli": "transform mechanical energy into AC electrical power"
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "window_width": "600",
-            "font_size": "14",
-            "data_file": "data/text-article-1.json",
-            "stimuli": "dissipation of energy" 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "window_width": "900",
-            "font_size": "10",
-            "data_file": "data/text-article-1.json",
-            "stimuli": "AC generator" 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "window_width": "900",
-            "font_size": "14",
-            "data_file": "data/text-article-1.json",
-            "stimuli": "reactive components"
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "sentence",
-            "window_width": "600",
-            "font_size": "10",
-            "data_file": "data/text-article-5.json",
-            "stimuli": "The 48-year-old Canadian-born actress flew to the Pacific port of Vladivostok to attend an international economic forum at the invitation of environment minister Sergei Donskoi." 
-        }, 
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "sentence",
-            "window_width": "600",
             "font_size": "14",
             "data_file": "data/text-article-5.json",
             "stimuli": "Actress Pamela Anderson urged Russia Thursday to join her fight to save whales and seals as she auctioned off a red float used in filming the hit 1990s show Baywatch." 
         },
         { 
             "technique": "TRADITIONAL", 
-            "granularity": "sentence",
-            "window_width": "900",
-            "font_size": "10",
-            "data_file": "data/text-article-5.json",
-            "stimuli": "Anderson attended a charity auction to raise money to protect endangered species and sold off a bright red float used in Baywatch filming for 3 million rubles (S$63,000) to a businessman, Interfax news agency reported." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "sentence",
-            "window_width": "900",
-            "font_size": "14",
-            "data_file": "data/text-article-5.json",
-            "stimuli": "Climate change is an urgent issue and I want to come here and speak to people that are brave enough to make big changes." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "paragraph",
-            "window_width": "600",
-            "font_size": "10",
-            "data_file": "data/text-article-6.json",
-            "stimuli": "What is bandwidth? Width of the band of frequencies between the half power points." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "paragraph",
-            "window_width": "600",
-            "font_size": "14",
-            "data_file": "data/text-article-6.json",
-            "stimuli": "What is bistable multivibrator? A multi vibrator with two stable states. An external signal is required to change the output from one state to the other. Also called a latch." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "paragraph",
-            "window_width": "600",
-            "font_size": "14",
-            "data_file": "data/text-article-6.json",
-            "stimuli": "What is barrier potential? The natural difference of potential that exists across a forward biased pn junction." 
-        }, 
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "paragraph",
-            "window_width": "900",
-            "font_size": "14",
-            "data_file": "data/text-article-6.json",
-            "stimuli": "What is base biasing? A method of biasing a BJT in which the bias voltage is supplied to the base by means of a resistor." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "your current position" 
+            "data_file": "data/text-article-6.json",
+            "stimuli": "natural difference of" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "create art for its own sake" 
+            "data_file": "data/text-article-6.json",
+            "stimuli": " bipolar junction transistor" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "A beautifully crafted object" 
+            "data_file": "data/text-article-6.json",
+            "stimuli": "two stable states" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "I was involved in product development" 
+            "data_file": "data/text-article-6.json",
+            "stimuli": "base 2 number system" 
         }        
     ]
 }

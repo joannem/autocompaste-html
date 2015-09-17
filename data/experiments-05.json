@@ -5,576 +5,576 @@
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/text-article-3.json",
-            "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." 
+            "data_file": "data/text-article-1.json",
+            "stimuli": "What is absorption? Loss or dissipation of energy as it travels through a medium. Example: radio waves lose some of their energy as they travel through that atmosphere." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-3.json",
-            "stimuli": "Articles are usually characterized as either definite or indefinite. A few languages with well-developed systems of articles may distinguish additional subtypes. Within each type, languages may have various forms of each article, according to grammatical attributes such as gender, number, or case, or according to adjacent sounds."
+            "data_file": "data/text-article-1.json",
+            "stimuli": "What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage."
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/text-article-3.json",
-            "stimuli": "A definite article indicates that its noun is a particular one which is identifiable to the listener. It may be something that the speaker has already mentioned, or it may be something uniquely specified. The definite article in English, for both singular and plural nouns, is the." 
+            "data_file": "data/text-article-1.json",
+            "stimuli": "What is AC power supply? Power supply that delivers an AC voltage." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "14",
+            "data_file": "data/text-article-1.json",
+            "stimuli": "What is active filter? A filter that uses an amplifier in addition to reactive components to pass or reject selected frequencies." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "window_width": "600",
+            "font_size": "10",
+            "data_file": "data/text-article-2.json",
+            "stimuli": "nearby Marina Reservoir"
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "window_width": "600",
+            "font_size": "14",
+            "data_file": "data/text-article-2.json",
+            "stimuli": "call for a tender" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "window_width": "900",
+            "font_size": "10",
+            "data_file": "data/text-article-2.json",
+            "stimuli": "weather-resilient water sources" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "window_width": "900",
+            "font_size": "14",
+            "data_file": "data/text-article-2.json",
+            "stimuli": "we were able to ensure supply by increasing the production of Newater"
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "window_width": "600",
+            "font_size": "10",
             "data_file": "data/text-article-3.json",
-            "stimuli": "However, recent developments show that definite articles are morphological elements linked to certain noun types due to lexicalization. Under this point of view, definiteness does not play a role in the selection of a definite article more than the lexical entry attached to the article." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "window_width": "600",
-            "font_size": "10",
-            "data_file": "data/text-article-1.json",
-            "stimuli": "transform mechanical energy into AC electrical power"
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "window_width": "600",
-            "font_size": "14",
-            "data_file": "data/text-article-1.json",
-            "stimuli": "passes an AC signal" 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "window_width": "900",
-            "font_size": "10",
-            "data_file": "data/text-article-1.json",
-            "stimuli": "A filter that uses an amplifier" 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "window_width": "900",
-            "font_size": "14",
-            "data_file": "data/text-article-1.json",
-            "stimuli": "saturation and cut off"
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "sentence",
-            "window_width": "600",
-            "font_size": "10",
-            "data_file": "data/text-article-2.json",
-            "stimuli": "Building up weather-resilient water sources will help us be better prepared for possible prolonged periods of dry spells in future." 
+            "stimuli": "An article (abbreviated ART) is a word (or prefix or suffix) that is used with a noun to indicate the type of reference being made by the noun." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "sentence",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-2.json",
-            "stimuli": "Singapore will build a fourth water desalination plant to meet future water needs in the city area and strengthen its drought resilience." 
+            "data_file": "data/text-article-3.json",
+            "stimuli": "A few languages with well-developed systems of articles may distinguish additional subtypes." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "sentence",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/text-article-2.json",
-            "stimuli": "It will be able to treat freshwater from the nearby Marina Reservoir and produce 30 million gallons of water per day."
+            "data_file": "data/text-article-3.json",
+            "stimuli": "Articles specify grammatical definiteness of the noun, in some languages extending to volume or numerical scope."
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "sentence",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/text-article-2.json",
-            "stimuli": "With the new plant, Singapore will be able to produce a total of 160 million gallons of water a day through treated seawater." 
+            "data_file": "data/text-article-3.json",
+            "stimuli": "Under this point of view, definiteness does not play a role in the selection of a definite article more than the lexical entry attached to the article." 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/text-article-6.json",
-            "stimuli": "What is bandwidth? Width of the band of frequencies between the half power points." 
+            "data_file": "data/text-article-4.json",
+            "stimuli": "To learn a little about the thought that goes into designing everyday products, we spoke with Jeff Miller. Jeff currently works for Poppin, a company designing pleasingly modern office and work supplies. He’s previously worked with some of the biggest names that come to mind when you think of well-designed products, including Herman Miller, Bosch, and more." 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-6.json",
-            "stimuli": "What is binary? A number system having only two symbols, 0 and 1. A base 2 number system." 
+            "data_file": "data/text-article-4.json",
+            "stimuli": "Good design balances form, functionality, and aesthetics in a way that makes the work put into it invisible. A beautifully crafted object can be useless if it doesn’t perform its function; likewise, something mundane as a stapler can be aesthetically pleasing. It’s a balance that the best designers make seem effortless." 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/text-article-6.json",
-            "stimuli": "What is bistable multivibrator? A multi vibrator with two stable states. An external signal is required to change the output from one state to the other. Also called a latch." 
+            "data_file": "data/text-article-4.json",
+            "stimuli": "Tell us a little about who you are, your current position, and how long you’ve been at it." 
         }, 
         { 
             "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/text-article-6.json",
-            "stimuli": "What is bipolar junction transistor? (BJT), A three terminal device in which emitter to collector current is controlled by base current." 
+            "data_file": "data/text-article-4.json",
+            "stimuli": "From an early age I was art tracked, gifted at drawing and sculpting but without ambition to create art for its own sake. I knew I wanted to make things, and that left architecture as a realistic professional pursuit, but the scale and scope of developing buildings didn’t appeal to me. I was more interested in the way flip-top plastic shampoo bottles worked, considering why the underside of a telephone couldn’t be as beautiful as the top, endlessly reconfiguring bicycle components into new kinetic creations, and, of course, furniture. So it’s what I always wanted to do, but didn’t know it was a job until I found a book about famed industrial designer, Raymond Loewy in my high school library. (No internet back then.)" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "reconfiguring bicycle components" 
+            "data_file": "data/text-article-5.json",
+            "stimuli": "Climate change is an urgent issue" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "well-designed products" 
+            "data_file": "data/text-article-5.json",
+            "stimuli": "48-year-old Canadian-born actress" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "I was more interested" 
+            "data_file": "data/text-article-5.json",
+            "stimuli": "a bright red float" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "I was involved in product development for global brands" 
+            "data_file": "data/text-article-5.json",
+            "stimuli": "Russian television showed Anderson jogging on the spot" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "sentence",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/text-article-5.json",
-            "stimuli": "Climate change is an urgent issue and I want to come here and speak to people that are brave enough to make big changes." 
+            "data_file": "data/text-article-6.json",
+            "stimuli": "The natural difference of potential that exists across a forward biased pn junction." 
         }, 
         { 
             "technique": "TRADITIONAL", 
             "granularity": "sentence",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-5.json",
-            "stimuli": "The 48-year-old Canadian-born actress flew to the Pacific port of Vladivostok to attend an international economic forum at the invitation of environment minister Sergei Donskoi." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "sentence",
-            "window_width": "600",
-            "font_size": "14",
-            "data_file": "data/text-article-5.json",
-            "stimuli": "The actress came to Russia after writing to President Vladimir Putin asking him to support her environmental causes, particularly her fight against whale hunting." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "sentence",
-            "window_width": "900",
-            "font_size": "14",
-            "data_file": "data/text-article-5.json",
-            "stimuli": "Anderson attended a charity auction to raise money to protect endangered species and sold off a bright red float used in Baywatch filming for 3 million rubles (S$63,000) to a businessman, Interfax news agency reported." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "paragraph",
-            "window_width": "600",
-            "font_size": "10",
-            "data_file": "data/text-article-3.json",
-            "stimuli": "A definite article indicates that its noun is a particular one which is identifiable to the listener. It may be something that the speaker has already mentioned, or it may be something uniquely specified. The definite article in English, for both singular and plural nouns, is the." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "paragraph",
-            "window_width": "600",
-            "font_size": "14",
-            "data_file": "data/text-article-3.json",
-            "stimuli": "Articles are usually characterized as either definite or indefinite. A few languages with well-developed systems of articles may distinguish additional subtypes. Within each type, languages may have various forms of each article, according to grammatical attributes such as gender, number, or case, or according to adjacent sounds."
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "paragraph",
-            "window_width": "900",
-            "font_size": "10",
-            "data_file": "data/text-article-3.json",
-            "stimuli": "However, recent developments show that definite articles are morphological elements linked to certain noun types due to lexicalization. Under this point of view, definiteness does not play a role in the selection of a definite article more than the lexical entry attached to the article." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "paragraph",
-            "window_width": "900",
-            "font_size": "14",
-            "data_file": "data/text-article-3.json",
-            "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "window_width": "600",
-            "font_size": "10",
-            "data_file": "data/text-article-1.json",
-            "stimuli": "saturation and cut off"
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "window_width": "600",
-            "font_size": "14",
-            "data_file": "data/text-article-1.json",
-            "stimuli": "atoms that accept free electrons" 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "window_width": "900",
-            "font_size": "10",
-            "data_file": "data/text-article-1.json",
-            "stimuli": "dissipation of energy" 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "window_width": "900",
-            "font_size": "14",
-            "data_file": "data/text-article-1.json",
-            "stimuli": "region of BJT operation"
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "sentence",
-            "window_width": "600",
-            "font_size": "10",
-            "data_file": "data/text-article-2.json",
-            "stimuli": "With the new plant, Singapore will be able to produce a total of 160 million gallons of water a day through treated seawater." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "sentence",
-            "window_width": "600",
-            "font_size": "14",
-            "data_file": "data/text-article-2.json",
-            "stimuli": "Singapore will build a fourth water desalination plant to meet future water needs in the city area and strengthen its drought resilience." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "sentence",
-            "window_width": "900",
-            "font_size": "10",
-            "data_file": "data/text-article-2.json",
-            "stimuli": "PUB deputy chief executive (policy and development), Mr Chua Soon Guan, said the agency has been making investments to build up and diversify Singapore's water sources to strengthen water security."
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "sentence",
-            "window_width": "900",
-            "font_size": "14",
-            "data_file": "data/text-article-2.json",
-            "stimuli": "It will be able to treat freshwater from the nearby Marina Reservoir and produce 30 million gallons of water per day." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "paragraph",
-            "window_width": "600",
-            "font_size": "10",
             "data_file": "data/text-article-6.json",
-            "stimuli": "What is base biasing? A method of biasing a BJT in which the bias voltage is supplied to the base by means of a resistor." 
+            "stimuli": "What is battery?" 
         },
         { 
             "technique": "TRADITIONAL", 
-            "granularity": "paragraph",
+            "granularity": "sentence",
             "window_width": "600",
             "font_size": "14",
             "data_file": "data/text-article-6.json",
-            "stimuli": "What is bipolar junction transistor? (BJT), A three terminal device in which emitter to collector current is controlled by base current." 
+            "stimuli": "A DC voltage source containing two or more cells that convert chemical energy to electrical energy." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "window_width": "900",
+            "font_size": "14",
+            "data_file": "data/text-article-6.json",
+            "stimuli": "What is bistable multivibrator?" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "window_width": "600",
+            "font_size": "10",
+            "data_file": "data/text-article-1.json",
+            "stimuli": "What is AC load line? A graph representing all possible combinations of AC output voltage and currentfor an amplifier." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "window_width": "600",
+            "font_size": "14",
+            "data_file": "data/text-article-1.json",
+            "stimuli": "What is acceptor atoms? Trivalent atoms that accept free electrons from pentavalent atoms."
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "window_width": "900",
+            "font_size": "10",
+            "data_file": "data/text-article-1.json",
+            "stimuli": "What is AC power supply? Power supply that delivers an AC voltage." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "window_width": "900",
+            "font_size": "14",
+            "data_file": "data/text-article-1.json",
+            "stimuli": "What is active filter? A filter that uses an amplifier in addition to reactive components to pass or reject selected frequencies." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "window_width": "600",
+            "font_size": "10",
+            "data_file": "data/text-article-2.json",
+            "stimuli": "national water agency PUB"
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "window_width": "600",
+            "font_size": "14",
+            "data_file": "data/text-article-2.json",
+            "stimuli": "investments to build up and diversify" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "window_width": "900",
+            "font_size": "10",
+            "data_file": "data/text-article-2.json",
+            "stimuli": "gallons of water a day" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "window_width": "900",
+            "font_size": "14",
+            "data_file": "data/text-article-2.json",
+            "stimuli": "a fourth water desalination plant"
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "window_width": "600",
+            "font_size": "10",
+            "data_file": "data/text-article-3.json",
+            "stimuli": "However, recent developments show that definite articles are morphological elements linked to certain noun types due to lexicalization." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "window_width": "600",
+            "font_size": "14",
+            "data_file": "data/text-article-3.json",
+            "stimuli": "Under this point of view, definiteness does not play a role in the selection of a definite article more than the lexical entry attached to the article." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "window_width": "900",
+            "font_size": "10",
+            "data_file": "data/text-article-3.json",
+            "stimuli": "Articles specify grammatical definiteness of the noun, in some languages extending to volume or numerical scope."
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "window_width": "900",
+            "font_size": "14",
+            "data_file": "data/text-article-3.json",
+            "stimuli": "It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "window_width": "600",
+            "font_size": "10",
+            "data_file": "data/text-article-4.json",
+            "stimuli": "Tell us a little about who you are, your current position, and how long you’ve been at it." 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-6.json",
-            "stimuli": "What is bandwidth? Width of the band of frequencies between the half power points." 
+            "data_file": "data/text-article-4.json",
+            "stimuli": "To learn a little about the thought that goes into designing everyday products, we spoke with Jeff Miller. Jeff currently works for Poppin, a company designing pleasingly modern office and work supplies. He’s previously worked with some of the biggest names that come to mind when you think of well-designed products, including Herman Miller, Bosch, and more." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "window_width": "600",
+            "font_size": "14",
+            "data_file": "data/text-article-4.json",
+            "stimuli": "What drove you to choose your career path?" 
         }, 
         { 
             "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/text-article-6.json",
-            "stimuli": "What is battery? A DC voltage source containing two or more cells that convert chemical energy to electrical energy." 
+            "data_file": "data/text-article-4.json",
+            "stimuli": "Good design balances form, functionality, and aesthetics in a way that makes the work put into it invisible. A beautifully crafted object can be useless if it doesn’t perform its function; likewise, something mundane as a stapler can be aesthetically pleasing. It’s a balance that the best designers make seem effortless." 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "a more personal elemental approach" 
+            "data_file": "data/text-article-5.json",
+            "stimuli": "filming for 3 million rubles" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "modern office and work supplies" 
+            "data_file": "data/text-article-5.json",
+            "stimuli": "to a businessman" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "designing everyday products" 
+            "data_file": "data/text-article-5.json",
+            "stimuli": "and sold off a bright red float" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "range of clients" 
+            "data_file": "data/text-article-5.json",
+            "stimuli": "urged Russia Thursday to join her" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "sentence",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/text-article-5.json",
-            "stimuli": "Actress Pamela Anderson urged Russia Thursday to join her fight to save whales and seals as she auctioned off a red float used in filming the hit 1990s show Baywatch." 
+            "data_file": "data/text-article-6.json",
+            "stimuli": "What is barrier potential?" 
         }, 
         { 
             "technique": "TRADITIONAL", 
             "granularity": "sentence",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-5.json",
-            "stimuli": "Climate change is an urgent issue and I want to come here and speak to people that are brave enough to make big changes." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "sentence",
-            "window_width": "900",
-            "font_size": "10",
-            "data_file": "data/text-article-5.json",
-            "stimuli": "The 48-year-old Canadian-born actress flew to the Pacific port of Vladivostok to attend an international economic forum at the invitation of environment minister Sergei Donskoi." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "sentence",
-            "window_width": "900",
-            "font_size": "14",
-            "data_file": "data/text-article-5.json",
-            "stimuli": "The actress came to Russia after writing to President Vladimir Putin asking him to support her environmental causes, particularly her fight against whale hunting." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "paragraph",
-            "window_width": "600",
-            "font_size": "10",
-            "data_file": "data/text-article-3.json",
-            "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "paragraph",
-            "window_width": "600",
-            "font_size": "14",
-            "data_file": "data/text-article-3.json",
-            "stimuli": "Articles are usually characterized as either definite or indefinite. A few languages with well-developed systems of articles may distinguish additional subtypes. Within each type, languages may have various forms of each article, according to grammatical attributes such as gender, number, or case, or according to adjacent sounds."
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "paragraph",
-            "window_width": "900",
-            "font_size": "10",
-            "data_file": "data/text-article-3.json",
-            "stimuli": "An article (abbreviated ART) is a word (or prefix or suffix) that is used with a noun to indicate the type of reference being made by the noun. Articles specify grammatical definiteness of the noun, in some languages extending to volume or numerical scope. The articles in the English language are the and a/an, and (in certain context) some. 'An' and 'a' are modern forms of the Old English 'an', which in Anglian dialects was the number 'one' (compare 'on', in Saxon dialects) and survived into Modern Scots as the number 'ane'. Both 'on' (respelled 'one' by the Normans) and 'an' survived into Modern English, with 'one' used as the number and 'an' ('a', before nouns that begin with a consonant sound) as an indefinite article." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "paragraph",
-            "window_width": "900",
-            "font_size": "14",
-            "data_file": "data/text-article-3.json",
-            "stimuli": "A definite article indicates that its noun is a particular one which is identifiable to the listener. It may be something that the speaker has already mentioned, or it may be something uniquely specified. The definite article in English, for both singular and plural nouns, is the." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "window_width": "600",
-            "font_size": "10",
-            "data_file": "data/text-article-1.json",
-            "stimuli": "transform mechanical energy into AC electrical power"
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "window_width": "600",
-            "font_size": "14",
-            "data_file": "data/text-article-1.json",
-            "stimuli": "dissipation of energy" 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "window_width": "900",
-            "font_size": "10",
-            "data_file": "data/text-article-1.json",
-            "stimuli": "AC generator" 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "window_width": "900",
-            "font_size": "14",
-            "data_file": "data/text-article-1.json",
-            "stimuli": "reactive components"
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "sentence",
-            "window_width": "600",
-            "font_size": "10",
-            "data_file": "data/text-article-2.json",
-            "stimuli": "Building up weather-resilient water sources will help us be better prepared for possible prolonged periods of dry spells in future." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "sentence",
-            "window_width": "600",
-            "font_size": "14",
-            "data_file": "data/text-article-2.json",
-            "stimuli": "It will be able to treat freshwater from the nearby Marina Reservoir and produce 30 million gallons of water per day." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "sentence",
-            "window_width": "900",
-            "font_size": "10",
-            "data_file": "data/text-article-2.json",
-            "stimuli": "It will be able to treat freshwater from the nearby Marina Reservoir and produce 30 million gallons of water per day."
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "sentence",
-            "window_width": "900",
-            "font_size": "14",
-            "data_file": "data/text-article-2.json",
-            "stimuli": "During the dry weather in recent years, we were able to ensure supply by increasing the production of Newater and desalinated water." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "paragraph",
-            "window_width": "600",
-            "font_size": "10",
             "data_file": "data/text-article-6.json",
-            "stimuli": "What is bandwidth? Width of the band of frequencies between the half power points." 
+            "stimuli": "Width of the band of frequencies between the half power points." 
         },
         { 
             "technique": "TRADITIONAL", 
-            "granularity": "paragraph",
-            "window_width": "600",
-            "font_size": "14",
-            "data_file": "data/text-article-6.json",
-            "stimuli": "What is bistable multivibrator? A multi vibrator with two stable states. An external signal is required to change the output from one state to the other. Also called a latch." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "paragraph",
+            "granularity": "sentence",
             "window_width": "900",
             "font_size": "10",
             "data_file": "data/text-article-6.json",
-            "stimuli": "What is barrier potential? The natural difference of potential that exists across a forward biased pn junction." 
+            "stimuli": "A method of biasing a BJT in which the bias voltage is supplied to the base by means of a resistor." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "window_width": "900",
+            "font_size": "14",
+            "data_file": "data/text-article-6.json",
+            "stimuli": "What is bistable multivibrator?" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "window_width": "600",
+            "font_size": "10",
+            "data_file": "data/text-article-1.json",
+            "stimuli": "What is active filter? A filter that uses an amplifier in addition to reactive components to pass or reject selected frequencies." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "window_width": "600",
+            "font_size": "14",
+            "data_file": "data/text-article-1.json",
+            "stimuli": "What is acceptor atoms? Trivalent atoms that accept free electrons from pentavalent atoms."
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "window_width": "900",
+            "font_size": "10",
+            "data_file": "data/text-article-1.json",
+            "stimuli": "What is AC power supply? Power supply that delivers an AC voltage." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "window_width": "900",
+            "font_size": "14",
+            "data_file": "data/text-article-1.json",
+            "stimuli": "What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "window_width": "600",
+            "font_size": "10",
+            "data_file": "data/text-article-2.json",
+            "stimuli": "for the new plant"
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "window_width": "600",
+            "font_size": "14",
+            "data_file": "data/text-article-2.json",
+            "stimuli": "be able to treat freshwater" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "window_width": "900",
+            "font_size": "10",
+            "data_file": "data/text-article-2.json",
+            "stimuli": "a total of 160 million gallons" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "window_width": "900",
+            "font_size": "14",
+            "data_file": "data/text-article-2.json",
+            "stimuli": "help us be better prepared"
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "window_width": "600",
+            "font_size": "10",
+            "data_file": "data/text-article-3.json",
+            "stimuli": "The articles in the English language are the and a/an, and (in certain contexts) some." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "window_width": "600",
+            "font_size": "14",
+            "data_file": "data/text-article-3.json",
+            "stimuli": "Articles specify grammatical definiteness of the noun, in some languages extending to volume or numerical scope." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "window_width": "900",
+            "font_size": "10",
+            "data_file": "data/text-article-3.json",
+            "stimuli": "A few languages with well-developed systems of articles may distinguish additional subtypes."
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "window_width": "900",
+            "font_size": "14",
+            "data_file": "data/text-article-3.json",
+            "stimuli": "In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "window_width": "600",
+            "font_size": "10",
+            "data_file": "data/text-article-4.json",
+            "stimuli": "To learn a little about the thought that goes into designing everyday products, we spoke with Jeff Miller. Jeff currently works for Poppin, a company designing pleasingly modern office and work supplies. He’s previously worked with some of the biggest names that come to mind when you think of well-designed products, including Herman Miller, Bosch, and more." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "window_width": "600",
+            "font_size": "14",
+            "data_file": "data/text-article-4.json",
+            "stimuli": "Tell us a little about who you are, your current position, and how long you’ve been at it." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "window_width": "900",
+            "font_size": "10",
+            "data_file": "data/text-article-4.json",
+            "stimuli": "I’m Jeff Miller, Vice President of Design at Poppin—a one-stop shop for workstyle. For more than four years I’ve been responsible for heading the design of all the products we make; from pens and notebooks to desk accessories and furniture. Prior to joining Poppin, I headed my own design practice combining a research-driven consulting background, with a more personal elemental approach for a range of clients in the areas of consumer electronics, furniture and interior design including: Bosch, Cuisinart, Herman Miller, Panasonic and Samsung. Concurrently, I was the Creative Director of Itoki Design, a New York-based subsidiary of one of Japan’s largest office furniture manufacturers. Years prior, I was the long-time member and Vice President of Design at ECCO Design, in New York, where for more than a decade I was involved in product development for global brands including: Apple, Colgate, Corning, LG, Motorola, OXO and Procter & Gamble." 
         }, 
         { 
             "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/text-article-6.json",
-            "stimuli": "What is base biasing? A method of biasing a BJT in which the bias voltage is supplied to the base by means of a resistor." 
+            "data_file": "data/text-article-4.json",
+            "stimuli": "Good design balances form, functionality, and aesthetics in a way that makes the work put into it invisible. A beautifully crafted object can be useless if it doesn’t perform its function; likewise, something mundane as a stapler can be aesthetically pleasing. It’s a balance that the best designers make seem effortless." 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "your current position" 
+            "data_file": "data/text-article-5.json",
+            "stimuli": "protect endangered species" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "create art for its own sake" 
+            "data_file": "data/text-article-5.json",
+            "stimuli": " I want to come here and speak" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "A beautifully crafted object" 
+            "data_file": "data/text-article-5.json",
+            "stimuli": "attended a charity auction" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "I was involved in product development" 
+            "data_file": "data/text-article-5.json",
+            "stimuli": "particularly her fight against whale hunting" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "sentence",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/text-article-5.json",
-            "stimuli": "The 48-year-old Canadian-born actress flew to the Pacific port of Vladivostok to attend an international economic forum at the invitation of environment minister Sergei Donskoi." 
+            "data_file": "data/text-article-6.json",
+            "stimuli": "A method of biasing a BJT in which the bias voltage is supplied to the base by means of a resistor." 
         }, 
         { 
             "technique": "TRADITIONAL", 
             "granularity": "sentence",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-5.json",
-            "stimuli": "Actress Pamela Anderson urged Russia Thursday to join her fight to save whales and seals as she auctioned off a red float used in filming the hit 1990s show Baywatch." 
+            "data_file": "data/text-article-6.json",
+            "stimuli": "What is binary?" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "sentence",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/text-article-5.json",
-            "stimuli": "Anderson attended a charity auction to raise money to protect endangered species and sold off a bright red float used in Baywatch filming for 3 million rubles (S$63,000) to a businessman, Interfax news agency reported." 
+            "data_file": "data/text-article-6.json",
+            "stimuli": "What is battery?" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "sentence",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/text-article-5.json",
-            "stimuli": "Climate change is an urgent issue and I want to come here and speak to people that are brave enough to make big changes." 
+            "data_file": "data/text-article-6.json",
+            "stimuli": "The natural difference of potential that exists across a forward biased pn junction." 
         }        
     ]
 }
