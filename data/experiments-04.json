@@ -229,7 +229,7 @@
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/text-article-3.json",
+            "data_file": "data/text-article-2.json",
             "stimuli": "With the new plant, Singapore will be able to produce a total of 160 million gallons of water a day through treated seawater." 
         },
         { 
@@ -237,7 +237,7 @@
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-3.json",
+            "data_file": "data/text-article-2.json",
             "stimuli": "Yesterday, national water agency PUB announced that it will call for a tender for the provision of consultancy services for the new plant in Marina East. It will be able to treat freshwater from the nearby Marina Reservoir and produce 30 million gallons of water per day."
         },
         { 
@@ -245,7 +245,7 @@
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/text-article-3.json",
+            "data_file": "data/text-article-2.json",
             "stimuli": "PUB deputy chief executive (policy and development), Mr Chua Soon Guan, said the agency has been making investments to build up and diversify Singapore's water sources to strengthen water security. He said: \"During the dry weather in recent years, we were able to ensure supply by increasing the production of Newater and desalinated water. Building up weather-resilient water sources will help us be better prepared for possible prolonged periods of dry spells in future.\"" 
         },
         { 
@@ -253,7 +253,7 @@
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/text-article-3.json",
+            "data_file": "data/text-article-2.json",
             "stimuli": "Singapore will build a fourth water desalination plant to meet future water needs in the city area and strengthen its drought resilience." 
         },
         { 
@@ -334,7 +334,7 @@
             "window_width": "600",
             "font_size": "14",
             "data_file": "data/text-article-5.json",
-            "stimuli": "\"Climate change is an urgent issue and I want to come here and speak to people that are brave enough to make big changes.\" Anderson said she raised the issue of whales held in captivity and Russia's import of fur from seals hunted commercially in Canada. \"I want to do something significant, which really can change something, together with Russia,\" Anderson was quoted by the state news agency RIA Novosti in comments translated into Russian. \"Starting with fur seals: I know that products made of fur seals go to Russia,\" she said" 
+            "stimuli": "\"Climate change is an urgent issue and I want to come here and speak to people that are brave enough to make big changes.\" Anderson said she raised the issue of whales held in captivity and Russia's import of fur from seals hunted commercially in Canada. \"I want to do something significant, which really can change something, together with Russia,\" Anderson was quoted by the state news agency RIA Novosti in comments translated into Russian. \"Starting with fur seals: I know that products made of fur seals go to Russia,\" she said." 
         },
         { 
             "technique": "TRADITIONAL", 

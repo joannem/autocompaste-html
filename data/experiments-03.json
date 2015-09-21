@@ -294,7 +294,7 @@
             "window_width": "600",
             "font_size": "10",
             "data_file": "data/text-article-4.json",
-            "stimuli": "Years prior, I was the long-time member and Vice President of Design at ECCO Design, in New York, where for more than a decade I was involved in product development for global brands including: Apple, Colgate, Corning, LG, Motorola, OXO and Procter & Gamble." 
+            "stimuli": "Years prior, I was the long-time member and Vice President of Design at ECCO Design, in New York, where for more than a decade I was involved in product development for global brands including: Apple, Colgate, Corning, LG, Motorola, OXO and Procter &amp; Gamble." 
         }, 
         { 
             "technique": "TRADITIONAL", 
@@ -421,7 +421,7 @@
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/text-article-1.json",
+            "data_file": "data/text-article-2.json",
             "stimuli": "policy and development"
         },
         { 
@@ -429,7 +429,7 @@
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-1.json",
+            "data_file": "data/text-article-2.json",
             "stimuli": "from the nearby Marina Reservoir" 
         },
         { 
@@ -437,7 +437,7 @@
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/text-article-1.json",
+            "data_file": "data/text-article-2.json",
             "stimuli": "fourth water desalination plant" 
         },
         { 
@@ -445,7 +445,7 @@
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/text-article-1.json",
+            "data_file": "data/text-article-2.json",
             "stimuli": "able to produce a total of 160 million gallons of water a day"
         },
         { 
@@ -470,7 +470,7 @@
             "window_width": "900",
             "font_size": "10",
             "data_file": "data/text-article-3.json",
-            "stimuli": "An article (abbreviated ART) is a word (or prefix or suffix) that is used with a noun to indicate the type of reference being made by the noun. Articles specify grammatical definiteness of the noun, in some languages extending to volume or numerical scope. The articles in the English language are the and a/an, and (in certain context) some. 'An' and 'a' are modern forms of the Old English 'an', which in Anglian dialects was the number 'one' (compare 'on', in Saxon dialects) and survived into Modern Scots as the number 'ane'. Both 'on' (respelled 'one' by the Normans) and 'an' survived into Modern English, with 'one' used as the number and 'an' ('a', before nouns that begin with a consonant sound) as an indefinite article." 
+            "stimuli": "An article (abbreviated ART) is a word (or prefix or suffix) that is used with a noun to indicate the type of reference being made by the noun. Articles specify grammatical definiteness of the noun, in some languages extending to volume or numerical scope. The articles in the English language are the and a/an, and (in certain contexts) some. 'An' and 'a' are modern forms of the Old English 'an', which in Anglian dialects was the number 'one' (compare 'on', in Saxon dialects) and survived into Modern Scots as the number 'ane'. Both 'on' (respelled 'one' by the Normans) and 'an' survived into Modern English, with 'one' used as the number and 'an' ('a', before nouns that begin with a consonant sound) as an indefinite article." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
@@ -510,7 +510,7 @@
             "window_width": "900",
             "font_size": "14",
             "data_file": "data/text-article-4.json",
-            "stimuli": "Climate change is an urgent issue and I want to come here and speak to people that are brave enough to make big changes." 
+            "stimuli": "Tell us a little about who you are, your current position, and how long you’ve been at it." 
         },
         { 
             "technique": "TRADITIONAL", 

@@ -5,32 +5,32 @@
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/text-article-6.json",
-            "stimuli": "What is bandwidth? Width of the band of frequencies between the half power points." 
+            "data_file": "data/text-article-4.json",
+            "stimuli": "Good design balances form, functionality, and aesthetics in a way that makes the work put into it invisible. A beautifully crafted object can be useless if it doesn’t perform its function; likewise, something mundane as a stapler can be aesthetically pleasing. It’s a balance that the best designers make seem effortless." 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-6.json",
-            "stimuli": "What is binary? A number system having only two symbols, 0 and 1. A base 2 number system." 
+            "data_file": "data/text-article-4.json",
+            "stimuli": "From an early age I was art tracked, gifted at drawing and sculpting but without ambition to create art for its own sake. I knew I wanted to make things, and that left architecture as a realistic professional pursuit, but the scale and scope of developing buildings didn’t appeal to me. I was more interested in the way flip-top plastic shampoo bottles worked, considering why the underside of a telephone couldn’t be as beautiful as the top, endlessly reconfiguring bicycle components into new kinetic creations, and, of course, furniture. So it’s what I always wanted to do, but didn’t know it was a job until I found a book about famed industrial designer, Raymond Loewy in my high school library. (No internet back then.)" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/text-article-6.json",
-            "stimuli": "What is bistable multivibrator? A multi vibrator with two stable states. An external signal is required to change the output from one state to the other. Also called a latch." 
+            "data_file": "data/text-article-4.json",
+            "stimuli": "Tell us a little about who you are, your current position, and how long you’ve been at it." 
         }, 
         { 
             "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/text-article-6.json",
-            "stimuli": "What is bipolar junction transistor? (BJT), A three terminal device in which emitter to collector current is controlled by base current." 
+            "data_file": "data/text-article-4.json",
+            "stimuli": "To learn a little about the thought that goes into designing everyday products, we spoke with Jeff Miller. Jeff currently works for Poppin, a company designing pleasingly modern office and work supplies. He’s previously worked with some of the biggest names that come to mind when you think of well-designed products, including Herman Miller, Bosch, and more." 
         },
         { 
             "technique": "TRADITIONAL", 
@@ -69,64 +69,64 @@
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "reconfiguring bicycle components" 
+            "data_file": "data/text-article-6.json",
+            "stimuli": "0 and 1" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "well-designed products" 
+            "data_file": "data/text-article-6.json",
+            "stimuli": "method of biasing a BJT" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "I was more interested" 
+            "data_file": "data/text-article-6.json",
+            "stimuli": "the band of frequencies" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "I was involved in product development for global brands" 
+            "data_file": "data/text-article-6.json",
+            "stimuli": "required to change the output" 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/text-article-3.json",
-            "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." 
+            "data_file": "data/text-article-1.json",
+            "stimuli": "What is active component? A component that changes the amplitude of a signal between input and output." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-3.json",
-            "stimuli": "Articles are usually characterized as either definite or indefinite. A few languages with well-developed systems of articles may distinguish additional subtypes. Within each type, languages may have various forms of each article, according to grammatical attributes such as gender, number, or case, or according to adjacent sounds."
+            "data_file": "data/text-article-1.json",
+            "stimuli": "What is AC power supply? Power supply that delivers an AC voltage."
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/text-article-3.json",
-            "stimuli": "A definite article indicates that its noun is a particular one which is identifiable to the listener. It may be something that the speaker has already mentioned, or it may be something uniquely specified. The definite article in English, for both singular and plural nouns, is the." 
+            "data_file": "data/text-article-1.json",
+            "stimuli": "What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/text-article-3.json",
-            "stimuli": "However, recent developments show that definite articles are morphological elements linked to certain noun types due to lexicalization. Under this point of view, definiteness does not play a role in the selection of a definite article more than the lexical entry attached to the article." 
+            "data_file": "data/text-article-1.json",
+            "stimuli": "What is active region? The region of BJT operation between saturation and cut off used for linear amplification." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
@@ -165,64 +165,64 @@
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/text-article-1.json",
-            "stimuli": "transform mechanical energy into AC electrical power"
+            "data_file": "data/text-article-3.json",
+            "stimuli": "definite article in English"
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-1.json",
-            "stimuli": "passes an AC signal" 
+            "data_file": "data/text-article-3.json",
+            "stimuli": "indicate the type of reference" 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/text-article-1.json",
-            "stimuli": "A filter that uses an amplifier" 
+            "data_file": "data/text-article-3.json",
+            "stimuli": "every common noun, with some exceptions" 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/text-article-1.json",
-            "stimuli": "saturation and cut off"
+            "data_file": "data/text-article-3.json",
+            "stimuli": "and 'an' survived into Modern English"
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/text-article-6.json",
-            "stimuli": "What is base biasing? A method of biasing a BJT in which the bias voltage is supplied to the base by means of a resistor." 
+            "data_file": "data/text-article-4.json",
+            "stimuli": "To learn a little about the thought that goes into designing everyday products, we spoke with Jeff Miller. Jeff currently works for Poppin, a company designing pleasingly modern office and work supplies. He’s previously worked with some of the biggest names that come to mind when you think of well-designed products, including Herman Miller, Bosch, and more." 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-6.json",
-            "stimuli": "What is bipolar junction transistor? (BJT), A three terminal device in which emitter to collector current is controlled by base current." 
+            "data_file": "data/text-article-4.json",
+            "stimuli": "Tell us a little about who you are, your current position, and how long you’ve been at it." 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-6.json",
-            "stimuli": "What is bandwidth? Width of the band of frequencies between the half power points." 
+            "data_file": "data/text-article-4.json",
+            "stimuli": "From an early age I was art tracked, gifted at drawing and sculpting but without ambition to create art for its own sake. I knew I wanted to make things, and that left architecture as a realistic professional pursuit, but the scale and scope of developing buildings didn’t appeal to me. I was more interested in the way flip-top plastic shampoo bottles worked, considering why the underside of a telephone couldn’t be as beautiful as the top, endlessly reconfiguring bicycle components into new kinetic creations, and, of course, furniture. So it’s what I always wanted to do, but didn’t know it was a job until I found a book about famed industrial designer, Raymond Loewy in my high school library. (No internet back then.)" 
         }, 
         { 
             "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/text-article-6.json",
-            "stimuli": "What is battery? A DC voltage source containing two or more cells that convert chemical energy to electrical energy." 
+            "data_file": "data/text-article-4.json",
+            "stimuli": "Good design balances form, functionality, and aesthetics in a way that makes the work put into it invisible. A beautifully crafted object can be useless if it doesn’t perform its function; likewise, something mundane as a stapler can be aesthetically pleasing. It’s a balance that the best designers make seem effortless." 
         },
         { 
             "technique": "TRADITIONAL", 
@@ -261,64 +261,64 @@
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "a more personal elemental approach" 
+            "data_file": "data/text-article-6.json",
+            "stimuli": "DC voltage source containing two or more cells" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "modern office and work supplies" 
+            "data_file": "data/text-article-6.json",
+            "stimuli": "in which emitter to collector" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "designing everyday products" 
+            "data_file": "data/text-article-6.json",
+            "stimuli": "external signal is required" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "range of clients" 
+            "data_file": "data/text-article-6.json",
+            "stimuli": "one state to the other" 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/text-article-3.json",
-            "stimuli": "A definite article indicates that its noun is a particular one which is identifiable to the listener. It may be something that the speaker has already mentioned, or it may be something uniquely specified. The definite article in English, for both singular and plural nouns, is the." 
+            "data_file": "data/text-article-1.json",
+            "stimuli": "What is AC power supply? Power supply that delivers an AC voltage." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-3.json",
-            "stimuli": "Articles are usually characterized as either definite or indefinite. A few languages with well-developed systems of articles may distinguish additional subtypes. Within each type, languages may have various forms of each article, according to grammatical attributes such as gender, number, or case, or according to adjacent sounds."
+            "data_file": "data/text-article-1.json",
+            "stimuli": "What is acceptor atoms? Trivalent atoms that accept free electrons from pentavalent atoms."
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/text-article-3.json",
-            "stimuli": "However, recent developments show that definite articles are morphological elements linked to certain noun types due to lexicalization. Under this point of view, definiteness does not play a role in the selection of a definite article more than the lexical entry attached to the article." 
+            "data_file": "data/text-article-1.json",
+            "stimuli": "What is absorption? Loss or dissipation of energy as it travels through a medium. Example: radio waves lose some of their energy as they travel through that atmosphere." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/text-article-3.json",
-            "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." 
+            "data_file": "data/text-article-1.json",
+            "stimuli": "What is active region? The region of BJT operation between saturation and cut off used for linear amplification." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
@@ -357,64 +357,64 @@
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/text-article-1.json",
-            "stimuli": "saturation and cut off"
+            "data_file": "data/text-article-3.json",
+            "stimuli": "languages that employ articles"
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-1.json",
-            "stimuli": "atoms that accept free electrons" 
+            "data_file": "data/text-article-3.json",
+            "stimuli": "and the lack of an article" 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/text-article-1.json",
-            "stimuli": "dissipation of energy" 
+            "data_file": "data/text-article-3.json",
+            "stimuli": "respelled 'one' by the Normans" 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/text-article-1.json",
-            "stimuli": "region of BJT operation"
+            "data_file": "data/text-article-3.json",
+            "stimuli": "languages extending to volume"
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/text-article-6.json",
-            "stimuli": "What is bandwidth? Width of the band of frequencies between the half power points." 
+            "data_file": "data/text-article-4.json",
+            "stimuli": "Tell us a little about who you are, your current position, and how long you’ve been at it." 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-6.json",
-            "stimuli": "What is bistable multivibrator? A multi vibrator with two stable states. An external signal is required to change the output from one state to the other. Also called a latch." 
+            "data_file": "data/text-article-4.json",
+            "stimuli": "I’m Jeff Miller, Vice President of Design at Poppin—a one-stop shop for workstyle. For more than four years I’ve been responsible for heading the design of all the products we make; from pens and notebooks to desk accessories and furniture. Prior to joining Poppin, I headed my own design practice combining a research-driven consulting background, with a more personal elemental approach for a range of clients in the areas of consumer electronics, furniture and interior design including: Bosch, Cuisinart, Herman Miller, Panasonic and Samsung. Concurrently, I was the Creative Director of Itoki Design, a New York-based subsidiary of one of Japan’s largest office furniture manufacturers. Years prior, I was the long-time member and Vice President of Design at ECCO Design, in New York, where for more than a decade I was involved in product development for global brands including: Apple, Colgate, Corning, LG, Motorola, OXO and Procter &amp; Gamble. " 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/text-article-6.json",
-            "stimuli": "What is barrier potential? The natural difference of potential that exists across a forward biased pn junction." 
+            "data_file": "data/text-article-4.json",
+            "stimuli": "Good design balances form, functionality, and aesthetics in a way that makes the work put into it invisible. A beautifully crafted object can be useless if it doesn’t perform its function; likewise, something mundane as a stapler can be aesthetically pleasing. It’s a balance that the best designers make seem effortless." 
         }, 
         { 
             "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/text-article-6.json",
-            "stimuli": "What is base biasing? A method of biasing a BJT in which the bias voltage is supplied to the base by means of a resistor." 
+            "data_file": "data/text-article-4.json",
+            "stimuli": "What drove you to choose your career path?" 
         },
         { 
             "technique": "TRADITIONAL", 
@@ -453,64 +453,64 @@
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "your current position" 
+            "data_file": "data/text-article-6.json",
+            "stimuli": "is bipolar junction transistor" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "create art for its own sake" 
+            "data_file": "data/text-article-6.json",
+            "stimuli": "external signal is required" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "A beautifully crafted object" 
+            "data_file": "data/text-article-6.json",
+            "stimuli": "chemical energy to electrical energysss" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/text-article-4.json",
-            "stimuli": "I was involved in product development" 
+            "data_file": "data/text-article-6.json",
+            "stimuli": "natural difference of potential" 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/text-article-3.json",
-            "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." 
+            "data_file": "data/text-article-1.json",
+            "stimuli": "What is acceptor atoms? Trivalent atoms that accept free electrons from pentavalent atoms." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-3.json",
-            "stimuli": "Articles are usually characterized as either definite or indefinite. A few languages with well-developed systems of articles may distinguish additional subtypes. Within each type, languages may have various forms of each article, according to grammatical attributes such as gender, number, or case, or according to adjacent sounds."
+            "data_file": "data/text-article-1.json",
+            "stimuli": "What is AC generator? Device used to transform mechanical energy into AC electrical power."
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/text-article-3.json",
-            "stimuli": "An article (abbreviated ART) is a word (or prefix or suffix) that is used with a noun to indicate the type of reference being made by the noun. Articles specify grammatical definiteness of the noun, in some languages extending to volume or numerical scope. The articles in the English language are the and a/an, and (in certain context) some. 'An' and 'a' are modern forms of the Old English 'an', which in Anglian dialects was the number 'one' (compare 'on', in Saxon dialects) and survived into Modern Scots as the number 'ane'. Both 'on' (respelled 'one' by the Normans) and 'an' survived into Modern English, with 'one' used as the number and 'an' ('a', before nouns that begin with a consonant sound) as an indefinite article." 
+            "data_file": "data/text-article-1.json",
+            "stimuli": "What is AC power supply? Power supply that delivers an AC voltage." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/text-article-3.json",
-            "stimuli": "A definite article indicates that its noun is a particular one which is identifiable to the listener. It may be something that the speaker has already mentioned, or it may be something uniquely specified. The definite article in English, for both singular and plural nouns, is the." 
+            "data_file": "data/text-article-1.json",
+            "stimuli": "What is active component? A component that changes the amplitude of a signal between input and output." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
@@ -549,32 +549,32 @@
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/text-article-1.json",
-            "stimuli": "transform mechanical energy into AC electrical power"
+            "data_file": "data/text-article-3.json",
+            "stimuli": "articles in the English language are"
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "phrase",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-1.json",
-            "stimuli": "dissipation of energy" 
+            "data_file": "data/text-article-3.json",
+            "stimuli": " articles are a special part of speech" 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/text-article-1.json",
-            "stimuli": "AC generator" 
+            "data_file": "data/text-article-3.json",
+            "stimuli": " which in Anglian dialects was the number 'one'" 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "phrase",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/text-article-1.json",
-            "stimuli": "reactive components"
+            "data_file": "data/text-article-3.json",
+            "stimuli": "the speaker has already mentioned"
         }        
     ]
 }
