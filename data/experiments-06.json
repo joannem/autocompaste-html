@@ -110,7 +110,7 @@
             "window_width": "600",
             "font_size": "14",
             "data_file": "data/text-article-4.json",
-            "stimuli": "I’m Jeff Miller, Vice President of Design at Poppin—a one-stop shop for workstyle. For more than four years I’ve been responsible for heading the design of all the products we make; from pens and notebooks to desk accessories and furniture. Prior to joining Poppin, I headed my own design practice combining a research-driven consulting background, with a more personal elemental approach for a range of clients in the areas of consumer electronics, furniture and interior design including: Bosch, Cuisinart, Herman Miller, Panasonic and Samsung. Concurrently, I was the Creative Director of Itoki Design, a New York-based subsidiary of one of Japan’s largest office furniture manufacturers. Years prior, I was the long-time member and Vice President of Design at ECCO Design, in New York, where for more than a decade I was involved in product development for global brands including: Apple, Colgate, Corning, LG, Motorola, OXO and Procter & Gamble. " 
+            "stimuli": "I’m Jeff Miller, Vice President of Design at Poppin—a one-stop shop for workstyle. For more than four years I’ve been responsible for heading the design of all the products we make; from pens and notebooks to desk accessories and furniture. Prior to joining Poppin, I headed my own design practice combining a research-driven consulting background, with a more personal elemental approach for a range of clients in the areas of consumer electronics, furniture and interior design including: Bosch, Cuisinart, Herman Miller, Panasonic and Samsung. Concurrently, I was the Creative Director of Itoki Design, a New York-based subsidiary of one of Japan’s largest office furniture manufacturers. Years prior, I was the long-time member and Vice President of Design at ECCO Design, in New York, where for more than a decade I was involved in product development for global brands including: Apple, Colgate, Corning, LG, Motorola, OXO and Procter &amp; Gamble." 
         },
         { 
             "technique": "TRADITIONAL", 
@@ -126,8 +126,7 @@
             "window_width": "900",
             "font_size": "14",
             "data_file": "data/text-article-4.json",
-            "stimuli": "To learn a little about the thought that goes into designing everyday products, we spoke with Jeff Miller. Jeff currently works for Poppin, a company designing pleasingly modern office and work supplies. He’s previously worked with some of the biggest names that come to mind when you think of well-designed products, including Herman Miller, Bosch, and more.
-" 
+            "stimuli": "To learn a little about the thought that goes into designing everyday products, we spoke with Jeff Miller. Jeff currently works for Poppin, a company designing pleasingly modern office and work supplies. He’s previously worked with some of the biggest names that come to mind when you think of well-designed products, including Herman Miller, Bosch, and more." 
         },
         { 
             "technique": "TRADITIONAL", 
@@ -152,7 +151,7 @@
             "font_size": "14",
             "data_file": "data/text-article-5.json",
             "stimuli": "The actress came to Russia after writing to President Vladimir Putin asking him to support her environmental causes, particularly her fight against whale hunting." 
-        }
+        },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "sentence",
@@ -391,8 +390,7 @@
             "window_width": "600",
             "font_size": "10",
             "data_file": "data/text-article-1.json",
-            "stimuli": "What is AC generator? Device used to transform mechanical energy into AC electrical power.
-" 
+            "stimuli": "What is AC generator? Device used to transform mechanical energy into AC electrical power." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
