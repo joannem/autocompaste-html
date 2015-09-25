@@ -101,7 +101,7 @@
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/text-article-3.json",
+            "data_file": "data/text-article-1.json",
             "stimuli": "What is active filter? A filter that uses an amplifier in addition to reactive components to pass or reject selected frequencies." 
         },
         { 
@@ -109,16 +109,15 @@
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-3.json",
-            "stimuli": "A
-"
+            "data_file": "data/text-article-1.json",
+            "stimuli": "What is AC generator? Device used to transform mechanical energy into AC electrical power."
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/text-article-3.json",
+            "data_file": "data/text-article-1.json",
             "stimuli": "What is active component? A component that changes the amplitude of a signal between input and output." 
         },
         { 
@@ -126,7 +125,7 @@
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/text-article-3.json",
+            "data_file": "data/text-article-1.json",
             "stimuli": "What is absorption? Loss or dissipation of energy as it travels through a medium. Example: radio waves lose some of their energy as they travel through that atmosphere." 
         },
         { 
@@ -143,7 +142,7 @@
             "window_width": "600",
             "font_size": "14",
             "data_file": "data/text-article-2.json",
-            "stimuli": "better prepared for possible prolonged periodsss" 
+            "stimuli": "better prepared for possible prolonged periods" 
         },
         { 
             "technique": "AUTOCOMPASTE", 
@@ -247,7 +246,7 @@
             "window_width": "900",
             "font_size": "10",
             "data_file": "data/text-article-5.json",
-            "stimuli": "designing everyday products" 
+            "stimuli": "that can make a difference" 
         },
         { 
             "technique": "TRADITIONAL", 
@@ -294,7 +293,7 @@
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "10",
-            "data_file": "data/text-article-3.json",
+            "data_file": "data/text-article-1.json",
             "stimuli": "What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage." 
         },
         { 
@@ -302,7 +301,7 @@
             "granularity": "paragraph",
             "window_width": "600",
             "font_size": "14",
-            "data_file": "data/text-article-3.json",
+            "data_file": "data/text-article-1.json",
             "stimuli": "What is acceptor atoms? Trivalent atoms that accept free electrons from pentavalent atoms."
         },
         { 
@@ -310,7 +309,7 @@
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "10",
-            "data_file": "data/text-article-3.json",
+            "data_file": "data/text-article-1.json",
             "stimuli": "What is active region? The region of BJT operation between saturation and cut off used for linear amplification." 
         },
         { 
@@ -318,7 +317,7 @@
             "granularity": "paragraph",
             "window_width": "900",
             "font_size": "14",
-            "data_file": "data/text-article-3.json",
+            "data_file": "data/text-article-1.json",
             "stimuli": "What is acceptor atoms? Trivalent atoms that accept free electrons from pentavalent atoms." 
         },
         { 

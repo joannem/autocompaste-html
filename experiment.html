@@ -131,10 +131,13 @@
                 } else {
                     if (currentBlock < totalNumberOfBlocks) {
                         // Completed one block, moving on to next block
-                        currentTrial = 1;  
+                        currentTrial = 1;
                         currentBlock += 1;
+                        ACPToolKit.presentTrial(trialsData[currentTrial]);
                         $('.js-expt-current-block').text(currentBlock);
                         $('.js-expt-current-trial').text(currentTrial);
+
+                        // next();
 
                     } else {
                         // Last trial completed
