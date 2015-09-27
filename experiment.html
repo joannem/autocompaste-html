@@ -131,7 +131,7 @@
                 } else {
                     if (currentBlock < totalNumberOfBlocks) {
                         // Completed one block, moving on to next block
-                        currentTrial = 1;
+                        currentTrial = 0;
                         currentBlock += 1;
                         ACPToolKit.presentTrial(trialsData[currentTrial]);
                         $('.js-expt-current-block').text(currentBlock);
