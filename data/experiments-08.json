@@ -84,7 +84,7 @@
             "technique": "TRADITIONAL", 
             "granularity": "sentence",
             "window_width": "600",
-            "font_size": "14",
+            "font_size": "10",
             "data_file": "data/text-article-6.json",
             "stimuli": "What is base biasing?" 
         },
@@ -244,7 +244,7 @@
             "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "window_width": "600",
-            "font_size": "14",
+            "font_size": "10",
             "data_file": "data/text-article-5.json",
             "stimuli": "The actress came to Russia after writing to President Vladimir Putin asking him to support her environmental causes, particularly her fight against whale hunting." 
         }, 
