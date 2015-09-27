@@ -20,7 +20,7 @@
             "technique": "TRADITIONAL", 
             "granularity": "sentence",
             "window_width": "600",
-            "font_size": "14",
+            "font_size": "10",
             "data_file": "data/text-article-4.json",
             "stimuli": "Concurrently, I was the Creative Director of Itoki Design, a New York-based subsidiary of one of Japan’s largest office furniture manufacturers." 
         },
